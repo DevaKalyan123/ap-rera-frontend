@@ -52,7 +52,7 @@ import AgentDetailExisting from "./pages/AgentDetailExisting";
 import ApplicantDetails from "./pages/ApplicantDetails";
 import Aprera from "./pages/Aprea";
 import Organogram from "./pages/organogram";
-import OurServices from "./pages/ourservices";
+import ourservices from "./pages/ourservices";
 import Statistics from "./pages/statistics";
 import GOINotifications from "./pages/GOINotifications";
 import GoapNotifications from "./pages/GoapNotifications";
