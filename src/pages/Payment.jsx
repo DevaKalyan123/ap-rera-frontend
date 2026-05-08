@@ -1,4 +1,4 @@
-import "../styles/Payment.css";
+import "../styles/payment.css";
 import { useEffect, useState } from "react";
 import { apiGet } from "../api/api";
 
