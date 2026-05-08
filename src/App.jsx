@@ -150,7 +150,7 @@ import AgentChangeRequestPayment from "./pages/AgentChangeRequestPayment";
 import PromoterOtpLogin from "./pages/PromoterOtpLogin.jsx";
 import Changerequest from "./pages/Changerequest.jsx";
 import ChangeRequestProcess from "./pages/ChangeRequestProcess.jsx";
-import AdminChangeRequestDetail from "./pages/admin/AdminChangeRequestDetail";
+import AdminChangerRequestDetail from "./pages/admin/AdminchangerRequestDetail.jsx";
 import AdminComplaintDetail from "./pages/admin/AdminComplaintDetail.jsx";
 import ComplaintStatusForm from "./pages/ComplaintStatusForm.jsx";
 import ComplaintDetails from "./pages/complaintDetails.jsx";
