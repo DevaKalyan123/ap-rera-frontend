@@ -3,7 +3,7 @@ import { useNavigate,useLocation } from "react-router-dom";
 
 
 
-import "../styles/ProjectDetails.css";
+import "../styles/projectDetails.css";
 import ProjectWizard from "../components/ProjectWizard";
 
 import ProjectRegistrationSection from "../components/ProjectRegistrationSection";
