@@ -3,18 +3,18 @@ import { useLocation } from "react-router-dom";
 import "../styles/AnnouncementPopup.css";
 
 // IMAGE
-import announcementImg from "../../public/assets/images/apreraad_new1.jpg";
+import announcementImg from "/assets/images/apreraad_new1.jpg";
 
-// PDFS
-import Circular from "../../public/assets/pdfs/Circular-p-18.pdf";
-import QUStatus from "../../public/assets/pdfs/QU Status Report.pdf";
-import CircularCR from "../../public/assets/pdfs/Circular-CR-Levy of Fee.pdf";
-import QPR from "../../public/assets/pdfs/QPR-circular_Uninterupted.pdf";
-import Bank from "../../public/assets/pdfs/Bank_Circular.pdf";
+// PDF PATHS
+const Circular = "/assets/pdfs/Circular-p-18.pdf";
+const QUStatus = "/assets/pdfs/QU Status Report.pdf";
+const CircularCR = "/assets/pdfs/Circular-CR-Levy of Fee.pdf";
+const QPR = "/assets/pdfs/QPR-circular_Uninterupted.pdf";
+const Bank = "/assets/pdfs/Bank_Circular.pdf";
 
 const announcements = [
-    {
-    title: "Circular No. P/2/2026  Dt.12-01-2026",
+  {
+    title: "Circular No. P/2/2026 Dt.12-01-2026",
     description:
       "50% Concession on applicable penalty levied for delayed submission of QPRs",
     pdf: Circular,
@@ -31,7 +31,6 @@ const announcements = [
       "APRERA Registered Projects - Quarterly Updates Status Report (By order of the Authority).",
     pdf: QUStatus,
   },
-  
 
   // {
   //   title: "Circular No. P/10/2025, Dt.14-05-2025",
@@ -39,12 +38,14 @@ const announcements = [
   //     "AP RERA - Change Request (CR) - Levy of Fee - Circular Issued - Reg.",
   //   pdf: CircularCR,
   // },
+
   // {
   //   title: "Circular No. P/9/2025 Dt.28-03-2025",
   //   description:
   //     "AP RERA - Pending QPRs - Imposition of Penalty for delayed submission and to provide uninterrupted link henceforth - Circular Issued - Reg.",
   //   pdf: QPR,
   // },
+
   // {
   //   title: "Circular No. P/8/2025 Dt.28-03-2025",
   //   description:
@@ -54,21 +55,16 @@ const announcements = [
 ];
 
 const AnnouncementPopup = () => {
-  // 1 = Image popup, 2 = Announcement popup, 0 = closed
   const [step, setStep] = useState(1);
   const location = useLocation();
 
   useEffect(() => {
-  
-  return () => {
-    document.body.style.overflow = "auto";
-  };
-}, []);
+    return () => {
+      document.body.style.overflow = "auto";
+    };
+  }, []);
 
-
-
-
-  // ✅ SHOW POPUP ONLY ON HOME PAGE
+  // SHOW ONLY HOME PAGE
   if (location.pathname !== "/") {
     return null;
   }
@@ -82,6 +78,7 @@ const AnnouncementPopup = () => {
   return (
     <div className="announcement-popup-overlay">
       <div className="announcement-popup-container">
+
         {/* HEADER */}
         <div className="announcement-popup-header">
           <span>{step === 2 ? "ANNOUNCEMENTS" : ""}</span>
@@ -96,18 +93,16 @@ const AnnouncementPopup = () => {
           </button>
         </div>
 
-        {/* ===== POPUP 1 – IMAGE ===== */}
-   {step === 1 && (
-  <div className="announcement-popup-body">
-    <div className="announcement-doc-frame">
-      <img src={announcementImg} alt="APRERA Circular" />
-    </div>
-  </div>
-)}
+        {/* IMAGE POPUP */}
+        {step === 1 && (
+          <div className="announcement-popup-body">
+            <div className="announcement-doc-frame">
+              <img src={announcementImg} alt="APRERA Circular" />
+            </div>
+          </div>
+        )}
 
-
-
-        {/* ===== POPUP 2 – ANNOUNCEMENTS ===== */}
+        {/* ANNOUNCEMENTS */}
         {step === 2 && (
           <div className="announcement-popup-announcement-">
             {announcements.map((item, index) => (
@@ -122,6 +117,7 @@ const AnnouncementPopup = () => {
                   {item.title}
                   <span className="announcement-new-badge">NEW</span>
                 </div>
+
                 <p>
                   <b>{item.description}</b>
                 </p>
