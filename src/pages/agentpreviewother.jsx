@@ -1,4 +1,4 @@
-import "../styles/previewOther.css";
+import "../styles/PreviewOther.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";

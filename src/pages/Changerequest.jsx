@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/ChangeRequest.css";
+import "../styles/Changerequest.css";
 import { useLocation } from "react-router-dom";
 import { submitChangeRequest, apiPost, apiGet } from "../api/api";
 import ProjectDetailsForm, { PROJECT_DETAILS_SUBSECTIONS } from "../components/changeRequest/ProjectDetailsForm";
