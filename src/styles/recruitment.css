@@ -1,0 +1,140 @@
+/* ================= PAGE LAYOUT ================= */
+
+.recruitmentt-page {
+  background: #f2f2f2;
+  min-height: calc(100vh - 180px);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ================= OUTER WHITE BOX ================= */
+
+.recruitmentt-outer-box {
+  width: 70%;
+  max-width: 1500px;
+  margin: 20px auto 0 auto;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  flex: 1;
+}
+
+/* ================= BREADCRUMB ================= */
+
+.recruitmentt-breadcrumb-bar {
+  background: #1484e6;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.recruitmentt-breadcrumb-home {
+  color: #ffeb3b;
+  text-decoration: underline;
+  margin-left: 5px;
+}
+
+.recruitmentt-breadcrumb-text {
+  color: #ffffff;
+}
+
+.recruitmentt-breadcrumb-separator {
+  margin: 0 5px;
+  color: #ffffff;
+}
+
+/* ================= CONTENT ================= */
+
+.recruitmentt-container {
+  padding: 20px;
+}
+
+/* Title */
+
+.recruitmentt-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.recruitmentt-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 40px;
+  height: 3px;
+  background: #005cab;
+}
+
+/* ================= TABLE ================= */
+
+.recruitmentt-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.recruitmentt-table thead {
+  background-color: #4b5f73;
+}
+
+.recruitmentt-table th {
+  color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+.recruitmentt-table td {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #d3d3d3;
+}
+
+.recruitmentt-table td:nth-child(1),
+.recruitmentt-table td:nth-child(2),
+.recruitmentt-table td:nth-child(3),
+.recruitmentt-table td:nth-child(5) {
+  text-align: center;
+}
+
+.recruitmentt-table td:nth-child(4) {
+  text-align: left;
+}
+
+/* Download icon */
+
+.recruitmentt-download-cell {
+  text-align: center;
+}
+
+.recruitmentt-download-link {
+  color: #1484e6;
+  font-size: 18px;
+}
+
+.recruitmentt-download-link:hover {
+  color: #0d5fb3;
+}
+
+/* ================= FOOTER FIX ================= */
+
+footer {
+  margin-top: 0 !important;
+}
+
+/* Footer full width background */
+.recruitmentt-main-footer {
+  background: #2d2d2d;
+}
+
+/* Black border aligned to white container */
+.recruitmentt-footer-inner-border {
+  width: 95%;              /* Same as outer box width */
+  max-width: 1400px;       /* Same as outer box max-width */
+  margin: 0 auto;
+  border-top: 3px solid #000;
+}

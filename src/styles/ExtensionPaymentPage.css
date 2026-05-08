@@ -1,0 +1,200 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+/* Outer container */
+.epp-payment-container {
+  max-width: 1050px;
+  margin: 25px auto;
+}
+
+/* Page title */
+.epp-page-title {
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #1e88e5;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Main box */
+.epp-payment-box {
+  border: 2px solid #1e88e5;
+  padding-bottom: 15px;
+}
+
+/* Header bar */
+.epp-payment-header {
+  background: #0b5394;
+  color: #fff;
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Top details */
+.epp-payment-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 14px;
+}
+
+.epp-payment-top p {
+  margin: 4px 0;
+}
+
+.epp-payment-date {
+  text-align: right;
+}
+
+/* Table wrapper to create left-right gap */
+.epp-payment-table {
+  width: calc(100% - 30px);
+  margin: 10px 15px 20px;
+  border-collapse: collapse;
+}
+
+.epp-payment-table td {
+  border: 1px solid #cfcfcf;
+  padding: 10px 12px;
+  font-size: 14px;
+}
+
+/* Gateway + total row */
+.epp-gateway-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+
+/* Radio buttons */
+.epp-gateway-options p {
+  margin-bottom: 6px;
+}
+
+.epp-gateway-options label {
+  margin-right: 18px;
+  font-size: 14px;
+}
+
+/* Total amount box */
+.epp-total-amount {
+  border: 2px solid #1e88e5;
+  padding: 8px 14px;
+  font-weight: bold;
+  font-size: 14px;
+  white-space: nowrap;
+}
+/* Payment action box */
+.epp-payment-action-box {
+  border-top: 1px solid #ccc;
+  margin: 15px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.epp-payment-buttons {
+  margin-top: 10px;
+}
+
+/* Make Payment */
+.epp-pay-btn {
+  background: #0b5394;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.epp-pay-btn:hover {
+  background: #083b6d;
+}
+
+/* Cancel Payment */
+.epp-cancel-btn {
+  background: #ffffff;
+  color: #000;
+  border: 1px solid #999;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.epp-cancel-btn:hover {
+  background: #f2f2f2;
+}
+
+.epp-cancel-btn {
+  background-color: #dc3545; /* RED */
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.epp-cancel-btn:hover {
+  background-color: #b02a37; /* Dark red */
+}
+
+
+/* ===============================
+   PAYMENT SUCCESS POPUP STYLES
+   =============================== */
+
+.epp-payment-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.epp-payment-popup-box {
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 6px;
+  text-align: center;
+  width: 360px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.epp-payment-popup-box h3 {
+  color: #28a745; /* green success */
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.payment-popup-box p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* OK button inside popup */
+.epp-payment-popup-box .pay-btn {
+  margin-right: 0;
+  padding: 8px 22px;
+}
+
+
+
+
+/* Decrease image size inside payment popup */
+.epp-payment-popup-box img {
+  width: 60px;        /* 🔽 size decrease */
+  height: auto;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,107 @@
+/* PAGE BACKGROUND */
+.projwizard-page {
+  background: #f5f7fb;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 20px 0;
+}
+
+/* MAIN CARD */
+.projwizard-card {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+}
+
+/* HEADER TITLE */
+.projwizard-main-title {
+  margin: 15px 18px 0;
+  font-size: 22px;
+  border-bottom: 3px solid #0c84e4;
+  padding-bottom: 10px;
+  width: fit-content;
+}
+
+/* ================= STEPPER ================= */
+
+.projwizard-stepper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  padding: 18px 30px 10px;
+  text-align: center;
+}
+
+/* Horizontal line */
+.projwizard-stepper::before {
+  content: "";
+  position: absolute;
+  top: 34px;
+  left: 55px;
+  right: 55px;
+  height: 1px;
+  background: #cfcfcf;
+  z-index: 0;
+}
+
+.projwizard-step-item {
+  font-size: 11px;
+  cursor: pointer;
+}
+
+/* Step circle */
+.projwizard-step-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #cfcfcf;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 5px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Active step */
+.projwizard-active .projwizard-step-circle {
+  background: #6fbe4a;
+  border-color: #6fbe4a;
+  color: #fff;
+}
+
+/* Completed step */
+.projwizard-completed .projwizard-step-circle {
+  background: #6fbe4a;
+  border-color: #6fbe4a;
+  color: #fff;
+}
+
+/* Label */
+.projwizard-step-label {
+  line-height: 1.2;
+  font-size: 11px;
+}
+
+/* FORM BODY */
+.projwizard-form-body {
+  padding: 20px 30px 30px;
+}
+
+/* BUTTON */
+.projwizard-btn {
+  background: #0c84e4;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.projwizard-btn:hover {
+  background: #096ab5;
+}

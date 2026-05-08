@@ -1,0 +1,134 @@
+{
+  "DistrictWiseFinancialReport_Age": [
+    {
+      "S.No.": "1",
+      "District Name": "Srikakulam",
+      "No. Of Agents Received": "12",
+      "Approved": "12",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "121800"
+    },
+    {
+      "S.No.": "2",
+      "District Name": "Vizianagaram",
+      "No. Of Agents Received": "12",
+      "Approved": "12",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "123600"
+    },
+    {
+      "S.No.": "3",
+      "District Name": "Visakhapatnam",
+      "No. Of Agents Received": "111",
+      "Approved": "108",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "3",
+      "Total Amount": "1882600"
+    },
+    {
+      "S.No.": "4",
+      "District Name": "East Godavari",
+      "No. Of Agents Received": "20",
+      "Approved": "20",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "321800"
+    },
+    {
+      "S.No.": "5",
+      "District Name": "West Godavari",
+      "No. Of Agents Received": "13",
+      "Approved": "13",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "131800"
+    },
+    {
+      "S.No.": "6",
+      "District Name": "Krishna",
+      "No. Of Agents Received": "50",
+      "Approved": "48",
+      "Rejected": "0",
+      "Under process": "1",
+      "Promoter-(shortfall)": "1",
+      "Total Amount": "1075400"
+    },
+    {
+      "S.No.": "7",
+      "District Name": "Guntur",
+      "No. Of Agents Received": "37",
+      "Approved": "36",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "1",
+      "Total Amount": "580800"
+    },
+    {
+      "S.No.": "8",
+      "District Name": "Prakasam",
+      "No. Of Agents Received": "4",
+      "Approved": "4",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "120000"
+    },
+    {
+      "S.No.": "9",
+      "District Name": "SPR Nellore",
+      "No. Of Agents Received": "7",
+      "Approved": "7",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "151800"
+    },
+    {
+      "S.No.": "10",
+      "District Name": "Chittoor",
+      "No. Of Agents Received": "15",
+      "Approved": "15",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "277200"
+    },
+    {
+      "S.No.": "11",
+      "District Name": "Y.S.R Kadapa",
+      "No. Of Agents Received": "8",
+      "Approved": "8",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "0",
+      "Total Amount": "81800"
+    },
+    {
+      "S.No.": "12",
+      "District Name": "Ananthapuramu",
+      "No. Of Agents Received": "7",
+      "Approved": "6",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "1",
+      "Total Amount": "70000"
+    },
+    {
+      "S.No.": "13",
+      "District Name": "Kurnool",
+      "No. Of Agents Received": "7",
+      "Approved": "6",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "1",
+      "Total Amount": "151800"
+    }
+  ]
+}

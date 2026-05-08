@@ -1,0 +1,513 @@
+/* ===== TOP HEADER ===== */
+/* .top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: #ffffff;
+}
+
+.homepage-logo h2 {
+  margin: 0;
+  color: #0b4da2;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-logo p {
+  margin: 0;
+  font-size: 12px;
+  color: #555;
+}
+
+.search-btn {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: bold;
+} */
+ .top-header {
+  display: flex;
+  align-items: center;
+  justify-content: left; /* center content */
+  position: relative;
+  padding: 12px 20px;
+  background: #ffffff;
+}
+
+/* Center logo + text */
+.header-center {
+  display: flex;
+  flex-direction: column;
+  align-items: left-corner;
+  text-align: center;
+}
+.dbbase-menu-item {
+  margin-left: 15px;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  list-style: none;
+  transition: 0.3s;
+}
+
+.dbbase-menu-item:hover {
+  background-color: #00bcd4;
+  color: white;
+}
+
+/* circular logo */
+.header-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;        /* ✅ circular */
+  object-fit: contain;
+  background: #ffffff;
+  border: 2px solid #0b4ea2; /* subtle blue ring */
+  padding: 0px;
+  text-align: center;
+}
+
+.header-title {
+  display: flex;          /* ✅ puts logo & text side by side */
+  align-items: center;    /* vertical alignment */
+  gap: 12px;              /* space between logo and text */
+  font-size: 16px;
+  font-weight: 600;
+  color: #0b4ea2;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+/* Right side button */
+/* .search-btn {
+  position: absolute;
+  right: 20px;
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: hsl(339, 47%, 73%);;
+} */
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0 30px;
+}
+
+.nav-list > li {
+  position: relative;
+  padding: 10px 8px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.nav-list > li:hover {
+  background: #083a78;
+}
+
+.highlight {
+  background: red;
+}
+
+/* ===== DROPDOWN ===== */
+.arrow {
+  margin-left: 4px;
+  font-size: 12px;
+}
+
+/* HIDE dropdown by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  min-width: 230px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  z-index: 9999;
+  padding: 0;
+  list-style: none;
+}
+
+/* Fix right side overflow (LOGIN dropdown) */
+.nav-list > li:last-child .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+/* Dropdown items */
+.dropdown-menu li {
+  color: #000;
+  padding: 10px 14px;
+  border-bottom: 1px dotted #ccc;
+  font-size: 14px;
+}
+
+.dropdown-menu li:hover {
+  background: #f2f2f2;
+}
+
+/* SHOW dropdown ONLY when hovering ABOUT US */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.contact-submenu {
+  position: relative;
+}
+
+/* Right arrow alignment */
+.contact-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Submenu box */
+.contact-submenu-box {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  list-style: none;
+  padding: 8px 0;
+  min-width: 180px;
+  display: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Show submenu on hover */
+.contact-submenu:hover .contact-submenu-box {
+  display: block;
+}
+
+/* Submenu item */
+.contact-submenu-box li {
+  padding: 10px 16px;
+}
+
+.contact-submenu-box li:hover {
+  background: #f2f2f2;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background: #f0f0f0;
+}
+
+/* Sub Dropdown */
+.sub-dropdown {
+  position: relative;
+}
+
+.sub-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  min-width: 180px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.sub-dropdown:hover .sub-dropdown-menu {
+  display: block;
+}
+
+
+/* =====================================================
+   RIGHT SIDE (SEARCH + LANGUAGE)
+===================================================== */
+.top-header-right {
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex !important;
+  align-items: center !important;
+  gap: 14px;
+}
+
+/* Search Button (LEFT) */
+.search-btn {
+  background: red;
+  color: #fff;
+  border: none;
+  height: 32px;
+  padding: 0 18px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-btn:hover {
+  background: #c40000;
+}
+
+/* =====================================================
+   GOOGLE TRANSLATE (RIGHT, NO POWERED BY)
+===================================================== */
+
+/* Wrapper */
+#google_translate_element {
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Widget */
+.goog-te-gadget {
+  display: flex !important;
+  align-items: center !important;
+  height: 32px !important;
+  line-height: 32px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 0 !important;     /* hides "Powered by" text */
+}
+
+/* Restore font for dropdown only */
+.goog-te-gadget select {
+  font-size: 13px !important;
+}
+
+/* Dropdown */
+.goog-te-combo {
+  height: 32px !important;
+  line-height: 32px !important;
+  padding: 0 6px;
+  border: 1px solid #9fb6c3;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/* Hide Google branding */
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+/* Remove Google top banner */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+.navbar {
+   width: 100%;
+  background: linear-gradient(
+    to right,
+    #7b001c,
+    #ff7590
+  );
+}
+
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;   /* ✅ center items */
+  align-items: center;
+
+  margin: 0 auto;            /* ✅ center container */
+  padding: 0 40px;           /* ✅ left & right spacing */
+  max-width: 1200px;         /* ✅ like your 4th image */
+}
+
+.nav-list > li {
+  position: relative;
+  padding: 10px 9px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 12px;
+  white-space: nowrap;
+
+  display: flex;        /* ✅ ADD */
+  align-items: center;  /* ✅ ADD */
+}
+
+.nav-list > li:hover {
+  background:  oklch(71.49% 0.12422 211.24);
+}
+.homenavbar-new-badge-a{
+  color: red;
+  text-decoration: none;
+}
+.homenavbar-new-badge-a:hover{
+  text-decoration: none;
+}
+
+.arrow {
+  display: inline-block;
+  margin-left: 6px;
+  width: 0;
+  height: 0;
+
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid #ffffff;
+
+  vertical-align: middle;
+}
+.dropdown-right .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+/* =========================
+   BELL ICON STYLE
+========================= */
+/* .nav-bell span {
+  background: #8b5e3c;
+  color: #fff;
+  font-size: 14px;   /* smaller icon 
+  
+  width: 28px;       /* fixed size 
+  height: 28px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+  cursor: pointer;
+} */
+
+.notice-dropdown {
+  position: absolute;
+  top: 45px;
+  right: 0;
+
+  width: 600px;        /* ⬅️ increase width (try 550–650px) */
+  max-width: 90vw;     /* ⬅️ responsive for small screens */
+
+  max-height: 350px;
+  background: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 9999;
+  padding: 15px;
+}
+
+.notice-scroll-box {
+  height: 120px;
+  overflow: hidden;
+}
+
+.notice-scroll-list {
+  display: flex;
+  flex-direction: column;
+  animation: scrollUp 12s linear infinite;
+}
+
+@keyframes scrollUp {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+.notice-text {
+  color: #000 !important;   /* ⬅️ force black */
+}
+
+
+/* /* .homenavbar-new-badge {
+  background: #8b5e3c;
+  color: #fff;   /* only badge white 
+}  */
+
+
+/* remove dots */
+.notice-scroll-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* align properly */
+.notice-scroll-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 5px;
+}
+
+/* text styling */
+.notice-text {
+  flex: 1;
+}
+
+/* 🔥 SMALL OVAL NEW BADGE */
+.new-inline {
+  min-width: 38px;
+  height: 18px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 9px;
+  font-weight: bold;
+  color: #fff;
+
+  background: radial-gradient(circle, #ffe600 30%, #ff0000 80%);
+  border-radius: 50px;
+
+  padding: 0 6px;
+
+  text-shadow: 0 0 2px #000;
+
+  /* glow */
+  box-shadow: 0 0 4px red;
+
+  animation: blinkNew 1s infinite alternate;
+}
+
+/* blinking */
+@keyframes blinkNew {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 4px red;
+  }
+  100% {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px yellow;
+  }
+}

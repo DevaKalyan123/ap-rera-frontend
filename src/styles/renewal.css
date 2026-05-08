@@ -1,0 +1,52 @@
+.upload-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.upload-card{
+border:1px solid #ddd;
+padding:20px;
+text-align:center;
+}
+
+.upload-btn{
+margin-top:20px;
+background:#1976d2;
+color:white;
+border:none;
+padding:10px 20px;
+}
+
+.payment-card{
+border:1px solid #ddd;
+padding:25px;
+width:400px;
+}
+
+.amount{
+font-size:24px;
+font-weight:bold;
+}
+
+.pay-btn{
+margin-top:20px;
+background:#2e7d32;
+color:white;
+border:none;
+padding:10px 20px;
+}
+
+.receipt-card{
+border:1px solid #ddd;
+padding:30px;
+width:400px;
+}
+
+.step::before{
+display:none;
+}
+
+.step::after{
+display:none;
+}

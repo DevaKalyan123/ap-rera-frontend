@@ -1,0 +1,428 @@
+/* ProjectPreview.css */
+
+.preview-container {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+/* Header Section - No Print */
+.preview-header {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.preview-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-download {
+  background-color: #0066cc;
+  color: white;
+}
+
+.btn-download:hover {
+  background-color: #0052a3;
+}
+
+.btn-continue {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-continue:hover {
+  background-color: #218838;
+}
+
+/* PDF Content */
+.pdf-content {
+  max-width: 1200px;
+  margin: 0 auto 30px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.pdf-header {
+  border-bottom: 4px solid #0066cc;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pdf-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0066cc;
+  margin: 0;
+}
+
+.pdf-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  background-color: transparent;
+  color: #000;
+  border-bottom: 2px solid #000;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+  border-radius: 4px;
+}
+
+.subsection-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 20px 0 10px 0;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.detail-heading {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0066cc;
+  margin: 15px 0 8px 0;
+}
+
+/* Application Info Section */
+.application-info {
+  background-color: #f0f7ff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.info-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.info-table td {
+  padding: 8px;
+}
+
+.info-table .label {
+  font-weight: 600;
+  color: #333;
+  width: 20%;
+}
+
+.info-table .value {
+  color: #666;
+  width: 30%;
+}
+
+/* Data Tables */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #cfcfcf;
+  padding: 6px 8px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.table-header {
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+.label-cell {
+  background-color: #ffffff;
+  font-weight: 600;
+  color: #000;
+}
+
+
+.value-cell {
+  color: #666;
+  width: 25%;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.small-text th,
+.small-text td {
+  padding: 8px;
+}
+
+/* Building Types */
+.building-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* Declaration */
+.declaration-box {
+  border: 2px solid #0066cc;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.declaration-text {
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.declaration-notes {
+  margin-left: 20px;
+  line-height: 1.8;
+}
+
+.declaration-notes li {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Footer */
+.pdf-footer {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 2px solid #ddd;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+}
+
+.pdf-footer p {
+  margin: 5px 0;
+}
+
+/* Loading State */
+.preview-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.loading-spinner {
+  font-size: 20px;
+  color: #0066cc;
+  padding: 20px;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .preview-container {
+    background-color: white;
+  }
+
+  .pdf-content {
+    margin: 0;
+    padding: 20px;
+    box-shadow: none;
+    max-width: 100%;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+
+  .data-table {
+    page-break-inside: auto;
+  }
+
+  .data-table tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+
+  @page {
+    margin: 1.5cm;
+    size: A4;
+  }
+
+  /* Adjust font sizes for print */
+  .pdf-title {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .subsection-title {
+    font-size: 16px;
+  }
+
+  .data-table {
+    font-size: 11px;
+  }
+
+  .small-text {
+    font-size: 10px;
+  }
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .pdf-content {
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .preview-actions {
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .data-table {
+    font-size: 12px;
+  }
+
+  .data-table th,
+  .data-table td {
+    padding: 6px;
+  }
+
+  .building-types {
+    flex-direction: column;
+  }
+
+  .badge {
+    display: block;
+  }
+  /* FORCE white table headers */
+.data-table thead th {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-weight: 600;
+}
+/* APRERA Associate Headings */
+.associate-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007b8f;
+  margin-top: 30px;
+}
+
+.associate-underline {
+  width: 60px;
+  height: 3px;
+  background-color: #007b8f;
+  margin: 6px 0 15px 0;
+}
+
+/* APRERA Tables */
+.associate-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+
+.associate-table th,
+.associate-table td {
+  border: 1px solid #d9d9d9;
+  padding: 8px;
+  font-size: 13px;
+}
+
+.associate-table th {
+  background-color: #ffffff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.associate-table td {
+  text-align: center;
+}
+
+/* Not added text */
+.not-added-text {
+  font-size: 14px;
+  margin: 10px 0 25px 0;
+}
+
+
+}

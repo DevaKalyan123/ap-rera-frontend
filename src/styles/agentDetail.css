@@ -1,0 +1,230 @@
+/* PAGE */
+.agent-new-page {
+  width: 100%;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* OUTER BOX */
+.agent-new-outer-box {
+  border: 1px solid #dcdcdc;
+  background:white;
+  margin: 30px;
+}
+
+/* BREADCRUMB */
+.agent-new-breadcrumb-box {
+  background: #0b7dda;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.agent-new-crumb-link {
+  color: yellow;
+  margin: 0 5px;
+  text-decoration: underline;
+}
+
+/* TITLE */
+/* ===== PAGE TITLE ===== */
+.agent-new-page-title {
+  font-size: 22px;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  position: relative;
+}
+.agent-new-page-title::after {
+    content: "";
+    bottom: -8px;
+    width: 50px;
+    height: 4px;
+    left: -6px;
+    background-color: #1e90ff;
+    margin-left: 20px;
+    position: absolute;
+}
+
+/* STEPPER */
+.agent-new-stepper-box {
+  border: 1px solid #dcdcdc;
+  margin: 15px 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.agent-new-stepper-line {
+  position: absolute;
+  top: 35%;
+  left: 40px;
+  right: 40px;
+  height: 2px;
+  background: #cfcfcf;
+}
+
+.agent-new-stepper-item {
+  text-align: center;
+  width: 20%;
+  z-index: 1;
+}
+
+.agent-new-stepper-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #bbb;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.agent-new-stepper-circle.active {
+  background: #0bb35c;
+  border-color: #0bb35c;
+  color: #fff;
+}
+
+.agent-new-stepper-text {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* FORM BOX */
+.agent-new-form-box {
+  
+  margin: 0 20px 20px;
+  padding: 25px;
+}
+
+/* SECTION TITLE */
+.agent-new-section-title {
+  color: #0073b1;
+  border-bottom: 2px solid #0073b1;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+/* AGENT TYPE */
+.agent-new-type-row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+
+/* ERROR BACKGROUND */
+.agent-new-error-bg {
+  background: #f4c7c3;
+  padding: 10px;
+}
+
+/* ✅ PAN ROW — AP RERA INLINE */
+.agent-new-pan-row.ap-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.agent-new-pan-label {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.agent-new-pan-input-box {
+  width: 260px;
+  padding: 6px;
+}
+
+.agent-new-required {
+  color: red;
+}
+
+/* BUTTON */
+.agent-new-btn-primary {
+  background: #0b7dda;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* MODAL OVERLAY */
+.agent-new-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+}
+
+/* MODAL BOX */
+.agent-new-modal-box {
+  position: fixed;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 2px solid red;
+  padding: 12px 40px;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+/* CLOSE ICON */
+.agent-new-modal-close {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  cursor: pointer;
+  color: red;
+  font-size: 18px;
+}
+/* PAN WRAPPER */
+.agent-new-pan-wrapper {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+/* PAN INPUT GROUP */
+.agent-new-pan-input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.agent-new-pan-input-group label {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.agent-new-pan-input-group input {
+  width: 260px;
+  padding: 6px;
+}
+
+/* REQUIRED */
+.agent-new-required {
+  color: red;
+}
+.agent-new-pan-center-box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 20px;
+  margin-top: 40px;
+}
+.agent-new-otp-message {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #000;
+}

@@ -1,0 +1,169 @@
+/* ================= PAGE CONTAINER ================= */
+.apr-project-container {
+  padding: 15px 20px;
+  background: #ffffff;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= BREADCRUMB ================= */
+.apr-breadcrumb {
+  background: #1e88e5;
+  color: #ffffff;
+  padding: 8px 12px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.apr-breadcrumb span {
+  color: #ffeb3b;
+  cursor: pointer;
+}
+
+/* ================= PAGE TITLE ================= */
+.apr-page-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #000;
+  border-bottom: 2px solid #1e88e5;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+/* ================= CONTROLS ================= */
+.apr-table-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.apr-table-controls select {
+  padding: 4px 6px;
+  font-size: 13px;
+}
+
+.apr-table-controls input {
+  padding: 5px 6px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+}
+
+/* Right controls (Excel / PDF / Search) */
+.apr-right-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Excel & PDF icons */
+.apr-icon-btn {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+
+.apr-icon-btn:hover {
+  transform: scale(1.1);
+}
+
+/* ================= TABLE ================= */
+.apr-table-wrapper {
+  overflow-x: auto;
+}
+
+.apr-project-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #bdbdbd;
+}
+
+.apr-project-table thead th {
+  background: #3f5368;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 9px 8px;
+  border: 1px solid #bdbdbd;
+  text-align: center;
+}
+
+.apr-project-table tbody td {
+  font-size: 13px;
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+  vertical-align: top;
+}
+
+.apr-project-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.apr-project-table tbody tr:hover {
+  background: #eef5ff;
+}
+
+/* ================= PROJECT LINK ================= */
+.apr-project-link {
+  color: #0000ff;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.apr-project-link:hover {
+  text-decoration: none;
+}
+
+/* ================= PAGINATION ================= */
+.apr-pagination {
+  margin-top: 12px;
+  text-align: right;
+  font-size: 13px;
+}
+
+.apr-pagination button {
+  padding: 4px 9px;
+  margin-left: 3px;
+  border: 1px solid #bdbdbd;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.apr-pagination button:hover {
+  background: #e3f2fd;
+}
+
+.apr-pagination button.active {
+  background: #1e88e5;
+  color: #ffffff;
+  border-color: #1e88e5;
+}
+
+.apr-pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .apr-table-controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .apr-right-controls {
+    width: 100%;
+  }
+
+  .apr-right-controls input {
+    width: 100%;
+  }
+
+  .apr-page-title {
+    font-size: 18px;
+  }
+}

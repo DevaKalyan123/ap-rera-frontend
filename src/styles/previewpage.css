@@ -1,0 +1,385 @@
+
+/* body {
+  background: #f4f6f8;
+  font-family: "Segoe UI", Arial, sans-serif;
+} */
+
+.capreviewpage-container {
+  max-width: 1200px;
+}
+
+.capreviewpage-breadcrumb-bar {
+  background: #1e88e5;
+  color: #fff;
+  padding: 8px 14px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.capreviewpage-breadcrumb-bar span {
+  margin-right: 5px;
+}
+
+.capreviewpage-breadcrumb-bar .active {
+  font-weight: 600;
+}
+
+.capreviewpage-page-title {
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid #1e88e5;
+  padding-bottom: 6px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.capreviewpage-stepper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 15px;
+  border: 1px solid #cfd8dc;
+  background: #fff;
+}
+
+.capreviewpage-step {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #bdbdbd;
+  color: #fff;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.capreviewpage-step::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  width: 60px;
+  height: 2px;
+  background: #cfd8dc;
+}
+
+.capreviewpage-step:last-child::after {
+  display: none;
+}
+
+.capreviewpage-step.done {
+  background: #1e88e5;
+}
+
+.capreviewpage-step.active {
+  background: #43a047;
+}
+
+.capreviewpage-preview-section {
+  background: #ffffff;
+  border: 1px solid #cfd8dc;
+  margin-bottom: 20px;
+}
+
+.capreviewpage-section-header {
+  background: #e3f2fd;
+  padding: 8px 12px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0d47a1;
+  border-bottom: 1px solid #cfd8dc;
+}
+
+.capreviewpage-section-body {
+  padding: 12px 15px;
+}
+
+.capreviewpage-row {
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px 0;
+}
+
+.capreviewpage-row:last-child {
+  border-bottom: none;
+}
+
+.capreviewpage-label {
+  width: 40%;
+  font-weight: 600;
+  color: #333;
+}
+
+.capreviewpage-value {
+  width: 60%;
+  color: #000;
+}
+
+.capreviewpage-btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.capreviewpage-btn {
+  min-width: 180px;
+  padding: 8px 20px;
+  font-size: 14px;
+}
+
+.capreviewpage-btn-secondary {
+  background: #757575;
+  border: none;
+  color: #fff;
+}
+
+.capreviewpage-btn-secondary:hover {
+  background: #616161;
+}
+
+.capreviewpage-btn-primary {
+  background: #1e88e5;
+  border: none;
+  color: #fff;
+}
+
+.capreviewpage-btn-primary:hover {
+  background: #1565c0;
+}
+
+@media (max-width: 768px) {
+  .capreviewpage-preview-row {
+    flex-direction: column;
+  }
+  .capreviewpage-preview-label,
+  .capreviewpage-preview-value {
+    width: 100%;
+  }
+  .capreviewpage-stepper {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .capreviewpage-step::after {
+    display: none;
+  }
+  .capreviewpage-btn-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .capreviewpage-btn {
+    width: 100%;
+  }
+}
+
+.capreviewpage-title {
+  color: #0086a8;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 18px 0 6px;
+}
+
+.capreviewpage-underline {
+  width: 40px;
+  height: 3px;
+  background: #0d47a1;
+  margin-bottom: 14px;
+}
+
+.capreviewpage-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 20px;
+}
+
+.capreviewpage-grid-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 3px;
+}
+
+.capreviewpage-grid-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .capreviewpage-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.capreviewpage-section {
+  border: none !important;
+}
+
+.capreviewpage-section-header {
+  border-bottom: none !important;
+  background: transparent !important;
+  padding-left: 0;
+}
+
+.capreviewpage-row {
+  border-bottom: none !important;
+}
+
+.capreviewpage-underline {
+  display: none !important;
+}
+
+@media print {
+  @page {
+    margin: 15mm;
+  }
+
+  body * {
+    visibility: hidden !important;
+  }
+
+  #print-area,
+  #print-area * {
+    visibility: visible !important;
+  }
+
+  #print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: #000;
+    font-size: 13px;
+  }
+
+  .capreviewpage-footer {
+    display: none !important;
+  }
+}
+
+.capreviewpage-section-subtitle {
+  font-weight: 600;
+  margin: 10px 0 6px;
+}
+
+.capreviewpage-declaration-text {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.capreviewpage-declaration-checkbox {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 14px;
+}
+
+/* ================= FOOTER LAYOUT ================= */
+
+.capreviewpage-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding-top: 15px;
+ 
+}
+
+/* ================= BACK BUTTON ================= */
+
+.capreviewpage-back-btn {
+  padding: 8px 18px;
+  background-color: #1e88e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.capreviewpage-back-btn:hover {
+  background-color: #1565c0;
+}
+
+/* ================= RIGHT BUTTON GROUP ================= */
+
+.capreviewpage-footer-right {
+  display: flex;
+  gap: 10px;
+}
+
+/* ================= ACTION BUTTONS (PRINT / PROCEED) ================= */
+
+.capreviewpage-action-btn {
+  padding: 8px 18px;
+  background-color: #1e88e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.capreviewpage-action-btn:hover {
+  background-color: #1565c0;
+}
+
+.capreviewpage-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #d6d6d6;
+  margin-top: 12px;
+  background: #ffffff;
+}
+
+/* Header */
+.capreviewpage-table th {
+  background: #3f556b;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  border-right: 2px solid #ffffff;
+}
+
+/* Body */
+.capreviewpage-table td {
+  padding: 12px;
+  font-size: 13px;
+  color: #333;
+  border-top: 1px solid #d6d6d6;
+  border-right: 2px solid #d6d6d6;
+}
+
+/* Center S.No */
+.capreviewpage-table th:first-child,
+.capreviewpage-table td:first-child {
+  text-align: center;
+  width: 80px;
+}
+
+/* Remove last border */
+.capreviewpage-table th:last-child,
+.capreviewpage-table td:last-child {
+  border-right: none;
+}
+
+.capreviewpage-table a {
+  color: #0d6efd;        /* blue like screenshot */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.capreviewpage-table a:hover {
+  text-decoration: underline;
+}
+
+.capreviewpage-table a:visited {
+  color: #0d6efd;
+}

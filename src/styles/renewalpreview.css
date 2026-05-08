@@ -1,0 +1,172 @@
+/* Page Wrapper */
+.renewal-page-wrapper{
+  width:90%;               /* wider page wrapper */
+  margin:20px auto;
+  background:white;
+  border:1px solid #ccc;
+  /* padding:25px; */
+  box-sizing:border-box;
+}
+
+/* Breadcrumb */
+
+.breadcrumb-bar{
+  background:#2c73b3;
+  color:white;
+  padding:10px 20px;
+  font-size:14px;
+  width:100%;
+  margin:0;
+  border-radius:0;   /* remove rounded top */
+  box-sizing:border-box;
+}
+
+.breadcrumb-link{
+  color:#ffeb3b;
+  text-decoration:underline;
+  margin:0 5px;
+}
+
+/* Stepper wrapper */
+.stepper-wrapper{
+  border:1px solid #ddd;
+  background:#fafafa;
+  margin:20px 0;
+  padding:10px 0;
+  border-radius:6px;
+}
+
+/* Info text above summary */
+.info-text{
+  margin-bottom:15px;
+  color:#555;
+  font-size:14px;
+}
+
+/* Main Preview Container */
+.preview-container{
+  padding:25px;
+  width:100%;
+  box-sizing:border-box;
+}
+
+/* Page Title */
+.page-title{
+  margin-bottom:25px;
+  color:#2c3e50;
+  font-size:24px;
+  font-weight:600;
+}
+
+/* Summary Box - full width */
+.summary-box{
+  display:flex;
+  justify-content:space-around;   /* spread evenly */
+  background:#f1f6ff;
+  border:1px solid #d0d8f0;
+  padding:20px;
+  margin-bottom:25px;
+  border-radius:6px;
+}
+
+.summary-box div{
+  text-align:center;
+  flex:1;                         /* take equal space */
+}
+
+.summary-box span{
+  font-size:14px;
+  color:#666;
+}
+
+.summary-box h4{
+  margin:5px 0;
+  color:#0d6efd;
+}
+
+/* Preview Card - full width */
+.preview-card{
+  border:1px solid #ddd;
+  border-radius:6px;
+  padding:25px;
+  margin-bottom:25px;
+  background:#fafafa;
+  width:100%;
+  box-sizing:border-box;
+}
+
+/* Card Titles */
+.preview-card h3{
+  margin-bottom:15px;
+  color:#0a58ca;
+  font-size:18px;
+}
+
+/* Tables */
+.preview-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.preview-table td{
+  padding:12px 10px;
+  border-bottom:1px solid #eee;
+}
+
+.preview-table td:first-child{
+  font-weight:600;
+  width:35%;          /* a little narrower first column */
+}
+
+/* Status badge */
+.status{
+  background:#28a745;
+  color:white;
+  padding:4px 12px;
+  border-radius:4px;
+  font-size:13px;
+  display:inline-block;
+}
+
+/* Buttons */
+.button-area{
+  display:flex;
+  justify-content:flex-end;
+  gap:15px;
+  margin-top:25px;
+}
+
+.payment-btn{
+  background:#0d6efd;
+  color:white;
+  padding:12px 25px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  font-size:15px;
+}
+
+.print-btn{
+  background:#6c757d;
+  color:white;
+  padding:12px 25px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  font-size:15px;
+}
+
+/* Loading text */
+.loading{
+  text-align:center;
+  margin-top:50px;
+  font-size:18px;
+}
+
+/* Responsive Layout */
+@media(max-width:1024px){
+  .summary-box{
+    flex-direction:column;
+    gap:15px;
+  }
+}

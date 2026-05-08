@@ -1,0 +1,54 @@
+{
+  "ProjectClosureStatusReort ": [
+    {
+      "Sl.No": "1",
+      "Application Number": "APP-2026-001",
+      "Project Name": "GREEN VALLEY HEIGHTS",
+      "Address": "M/S GREEN VALLEY DEVELOPERS, GUNTUR",
+      "BA (OR) LP Number": "LP/GNT/1023/2026",
+      "Applied Date": "01/12/2026",
+      "SLA CountDown For Working Days": "7",
+      "Status": "Forward to Deputy Director"
+    },
+    {
+      "Sl.No": "2",
+      "Application Number": "APP-2026-002",
+      "Project Name": "SKYLINE RESIDENCY",
+      "Address": "SKYLINE INFRASTRUCTURE PVT LTD, VIJAYAWADA",
+      "BA (OR) LP Number": "LP/VJA/1145/2026",
+      "Applied Date": "03/12/2026",
+      "SLA CountDown For Working Days": "10",
+      "Status": "Forward to Asst. Director Planning"
+    },
+    {
+      "Sl.No": "3",
+      "Application Number": "APP-2026-003",
+      "Project Name": "ROYAL ORCHIDS",
+      "Address": "ROYAL BUILDERS & PROMOTERS, TIRUPATI",
+      "BA (OR) LP Number": "LP/TPT/1201/2026",
+      "Applied Date": "05/12/2026",
+      "SLA CountDown For Working Days": "5",
+      "Status": "Pending with Director"
+    },
+    {
+      "Sl.No": "4",
+      "Application Number": "APP-2026-004",
+      "Project Name": "LAKE VIEW ENCLAVE",
+      "Address": "LAKE VIEW CONSTRUCTIONS, KURNOOL",
+      "BA (OR) LP Number": "LP/KNL/1309/2026",
+      "Applied Date": "06/12/2026",
+      "SLA CountDown For Working Days": "3",
+      "Status": "Approved"
+    },
+    {
+      "Sl.No": "5",
+      "Application Number": "APP-2026-005",
+      "Project Name": "HILL TOP TOWERS",
+      "Address": "HILL TOP HOUSING PROJECTS, NELLORE",
+      "BA (OR) LP Number": "LP/NLR/1410/2026",
+      "Applied Date": "08/12/2026",
+      "SLA CountDown For Working Days": "9",
+      "Status": "Rejected"
+    }
+  ]
+}

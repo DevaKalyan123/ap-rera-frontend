@@ -1,0 +1,162 @@
+body {
+  background: #e6e6e6;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* PAGE */
+.c-cert-page {
+  padding: 20px;
+}
+ 
+/* CERTIFICATE */
+.c-cert-paper {
+  width: 210mm;
+  margin: auto;
+  background: #fff;
+  border: 0.01px solid #000;
+
+  padding: 20mm 20mm 25mm;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.c-cert-header {
+  text-align: center;
+}
+
+.c-cert-logo {
+  width: 85px;
+  margin-bottom: 6px;
+}
+
+.c-cert-title {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* DATE */
+.c-cert-date-row {
+  text-align: right;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.c-cert-line {
+  margin: 10px 0 20px;
+  border-top: 1px solid #000;
+}
+
+/* REG */
+.c-reg-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.c-reg-text {
+  width: 70%;
+}
+
+.c-reg-box {
+  display: inline-flex;
+  border: 1px solid #000;
+}
+
+.c-reg-box span {
+  padding: 6px 9px;
+  border-right: 1px solid #000;
+}
+
+.c-reg-box span:last-child {
+  border-right: none;
+}
+
+/* LISTS */
+.c-main-list {
+  padding-left: 20px;
+}
+
+.c-roman-list {
+  list-style-type: lower-roman;
+  padding-left: 35px;
+}
+
+/* SIGNATURE */
+.c-cert-sign {
+  margin-top: 40px;
+  text-align: right;
+  font-weight: bold;
+}
+
+/* ACTION BUTTONS */
+.c-cert-actions {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.c-print-btn,
+.c-download-btn {
+  min-width: 120px;        /* 🔥 same width */
+  height: 40px;            /* 🔥 same height */
+  line-height: 40px;       /* vertical text center */
+  padding: 0 24px;
+  margin: 0 8px;
+
+  border: none;
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+
+  color: #ffffff;
+  border-radius: 2px;      /* govt sites use sharp corners */
+}
+
+
+/* PRINT */
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .c-no-print {
+    display: none !important;
+  }
+}
+
+.c-print-btn {
+  background-color: #4e4e4e;
+}
+
+.c-print-btn:hover {
+  background-color: #2f2f2f;
+}
+
+/* DOWNLOAD – Govt Blue */
+.c-download-btn {
+  background-color: #0b5ed7;
+}
+
+.c-download-btn:hover {
+  background-color: #084298;
+}
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .c-no-print {
+    display: none !important;
+  }
+
+  .c-cert-paper {
+    border: none; /* optional – govt PDFs usually no border */
+  }
+}
+@media print {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "ProjectClosureStatusReort ": [
+    {
+      "Sl.No": "1",
+      "Project ID": "P03240173680",
+      "Project Name": "NAVADEEP EMPIRE",
+      "Address": "M/S NAVADEEP PROMOTORS",
+      "BA (OR) LP Number": "7123456789",
+      "RERA Validity Date": "1/12/2026 11:12 AM",
+      "Plan Validity Date": "1/12/2026 11:12 AM",
+      "Extension Apply Data": "1/12/2026 11:12 AM",
+      "SLA CountDown For Working Days": "5",
+      "Status": "Forward to Asst. Director Planning"
+    },
+    {
+      "Sl.No": "2",
+      "Project ID": "P09250083424",
+      "Project Name": "MOTHERLAND APOORVA",
+      "Address": "MOTHERLAND INFRA PROJECTS",
+      "BA (OR) LP Number": "234567890",
+      "RERA Validity Date": "1/12/2026 11:12 AM",
+      "Plan Validity Date": "1/12/2026 11:12 AM",
+      "Extension Apply Data": "1/12/2026 11:12 AM",
+      "SLA CountDown For Working Days": "5",
+      "Status": "Forward to Deputy Director"
+    },
+    {
+      "Sl.No": "3",
+      "Project ID": "P01080155919",
+      "Project Name": "SRI NIVASAM",
+      "Address": "SADGURU SAI VENKATARAMANA CONSTRUCTIONS",
+      "BA (OR) LP Number": "9123456789",
+      "RERA Validity Date": "1/12/2026 11:12 AM",
+      "Plan Validity Date": "1/12/2026 11:12 AM",
+      "Extension Apply Data": "1/12/2026 11:12 AM",
+      "SLA CountDown For Working Days": "5",
+      "Status": "Forward to Asst. Director Planning"
+    },
+    {
+      "Sl.No": "4",
+      "Project ID": "P03290014293",
+      "Project Name": "SISIR SYMPHONY",
+      "Address": "SISIR ENTERPRISES",
+      "BA (OR) LP Number": "8123456789",
+      "RERA Validity Date": "1/12/2026 11:12 AM",
+      "Plan Validity Date": "1/12/2026 11:12 AM",
+      "Extension Apply Data": "1/12/2026 11:12 AM",
+      "SLA CountDown For Working Days": "5",
+      "Status": "Forward to Asst. Director Planning"
+    }
+  ]
+}

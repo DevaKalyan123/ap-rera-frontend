@@ -1,0 +1,99 @@
+/* body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+} */
+
+.goap-wrapper {
+  width: 95%;
+  margin: 15px auto;
+  background: #fff;
+  padding-bottom: 30px;
+   /* ✅ THIS IS THE BOX YOU WANT */
+  border: 1px solid #bdbdbd;   /* grey border */
+  box-sizing: border-box;
+}
+
+/* Breadcrumb */
+.goap-breadcrumb {
+  background: #1e88e5;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.goap-breadcrumb a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.goap-breadcrumb .goap-home {
+  color: yellow;
+  text-decoration: underline;
+}
+
+.goap-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Title */
+.goap-title {
+  margin: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.goap-underline {
+  width: 50px;
+  height: 3px;
+  background: #1e88e5;
+  margin-left: 15px;
+}
+
+/* Table */
+.goap-table-box {
+  margin: 20px 15px;
+  border: 1px solid #444;
+  overflow-x: auto;
+}
+
+.goap-table-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.goap-table-box thead th {
+  background: #3f5568;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.goap-table-box tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.goap-table-box tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Download */
+.goap-download {
+  text-align: center;
+}
+
+.goap-download a {
+  font-size: 18px;
+  color: #1e88e5;
+  text-decoration: none;
+}
+.goap-breadcrumb {
+  position: relative;
+  z-index: 1;
+}

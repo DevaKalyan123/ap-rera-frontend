@@ -1,0 +1,54 @@
+/* Page wrapper */
+.org-page {
+  max-width: 1000px;
+  margin: 25px auto;
+  background: #ffffff;
+  border: 1px solid #bfbfbf;
+  font-family: Arial, sans-serif;
+}
+
+/* Breadcrumb */
+.org-breadcrumb {
+  background: #e7caff;
+  color: #ffffff;
+  padding: 6px 12px;
+  font-size: 13px;
+  border-bottom: 1px solid #bfbfbf;
+}
+
+.org-breadcrumb span {
+  font-weight: 500;
+}
+
+/* Title */
+.org-title {
+  margin: 18px 0 6px 20px;
+  font-size: 22px;
+}
+
+.org-title-line {
+  width: 32px;
+  height: 3px;
+  background: #1e88e5;
+  margin-left: 20px;
+}
+
+/* Image wrapper */
+.org-image-wrapper {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Screenshot image — BORDER REMOVED */
+.org-image-wrapper img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+
+  /* ❌ removed border, padding & background */
+  border: none;
+  padding: 0;
+  background: transparent;
+}

@@ -1,0 +1,473 @@
+/* RESET */
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PAGE WRAPPER */
+.zagentud-page-wrapper {
+  max-width: 1200px;
+  margin: 10px auto 0;
+  padding: 0 15px;
+  
+}
+
+/* BREADCRUMB */
+.zagentud-breadcrumb {
+  background: #1287e0;
+  color: #ffffff;
+  padding: 4px 10px;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 0;
+}
+
+.zagentud-breadcrumb a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.zagentud-breadcrumb a:hover {
+  text-decoration: none;
+}
+
+/* MAIN CONTENT */
+.zagentud-container {
+  background: #ffffff;
+  padding: 20px;
+  margin-top: 0;
+}
+
+/* MAIN HEADING */
+.zagentud-heading {
+  position: relative;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+.zagentud-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45px;
+  height: 3px;
+  background: #0b5ed7;
+}
+
+/* SECTION HEADING (Upload Documents) */
+.zagentud-section-heading {
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0073aa;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+}
+
+.zagentud-section-heading::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45px;
+  height: 3px;
+  background: #0b5ed7;
+}
+
+
+
+/* ================= GOVT STYLE STEPPER ================= */
+
+.zagentud-steps-box {
+  position: relative;
+  border: 1px solid #d9d9d9;
+  background: #f5f5f5;
+  padding: 35px 20px 15px;
+  margin: 20px 0;
+}
+
+/* center horizontal line */
+.zagentud-steps-box::before {
+  content: "";
+  position: absolute;
+  top: 48px;
+  left: 60px;
+  right: 60px;
+  height: 1px;
+  background: #cfcfcf;
+  z-index: 1;
+}
+
+.zagentud-steps {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+.zagentud-step {
+  text-align: center;
+  width: 20%;
+}
+
+/* circle */
+.zagentud-step-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  line-height: 26px;
+  margin: 0 auto 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #777;
+}
+
+/* ACTIVE STEP (Step 2) */
+.zagentud-step.agentud-step-active .zagentud-step-circle {
+  background: #4caf50;
+  border-color: #4caf50;
+  color: #ffffff;
+}
+
+/* COMPLETED STEP (Step 1) */
+.zagentud-step.agentud-step-completed .zagentud-step-circle {
+  background: #4caf50;
+  border-color: #4caf50;
+  color: #ffffff;
+}
+
+.zagentud-step-label {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.zagentud-step-label {
+  font-size: 14px;
+}
+
+/* NOTE */
+.zagentud-note {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  margin: 10px 0 20px;
+}
+
+/* TABLE */
+.zagentud-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+
+}
+
+.zagentud-table th {
+  background: #3f546a;
+  color: #ffffff;
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+  font-size: 14px;
+}
+
+.zagentud-table td {
+ padding: 14px 10px;
+  border: 1px solid #cfcfcf;
+  vertical-align: middle;
+}
+
+/* DOCUMENT NAME COLUMN */
+.zagentud-table td:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+
+
+/* REQUIRED ASTERISK */
+.zagentud-required {
+  color: red;
+  font-weight: bold;
+}
+
+/* FILE INPUT */
+.zagentud-table input[type="file"] {
+  width: 100%;
+  background: #fafafa;          /* ⬅ lighter than before */
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  padding: 10px 12px;           /* ⬅ exact height */
+  font-size: 13px;
+  display: inline-block !important;              /* ⬅ softer “No file chosen” */
+  box-sizing: border-box;
+}
+
+
+/* Choose File button (Chrome / Edge) */
+.zagentud-table input[type="file"]::-webkit-file-upload-button {
+  background: #ffffff;
+  border: 2px solid #000000;   /* 👈 DARK, SHARP BORDER */
+  border-radius: 2px;          /* 👈 LESS ROUND */
+  padding: 2px 8px;            /* 👈 COMPACT HEIGHT */
+  font-size: 13px;
+  font-weight: 600;            /* 👈 SLIGHTLY BOLDER */
+  color: #000000;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+
+.zagentud-table input[type="file"]::file-selector-button {
+  background: #f9f7f7;
+  border: 2px solid #000000;
+  border-radius: 2px;
+  padding: 2px 8px;
+  font-size: 14px;
+  font-weight: 60;
+  color: #000000;
+  cursor: pointer;
+  margin-right: 8px;
+}
+/* DECLARATION SECTION WRAPPER */
+.zagentud-declaration {
+  margin-top: 30px;
+}
+
+
+
+/* Declaration row (checkbox + text) */
+.zagentud-declaration-row {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #000000;
+}
+
+/* Inline layout */
+.zagentud-declaration-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 9px;
+  
+
+}
+
+/* Checkbox */
+.zagentud-declaration-text input[type="checkbox"] {
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+/* Small inline text input after I/We */
+.zagentud-declaration-input {
+  width: 160px;
+  height: 26px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  padding: 2px 6px;
+  font-size: 13px;
+  box-sizing: border-box;
+  
+}
+
+/* Button container (right aligned) */
+.zagentud-declaration-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* Save And Continue button */
+.zagentud-btn-primary {
+  background: #0d6efd;
+  color: #ffffff;
+  border: 1px solid #0b5ed7;
+  border-radius: 4px;
+  padding: 6px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+/* Hover effect */
+.zagentud-btn-primary:hover {
+  background: #0b5ed7;
+}
+
+
+/* ERROR POPUP CONTAINER */
+.zagentud-error-popup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffe5e5;          /* light red background */
+  border: 2px solid #ff0000;    /* red border */
+  color: #000000;
+
+  padding: 10px 12px;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  margin: 10px 0 15px;
+}
+
+/* CLOSE (X) BUTTON */
+.zagentud-error-close {
+  background: #ffffff;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+
+  width: 22px;
+  height: 22px;
+
+  border-radius: 50%;
+  cursor: pointer;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+
+  padding: 0;
+}
+
+/* Hover effect on close */
+.zagentud-error-close:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+/* ERROR POPUP */
+.zagentud-error-popup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #ffe5e5;
+  border: 2px solid #ff0000;
+  color: #000000;
+
+  padding: 10px 12px;
+  margin: 10px 0;
+
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+/* CLOSE BUTTON */
+.zagentud-error-close {
+  background: #ffffff;
+  border: 2px solid #ff0000;
+  color: #ff0000;
+
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+}
+
+.zagentud-error-close:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+/* OVERLAY (no change, keep if already added) */
+.zagentud-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 9999;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 120px;
+}
+
+/* 🔴 POPUP BOX — THICK RED BORDER */
+.zagentud-popup-box {
+  background: #ffffff;
+  border: 3px solid #ff0000;   /* 👈 THICK RED LINE */
+  padding: 12px 14px;
+  border-radius: 4px;
+
+  min-width: 520px;
+  max-width: 90%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* ❌ CLOSE BUTTON — THICK BORDER */
+.zagentud-popup-close {
+  background: #ffffff;
+  border: 3px solid #ff0000;   /* 👈 THICK RED LINE */
+  color: #ff0000;
+
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding: 0;
+}
+
+.zagentud-popup-close:hover {
+  background: #ff0000;
+  color: #ffffff;
+}
+.zagentud-inline-error {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #ff3b3b;
+  background-color: #ffffff;
+  color: #000;
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 8px rgba(255, 0, 0, 0.25);
+}
+
+.zagentud-inline-error span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.zagentud-inline-error-close {
+  background: none;
+  border: none;
+  color: #ff3b3b;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.zagentud-declaration-row,
+.zagentud-declaration-row * {
+  color: #000000 !important;
+  font-weight: bold;
+}

@@ -1,0 +1,148 @@
+.r19-container {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+}
+
+.breadcrumb-bar {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  font-size: 14px;
+}
+
+.breadcrumb-bar .link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.content-box {
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+  min-height: 500px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.page-title {
+  color: #333;
+  border-bottom: 3px solid #0056b3;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+  font-size: 22px;
+  width: auto;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) 150px;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 60px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.required { color: red; }
+
+.input-wrapper {
+  position: relative;
+  cursor: pointer;
+}
+
+.input-wrapper input, .select-box {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  background: #f8f9fa;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.details-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  height: 40px;
+  margin-top: 25px;
+}
+
+.details-btn:hover { background-color: #0056b3; }
+
+/* Calendar Mockup */
+.custom-calendar {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  z-index: 100;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.calendar-header {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  text-align: center;
+  font-size: 12px;
+}
+
+.calendar-days span { font-weight: bold; padding: 5px 0; background: #6c757d; color: white; }
+.calendar-days div { padding: 5px 0; cursor: pointer; border: 1px solid #f8f9fa; }
+.selected-day { background-color: #007bff !important; color: white; }
+.current-day { background-color: #ffeb3b !important; }
+
+/* Dropdown Mockup */
+.custom-dropdown {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  background: white;
+  border: 1px solid #ddd;
+  z-index: 100;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.custom-dropdown li {
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.custom-dropdown li:hover { background: #f8f9fa; }
+.selected-opt { background: #007bff !important; color: white; }
+
+.no-details-area {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.no-details-area h3 {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}

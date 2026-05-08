@@ -1,0 +1,36 @@
+.cr-form-container {
+  width: 500px;
+  margin: auto;
+  margin-top: 40px;
+  font-family: Arial;
+}
+
+.cr-form-form-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.cr-form-form-box label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.cr-form-form-box input,
+.cr-form-form-box select,
+.cr-form-form-box textarea {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+.cr-form-button {
+  margin-top: 20px;
+  padding: 10px;
+  background: #0b4da2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.cr-form-button:hover {
+  background: #083a7a;
+}

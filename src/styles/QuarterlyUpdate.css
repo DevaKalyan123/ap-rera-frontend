@@ -1,0 +1,277 @@
+.quartdocup-page-bg {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.quartdocup-outer-frame {
+  margin: 25px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.quartdocup-breadcrumb {
+  background-color: #2f80d1;
+  color: white;
+  padding: 12px 25px;
+  margin: 0;
+}
+
+.quartdocup-main-card {
+  background-color: #ffffff;
+  border-top: none;
+  padding: 25px 30px 40px 30px;
+}
+/* Page Background */
+.quartdocup-page-bg {
+  background-color: #f3f3f3;
+  min-height: 100vh;
+  padding: 20px 40px;
+}
+
+/* Breadcrumb */
+.quartdocup-breadcrumb {
+  background-color: #1976d2;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.quartdocup-breadcrumb span {
+  color: #ffeb3b;
+  margin: 0 5px;
+  font-weight: 500;
+}
+
+/* Main White Card */
+.quartdocup-main-card {
+  background-color: #ffffff;
+  padding: 2px 30px 40px 30px;
+}
+
+/* Header */
+.quartdocup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Title */
+.quartdocup-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Title underline */
+.quartdocup-title-line {
+  width: 60px;
+  height: 4px;
+  background-color: #1976d2;
+  margin-top: 6px;
+}
+
+/* Back button */
+.quartdocup-back-btn {
+  background-color: #1976d2;
+  color: #ffffff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.quartdocup-back-btn:hover {
+  background-color: #125ea5;
+}
+
+/* Quarter ID */
+.quartdocup-quarter-id {
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+.quartdocup-quarter-id span {
+  margin-left: 250px;
+  font-weight: bold;
+}
+
+/* Section Title */
+.quartdocup-section-title {
+  color: #007c8c;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Section underline */
+.quartdocup-section-underline {
+  width: 50px;
+  height: 4px;
+  background-color: #1976d2;
+  margin: 6px 0 15px 0;
+}
+
+/* Warning text */
+.quartdocup-warning {
+  color: #e53935;
+  font-size: 17px;
+  margin-left:25px;
+}
+.quartdocup-me-3{
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/* ================= TABLE ================= */
+
+.quartdocup-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+/* Header */
+.quartdocup-table thead th {
+  background-color: #4e637a;   /* blue-grey */
+  color: #ffffff;
+  padding: 14px;
+  font-weight: 600;
+  text-align: left;
+  border: 1px solid #44576b;
+}
+
+/* Body rows */
+.quartdocup-table tbody td {
+  padding: 9px;
+  border: 1px solid #d9d9d9;
+  
+}
+
+/* Alternate row color */
+/* .quartdocup-table tbody tr:nth-child(even) td {
+  background-color: #eeeeee;
+} */
+
+/* File input */
+.quartdocup-file-input {
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+/* Uploaded column */
+.quartdocup-uploaded-cell {
+  color: #333;
+  font-size: 14px;
+}
+
+/* Required Red Star */
+.quartdocup-required-star {
+  color: #e53935;   /* red */
+  margin-left: 4px;
+  font-weight: 600;
+}
+
+/* Main Section */
+.quartdocup-occupancy-section {
+  margin: 15px 0;
+}
+
+/* First Row (Label + Radios) */
+.quartdocup-occupancy-row {
+  display: flex;
+  align-items: center;
+  gap: 150px;   /* space between label and radios */
+}
+
+/* Labels */
+.quartdocup-label {
+  font-weight: bold;
+  font-size: 14px;
+  min-width: 280px;   /* keeps alignment clean */
+}
+
+/* Radio group */
+.quartdocup-radio-group {
+  display: flex;
+  gap: 20px;   /* YES / NO spacing */
+}
+
+/* Upload Row */
+.quartdocup-upload-row {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  margin-top: 8px;   /* small vertical gap like screenshot */
+}
+
+/* File input width */
+.quartdocup-file-input {
+  width: 250px;
+}
+
+/* Red star */
+.quartdocup-required-star {
+  color: #e53935;
+  margin-left: 4px;
+  font-weight: 600;
+}
+
+/* Additional Section */
+.quartdocup-additional-section {
+  margin-top: 40px;
+}
+
+/* Row Layout */
+.quartdocup-additional-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Each Field */
+.quartdocup-field {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+.quartdocup-field label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+/* Inputs */
+.quartdocup-input {
+  padding: 8px 10px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Add Button */
+.quartdocup-add-btn-wrapper {
+  display: flex;
+  align-items: flex-end;
+}
+
+.quartdocup-primary-btn {
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.quartdocup-primary-btn:hover {
+  background-color: #125ea5;
+}

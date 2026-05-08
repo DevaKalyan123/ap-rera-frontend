@@ -1,0 +1,205 @@
+/* ===== PAGE BACKGROUND ===== */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+/* ===== MAIN WRAPPER ===== */
+.agent-reg-wrapper {
+  padding: 30px 0;
+}
+
+/* ===== ONE BIG OUTER BOX (LIKE IMAGE-2 / AP RERA) ===== */
+.agent-reg-border-box {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #cfcfcf;
+}
+
+/* ===== BREADCRUMB ===== */
+.agent-reg-breadcrumb-box {
+  background: #0b7dda;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.agent-reg-breadcrumb-box .agent-reg-link {
+  color: yellow;
+  margin: 0 5px;
+  text-decoration: underline;
+}
+
+/* ===== MAIN CONTENT ===== */
+.agent-reg-main-container {
+  padding: 25px 30px;
+}
+
+/* ===== PAGE TITLE ===== */
+.agent-reg-page-title {
+  font-size: 22px;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  position: relative;
+}
+.agent-reg-page-title::after {
+    content: "";
+    bottom: -8px;
+    width: 50px;
+    height: 4px;
+    left: 4px;
+    background-color: #1e90ff;
+    margin-left: 20px;
+    position: absolute;
+}
+
+/* ===== STEP WIZARD ===== */
+.agent-reg-step-box {
+  margin: 25px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 25px 20px;
+}
+
+.agent-reg-step-line {
+  position: absolute;
+  top: 40%;
+  left: 20px;
+  right: 40px;
+  height: 2px;
+  background: #ccc;
+  transform: translateY(-50%);
+}
+
+.agent-reg-step-item {
+  text-align: center;
+  z-index: 1;
+}
+
+.agent-reg-step-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #bbb;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.agent-reg-step-circle.agent-reg-active {
+  background: #0bb35c;
+  color: #fff;
+  border-color: #0bb35c;
+}
+
+/* ===== INSTRUCTIONS ===== */
+/* ===== INSTRUCTIONS (MATCH 1st IMAGE STYLE) ===== */
+
+.agent-reg-instructions h3 {
+  color: #0073b1;
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.agent-reg-instructions ol {
+  padding-left: 22px;
+  color: #525252;              /* darker text */
+  font-size: 14px;
+}
+
+.agent-reg-instructions li {
+  line-height: 1.6;
+  margin-bottom: 6px;
+  font-weight: bold;         /* stronger body text */
+  text-align: justify;
+  margin: auto;
+}
+
+/* ⭐ THIS IS THE KEY FIX — BOLD NUMBERS */
+.agent-reg-instructions li::marker {
+  font-weight: bold;
+  color: #525252;
+}
+
+/* Red highlight text */
+.agent-reg-red-text {
+  color: red;
+  font-weight: bold;
+}
+
+/* Guidelines link */
+.agent-reg-guideline-link {
+  color: purple;
+  text-decoration: underline;
+}
+
+
+/* ===== APPLICATION TYPE ===== */
+.agent-reg-application-row {
+  margin: 35px 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.agent-reg-application-type {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.agent-reg-application-type label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+.agent-reg-submit-btn {
+  background: #0b7dda;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.agent-reg-submit-btn:hover {
+  background: #095fa8;
+}
+
+/* ===== MODAL ===== */
+.agent-reg-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.agent-reg-modal-box {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.agent-reg-modal-close {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+  font-size: 18px;
+} 

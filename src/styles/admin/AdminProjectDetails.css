@@ -1,0 +1,248 @@
+.admin-project-details {
+  padding: 20px;
+  background: #f5f7fb;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Top Bar */
+.admin-project-details__top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-project-details__back-btn {
+  background: #e6eefc;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.admin-project-details__status-badge {
+  background: #dbeafe;
+  color: #1d4ed8;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Title */
+.admin-project-details__title {
+  margin: 15px 0;
+  color: #1e3a8a;
+}
+
+/* Card */
+.admin-project-details__card {
+  background: white;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.admin-project-details__card-header {
+  background: linear-gradient(to right, #1e3a8a, #2563eb);
+  color: white;
+  padding: 12px 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Grid */
+.admin-project-details__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.admin-project-details__grid div {
+  background: #f9fafc;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.admin-project-details label {
+  font-size: 12px;
+  color: gray;
+  display: block;
+}
+
+.admin-project-details p {
+  margin: 0;
+  font-weight: 500;
+}
+
+/* Status */
+.admin-project-details__status {
+  padding: 4px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.admin-project-details__status.success {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+/* Changes */
+.admin-project-details__changes-count {
+  background: #e0f2fe;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.admin-project-details__empty-text {
+  padding: 20px;
+  text-align: center;
+  color: gray;
+}
+
+/* Warning */
+.admin-project-details__warning-box {
+  background: #fff3cd;
+  padding: 12px;
+  margin: 15px;
+  border-radius: 6px;
+}
+
+/* Buttons */
+.admin-project-details__btn-group {
+  display: flex;
+  gap: 15px;
+  padding: 15px;
+}
+
+.admin-project-details__approve-btn {
+  background: #15803d;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.admin-project-details__reject-btn {
+  background: white;
+  color: red;
+  border: 2px solid red;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Loading */
+.admin-project-details__loading {
+  text-align: center;
+  margin-top: 50px;
+}
+/* Overlay */
+.admin-project-details__modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal */
+.admin-project-details__modal {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Header */
+.admin-project-details__modal-header {
+  background: #fde2e2;
+  color: #b91c1c;
+  padding: 12px 16px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #dc2626;
+}
+
+.admin-project-details__close-btn {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Body */
+.admin-project-details__modal-body {
+  padding: 15px;
+}
+
+.admin-project-details__modal-body p {
+  margin-bottom: 10px;
+}
+
+.admin-project-details__modal-body textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+/* Footer */
+.admin-project-details__modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 15px;
+}
+
+.admin-project-details__cancel-btn {
+  background: #e5e7eb;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.admin-project-details__confirm-reject-btn {
+  background: #dc2626;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+/* ✅ APPROVE MODAL HEADER (GREEN) */
+.admin-project-details__modal-header.approve {
+  background: #e6f9ec;   /* light green */
+  color: #15803d;        /* dark green text */
+  border-bottom: 2px solid #22c55e;
+}
+
+/* ✅ CONFIRM APPROVE BUTTON */
+.admin-project-details__confirm-approve-btn {
+  background: #1d4ed8; /* blue button like your screenshot */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ✅ OPTIONAL: GREEN BUTTON VERSION (if you want full green theme) */
+/*
+.admin-project-details__confirm-approve-btn {
+  background: #16a34a;
+}
+*/

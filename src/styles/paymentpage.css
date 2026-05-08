@@ -1,0 +1,140 @@
+/* ===== Container ===== */
+.payment-container {
+  max-width: 900px;
+  margin: 30px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.page-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ===== Payment Box ===== */
+.payment-box {
+  border: 3px solid #0b5394;
+  padding: 16px;
+  background: #ffffff;
+  margin-top: 10px;
+}
+
+/* ===== Header ===== */
+.payment-header {
+  background: #0b5394;
+  color: #ffffff;
+  padding: 10px 14px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* ===== Top Section ===== */
+.payment-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.payment-date-box {
+  text-align: right;
+}
+
+/* ===== Table ===== */
+.payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.payment-table td {
+  border: 1px solid #cfcfcf;
+  padding: 8px 10px;
+}
+
+.payment-table td:first-child {
+  width: 35%;
+  background: #f9f9f9;
+}
+
+/* ===== Gateway + Amount Row ===== */
+.gateway-amount-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.payment-gateway-section p {
+  margin-bottom: 6px;
+}
+
+.payment-gateway-section label {
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+/* ===== Total Amount Box ===== */
+.payent-amount-box {
+  border: 2px solid #0b5394;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: bold;
+  background: #ffffff;
+  white-space: nowrap;
+}
+
+/* ===== Action Buttons (Outside Box) ===== */
+.payment-action-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.make-payment-btn,
+.cancel-payment-btn {
+  background-color: #0b5394;
+  color: #ffffff;
+  border: none;
+  padding: 10px 22px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.make-payment-btn:hover,
+.cancel-payment-btn:hover {
+  opacity: 0.9;
+}
+
+
+/* ===== Remove big line under Payment Page title ===== */
+.page-title::after {
+  display: none !important;
+}
+
+.page-title::before {
+  display: none !important;
+}
+
+.payment-back-btn {
+  padding: 8px 18px;
+  background-color: #1e88e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.payment-back-btn:hover {
+  background-color: #1565c0;
+}
+
+.payment-right-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 12px;   /* 👈 THIS gives the small gap */
+}

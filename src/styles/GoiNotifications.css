@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+} 
+
+.goi-notif-wrapper {
+  width: 95%;
+  margin: 15px auto;
+  background: #fff;
+
+  /* ✅ THIS IS THE BOX YOU WANT */
+  border: 1px solid #bdbdbd;   /* grey border */
+  box-sizing: border-box;
+
+  padding-bottom: 30px;
+}
+
+
+/* Breadcrumb */
+.goi-notif-breadcrumb {
+  background: #1e88e5;
+  color: #fff;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+}
+.goi-notif-breadcrumb .goi-notif-home{
+  text-decoration: underline;
+  color: rgb(255, 255, 0);
+}
+.goi-notif-breadcrumb .goi-notif-home:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+/* Title */
+.goi-notif-title {
+  margin: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.goi-notif-underline {
+  width: 40px;
+  height: 3px;
+  background: #1e88e5;
+  margin-left: 15px;
+}
+
+
+
+/* Table */
+.goi-notif-table-box {
+  margin: 20px 15px;
+  border: 1px solid #444;
+}
+
+.goi-notif-table-title {
+  background: #3f5568;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.goi-notif-table-box .goi-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.goi-notif-table-box .goi-thead th {
+  background: #4a6074;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.goi-notif-table-box .goi-tbody td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.goi-notif-table-box .goi-tbody tr:nth-child(even){
+  background: #f9f9f9;
+}
+
+/* Download */
+.goi-notif-download a{
+  
+  font-size: 18px;
+  color: #1e88e5;
+  text-decoration: none;
+  
+}
+.goi-notif-breadcrumb {
+  position: relative;
+  z-index: 1;
+}
+.goi-notif-download{
+    text-align: center;
+}

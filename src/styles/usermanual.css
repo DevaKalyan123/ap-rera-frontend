@@ -1,0 +1,125 @@
+/* Page Container */
+.um-page {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 20px auto;        /* 🔽 30px → 20px */
+  padding: 10px 40px;
+  background: #fff;
+}
+
+/* Breadcrumb */
+.um-bread {
+  background-color: #0b87e7;
+  color: #fff;
+  padding: 6px 40px;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* Home & Registration text */
+.um-bread a {
+  color: #ffffff;        /* white color */
+  text-decoration: none;
+  margin: 0 4px;
+  font-weight: 500;
+}
+
+/* hover effect optional */
+.um-bread a:hover {
+  text-decoration: underline;
+}
+
+/* Current page text */
+.um-bread span {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+/* Title */
+.um-title {
+  margin: 6px 0 6px;        /* 🔥 gap reduce */
+}
+
+.um-title h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Blue line under title */
+.um-line {
+  width: 70px;
+  height: 3px;              /* 🔽 20px → 3px */
+  background-color: #0b87e7;
+  margin: 6px 0 12px;       /* 🔥 tight spacing */
+}
+
+/* Table Wrapper */
+.um-table-box {
+  margin: 12px auto;        /* 🔥 60px → 12px */
+  border: 1px solid #000;
+}
+
+/* Table */
+.um-manual {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+/* Header */
+.um-manual th {
+  background-color: #2f4f63;
+  color: #fff;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  border-right: 1px solid #fff;
+}
+
+/* Column widths */
+.um-blank {
+  width: 220px;
+}
+
+.um-manual th:nth-child(2) {
+  width: calc(100% - 320px);
+}
+
+.um-down-head {
+  width: 100px;
+}
+
+/* Table cells */
+.um-manual td {
+  padding: 10px 30px;
+  font-size: 13px;
+  border-bottom: 1px solid #dcdcdc;
+  border-right: 1px solid #dcdcdc;
+}
+
+/* Category column */
+.um-cat {
+  background-color: #3f6f8e;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Download column */
+.um-down {
+  text-align: center;
+}
+
+/* Download icon */
+.um-ico {
+  color: #0b87e7;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Remove last borders */
+.um-manual tr td:last-child,
+.um-manual tr th:last-child {
+  border-right: none;
+}

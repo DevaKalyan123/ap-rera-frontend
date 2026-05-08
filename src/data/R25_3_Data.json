@@ -1,0 +1,52 @@
+[
+  {
+    "Sl.No": "1",
+    "Agent Registration ID": "AG-AP-2026-001",
+    "Agent Name": "SRI SAI REAL ESTATES",
+    "Address": "Door No 12-4-56, Brodipet, Guntur",
+    "RERA Validity Date": "31/03/2026",
+    "Applied Date": "05/01/2026",
+    "SLA CountDown For Working Days": "6",
+    "Status": "Forwarded to Deputy Director"
+  },
+  {
+    "Sl.No": "2",
+    "Agent Registration ID": "AG-AP-2026-002",
+    "Agent Name": "LAKSHMI NARASIMHA PROPERTIES",
+    "Address": "MG Road, Vijayawada, Krishna District",
+    "RERA Validity Date": "15/04/2026",
+    "Applied Date": "07/01/2026",
+    "SLA CountDown For Working Days": "9",
+    "Status": "Forwarded to Assistant Director"
+  },
+  {
+    "Sl.No": "3",
+    "Agent Registration ID": "AG-AP-2026-003",
+    "Agent Name": "ROYAL HOUSING AGENCY",
+    "Address": "Balaji Nagar, Tirupati, Chittoor District",
+    "RERA Validity Date": "20/05/2026",
+    "Applied Date": "10/01/2026",
+    "SLA CountDown For Working Days": "4",
+    "Status": "Pending with Director"
+  },
+  {
+    "Sl.No": "4",
+    "Agent Registration ID": "AG-AP-2026-004",
+    "Agent Name": "SRI VENKATESWARA REALTORS",
+    "Address": "RTC Colony, Nellore",
+    "RERA Validity Date": "30/06/2026",
+    "Applied Date": "12/01/2026",
+    "SLA CountDown For Working Days": "2",
+    "Status": "Approved"
+  },
+  {
+    "Sl.No": "5",
+    "Agent Registration ID": "AG-AP-2026-005",
+    "Agent Name": "HILL VIEW REALTY",
+    "Address": "Ring Road, Kurnool",
+    "RERA Validity Date": "18/07/2026",
+    "Applied Date": "15/01/2026",
+    "SLA CountDown For Working Days": "11",
+    "Status": "Rejected"
+  }
+]

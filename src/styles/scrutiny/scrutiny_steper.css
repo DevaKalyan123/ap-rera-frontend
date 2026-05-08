@@ -1,0 +1,138 @@
+.scrutiny-stepper-shell {
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.scrutiny-stepper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 12px;
+  padding: 22px 18px 16px;
+  border: 1px solid #d7deea;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #ffffff 0%, #f7faff 100%);
+  box-shadow: 0 10px 28px rgba(22, 39, 74, 0.08);
+}
+
+.scrutiny-stepper::before {
+  content: "";
+  position: absolute;
+  top: 41px;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  background: linear-gradient(90deg, #d4dbe7 0%, #c3cede 100%);
+  z-index: 0;
+}
+
+.scrutiny-stepper-item {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #6a7488;
+  font: inherit;
+  cursor: default;
+}
+
+.scrutiny-stepper-item:disabled {
+  opacity: 1;
+}
+
+.scrutiny-stepper-item:not(:disabled) {
+  cursor: pointer;
+}
+
+.scrutiny-stepper-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #c7d2e3;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #6a7488;
+  font-size: 15px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+
+.scrutiny-stepper-label {
+  max-width: 120px;
+  color: #5f6980;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.35;
+  text-align: center;
+  word-break: break-word;
+}
+
+.scrutiny-stepper-completed .scrutiny-stepper-circle {
+  border-color: #1c8f46;
+  background: #1c8f46;
+  color: #ffffff;
+  box-shadow: 0 6px 16px rgba(28, 143, 70, 0.28);
+}
+
+.scrutiny-stepper-completed .scrutiny-stepper-label {
+  color: #1f5d34;
+}
+
+.scrutiny-stepper-active .scrutiny-stepper-circle {
+  border-color: #8d25c7;
+  background: linear-gradient(135deg, #8d25c7 0%, #b129d6 100%);
+  color: #ffffff;
+  box-shadow: 0 8px 20px rgba(141, 37, 199, 0.28);
+  transform: translateY(-1px);
+}
+
+.scrutiny-stepper-active .scrutiny-stepper-label {
+  color: #5f1490;
+}
+
+.scrutiny-stepper-item:not(:disabled):hover .scrutiny-stepper-circle {
+  border-color: #235db7;
+  color: #235db7;
+}
+
+.scrutiny-stepper-item:not(:disabled):hover .scrutiny-stepper-label {
+  color: #235db7;
+}
+
+@media (max-width: 992px) {
+  .scrutiny-stepper {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    row-gap: 18px;
+  }
+
+  .scrutiny-stepper::before {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .scrutiny-stepper {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px 10px;
+    padding: 18px 12px 14px;
+  }
+
+  .scrutiny-stepper-circle {
+    width: 36px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .scrutiny-stepper-label {
+    max-width: 100px;
+    font-size: 11px;
+  }
+}

@@ -1,0 +1,2292 @@
+/* ======================================
+   GLOBAL PAGE BACKGROUND FIX (CRITICAL)
+====================================== */
+
+html,
+body,
+#root {
+  background: #fdf1f1 !important;
+  margin: 0;
+  padding: 0;
+}
+
+/* kill any accidental horizontal grey */
+body {
+  overflow-x: hidden;
+}
+
+
+
+/* =========================
+   WRAPPER
+========================= */
+.homenavbar-new-notice-wrapper {
+  padding: 10px 15px;
+}
+
+/* =========================
+   CARD CONTAINER
+========================= */
+.homenavbar-new-notice-board {
+  display: flex;
+  align-items: flex-start;
+  background: #f3e6d8;
+  border-radius: 8px;
+  padding: 14px 18px;
+  gap: 14px;
+
+  border: 1px solid #e2d3c2;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* =========================
+   ICON
+========================= */
+.homenavbar-new-icon-box {
+  background: #8b5e3c;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  min-width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* =========================
+   VERTICAL LINE
+========================= */
+.homenavbar-new-divider {
+  width: 1px;
+  background: #f7f6f5;
+  align-self: stretch;
+}
+
+/* =========================
+   LIST
+========================= */
+.homenavbar-new-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+}
+
+/* ITEMS */
+.homenavbar-new-list li {
+  position: relative;
+  padding-left: 14px;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* BULLET */
+.homenavbar-new-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  background: #8b5e3c;
+  border-radius: 50%;
+}
+
+/* LINK */
+.homenavbar-new-list a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* BADGE */
+.homenavbar-new-badge {
+  background: #ff8c00;
+  color: #fff;
+  font-size: 10px;
+  padding: 3px 6px;
+  border-radius: 10px;
+  margin-left: 6px;
+  font-weight: bold;
+}
+
+
+
+
+/*----------------QuickLinks-------------------------*/
+.homequick-links-overlap {
+  position: relative;
+  z-index: 6;
+  margin-top: -120px;      /* 🔥 pulls box into hero */
+  padding-bottom: 40px;
+}
+.homequick-links-overlap {
+  box-shadow: none !important;
+  filter: none !important;
+}
+
+
+/* if any inner wrapper is adding shadow */
+.homequick-links-overlap > div {
+  box-shadow: none !important;
+}
+
+/* fallback – remove shadow from any direct child */
+.homequick-links-overlap * {
+  box-shadow: none !important;
+}
+
+/* lifted white container */
+.homequick-services-card {
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #fffefe;
+  border-radius: 18px;
+  padding: 40px 50px 50px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22);
+}
+
+/* registration title */
+.homequick-services-card .homequick-main-title {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: #111;
+}
+
+/* wrapper safety */
+.homequick-services-card {
+  position: relative;
+  overflow: visible;
+}
+
+/* base card */
+.homequick-services-card .service-card,
+.homequick-services-card .registration-card,
+.homequick-services-card .home-new-service-card {
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+  position: relative;
+  z-index: 1;
+}
+
+/* hover / focus effect */
+.homequick-services-card .service-card:hover,
+.homequick-services-card .registration-card:hover,
+.homequick-services-card .home-new-service-card:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 22px 40px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* mobile tap */
+.homequick-services-card .service-card:active,
+.homequick-services-card .registration-card:active,
+.homequick-services-card .home-new-service-card:active {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.22);
+}
+
+/* icon animation */
+.homequick-services-card img,
+.homequick-services-card svg {
+  transition: transform 0.35s ease;
+}
+
+.homequick-services-card .service-card:hover img,
+.homequick-services-card .registration-card:hover img,
+.homequick-services-card .home-new-service-card:hover svg {
+  transform: scale(1.15);
+}
+
+
+/* main registration container */
+.homequick-services-card {
+  box-shadow: none !important;
+  filter: none !important;
+}
+.homequick-services-card {
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
+}
+/* Services icons → light grey */
+.homequick-services-card .registration-card img {
+  filter: grayscale(100%) brightness(85%) contrast(90%) !important;
+}
+
+.homequick-registration-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 22px;
+  margin-bottom: 30px;
+}
+
+/* ======================================
+   ✅ TOP SERVICES → QUICK LINKS STYLE
+====================================== */
+
+.homequick-registration-card {
+  background: #f8f9fb !important;
+  border-radius: 14px;
+  padding: 22px 14px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* hover */
+.homequick-registration-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* ICON BOX (square colored) */
+.homequick-registration-icon-wrap {
+  width: 54px !important;
+  height: 54px !important;
+  border-radius: 14px !important;
+
+  margin: 0 auto 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #2563eb;
+}
+
+/* icon */
+.homequick-registration-icon {
+  font-size: 24px !important;
+  color: #ffffff !important;
+}
+
+/* 🎨 color variation like Quick Links */
+.homequick-registration-card:nth-child(5n+1)
+.homequick-registration-icon-wrap {
+  background: #2563eb;
+}
+.homequick-registration-card:nth-child(5n+2)
+.homequick-registration-icon-wrap {
+  background: #f97316;
+}
+.homequick-registration-card:nth-child(5n+3)
+.homequick-registration-icon-wrap {
+  background: #16a34a;
+}
+.homequick-registration-card:nth-child(5n+4)
+.homequick-registration-icon-wrap {
+  background: #9333ea;
+}
+.homequick-registration-card:nth-child(5n+5)
+.homequick-registration-icon-wrap {
+  background: #10b981;
+}
+
+/* text */
+.homequick-registration-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.homequick-section-divider {
+  margin: 18px 0 !important;
+}
+/* Section divider line (full width) */
+.homequick-section-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 18px 0 22px;
+}
+
+/* responsive correction */
+@media (max-width: 900px) {
+  .quick-links-overlap {
+    margin-top: -60px;
+    padding: 0 14px 30px;
+  }
+
+  .homequick-services-card {
+    padding: 30px 20px;
+  }
+}
+
+
+
+.hp-home-new-top-bar {
+  display: flex;
+  align-items: flex-start;      /* move content to top */
+  justify-content: center;
+  padding: 4px 30px 1px;        /* reduced top padding */
+  position: relative;
+  background: #ffffff;
+}
+
+
+.home-new-logo-center {
+  margin-top: -4px;   /* fine-tune vertical position */
+}
+
+.home-new-logo-center img {
+  height: 70px;
+}
+
+.home-new-logo-center h1 {
+  font-size: 18px;
+  color: #0a5ca8;
+  margin: 6px 0 0;
+  font-weight: bold;
+}
+
+.home-new-search-btn {
+  position: absolute;
+  right: 150px;      /* move left */
+  top: 2px;
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.home-new-menu {
+  background: #0a5ca8;
+  display: flex;
+  justify-content: center;
+}
+
+.home-new-menu a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home-new-menu a:hover {
+  background: #55c8cc;
+}
+
+/* .light {
+  background: orange;
+  color: #000;
+}high */
+
+
+/* ===========================
+   ✅ HERO CSS
+=========================== */
+/* HERO */
+.homepassport-hero {
+  min-height: 520px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepassport-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+ background: linear-gradient(
+  90deg,
+  rgba(170, 207, 243, 0.308),   /* very light govt grey-blue */
+  rgba(245, 247, 250, 0.95),   /* near white */
+  rgba(177, 200, 223, 0.527)    /* soft grey */
+);
+z-index: 1;
+
+
+}
+.homepassport-hero * {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+/* LEADERS */
+.homepassport-leaders {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 170px;                 /* ✅ same visual gap as first image */
+  margin: 20px auto 30px;
+  max-width: 1100px;         /* prevents crowding on large screens */
+  padding: 0 30px;
+  flex-wrap: wrap;
+}
+
+
+/* CARD */
+.homepassport-card {
+  width: 210px;
+  text-align: center;
+  flex-shrink: 0;
+              /* prevents squeezing */
+}
+
+
+/* PASSPORT PHOTO */
+.homepassport-card img {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 4px;             /* passport photo */
+  border: 2px solid #d4af37;      /* subtle govt gold */
+  background: #fff;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.45);
+  margin-bottom: 10px;
+}
+
+/* NAME */
+.homepassport-card h4 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+/* DESIGNATION */
+.passport-card p {
+  font-size: 13px;
+  color: #031b4b;
+  line-height: 1.4;
+}
+
+/* STATEMENT */
+.homepassport-statement-wrap {
+  height: 40px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.homepassport-statement {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  animation: fadeSlide 4s infinite;
+}
+
+@keyframes fadeSlide {
+  0% { opacity: 0; transform: translateY(10px); }
+  15% { opacity: 1; transform: translateY(0); }
+  70% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+
+
+/* ===========================
+   ✅ SERVICES + PHILOSOPHY + EXPERTISE + LEARNING CSS
+=========================== */
+/* =========================
+   SERVICES (UPDATED ONLY)
+   heading LEFT + icon RIGHT
+========================= */
+
+.home-new-services {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+ background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+}
+
+/* card layout -> LEFT text / RIGHT icon */
+.home-new-service-card {
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  padding: 22px 18px;
+  display: flex;                 /* ✅ changed */
+  align-items: center;
+  justify-content: space-between; /* ✅ text left / icon right */
+  gap: 14px;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+  min-height: 92px;
+}
+
+/* remove border last */
+.home-new-service-card:last-child {
+  border-right: none;
+}
+
+/* heading LEFT */
+.home-new-service-card h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: left;              /* ✅ left align */
+  flex: 1;                       /* ✅ take available space */
+}
+
+/* icon RIGHT */
+.home-new-service-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  background: #fff;
+  border-radius: 50%;
+  flex-shrink: 0;                /* ✅ stop shrinking */
+  margin-bottom: 0;              /* ✅ remove old spacing */
+}
+
+/* icon image */
+.home-new-service-icon img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+/* optional hover like APRERA */
+.home-new-service-card:hover {
+  background: oklch(71.49% 0.12422 211.24);
+  cursor: pointer;
+}
+
+
+.home-new-philosophy-wrapper {
+  padding: 40px 20px;
+  background: #e5e5e5;
+}
+
+.home-new-philosophy-box {
+  display: flex;
+  gap: 30px;
+  background: #fff;
+  padding: 30px;
+  border: 1px solid #ddd;
+}
+
+.public-philosophy-left,
+.public-philosophy-right {
+  flex: 1;
+}
+
+.public-philosophy-left h2,
+.public-philosophy-right h2 {
+  color:black;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.home-new-title-line {
+  width: 35px;
+  height: 3px;
+  background: #0a5ca8;
+  margin: 10px auto 20px;
+}
+
+.home-new-philosophy-left p {
+  color: #333;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.home-new-philo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.home-new-philo-item {
+  display: flex;
+  gap: 15px;
+}
+
+.home-new-icon-box {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #0a5ca8;
+  border-radius: 12px;
+  color: #0a5ca8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.home-new-arrow-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.home-new-arrow-list li {
+  position: relative;
+  padding: 12px 20px 12px 40px;
+  margin-bottom: 10px;
+  background: #eef1f4;
+  font-size: 14.5px;
+  color: #333;
+}
+
+.home-new-arrow-list li::before {
+  content: "▶";
+  position: absolute;
+  left: 15px;
+  color: #000;
+  font-size: 12px;
+}
+
+.home-new-arrow-list li:nth-child(even) {
+  background: #fff;
+}
+
+/* EXPERTISE */
+.home-new-expertise {
+  padding: 70px 60px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.home-new-section-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.home-new-section-subtitle {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.home-new-expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.home-new-expertise-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 40px 30px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.home-new-expertise-card:hover {
+  border: 1px solid #0a5ca8;
+  box-shadow: 0 8px 20px rgba(10, 92, 168, 0.25);
+  transform: translateY(-4px);
+}
+
+.home-new-expertise-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.home-new-expertise-card:hover .home-new-expertise-icon {
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+}
+
+/* LEARNING */
+.home-new-learning {
+  padding: 80px 60px;
+  background: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.home-new-learning-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px; 
+}
+
+.home-new-learning-img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;       
+  margin: 0 auto 30px;
+}
+
+.home-new-learning-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.home-new-learning-card:hover .home-new-learning-img img {
+  transform: scale(1.1);
+}
+
+.home-new-learning-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.home-new-learning-card button {
+  padding: 10px 30px;
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.home-new-learning-card button:hover {
+  background: #084a87;
+}
+
+/* ===========================
+   ✅ DASHBOARD CSS
+=========================== */
+.home-new-dashboard-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  background:  #f5f5f5;
+}
+
+.home-new-box-header {
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.home-new-analysis-box {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+.home-new-filters {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.home-new-filters select {
+  padding: 6px 10px;
+  margin-left: 6px;
+}
+
+.home-new-analysis-title {
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #0a0000;
+}
+
+.home-new-dashboard-box {
+  flex: 1;
+  background: #0a5ca8;
+  color: #fff;
+}
+
+.home-new-dash-row {
+  display: flex;
+  border-bottom: 4px solid #333;
+}
+
+.home-new-dash-icon {
+  width: 120px;
+  background: #084a87;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}
+
+.home-new-dash-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.home-new-dash-content h4 {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  color: #ffffff;   /* white text */
+}
+
+
+.home-new-complaints-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.home-new-complaints-grid p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+/* ===========================
+   ✅ FEEDBACK CSS
+=========================== */
+/* =========================
+   OUTER WRAPPER
+========================= */
+/* =========================
+   FEEDBACK PAGE WRAPPER
+========================= */
+/* ======================================
+   FEEDBACK / REACH US - APRERA STYLE
+====================================== */
+
+.home-new-feedback-wrapper {
+  width: 100%;
+  padding: 22px 0;
+  background: #ffffff;
+}
+
+/* MAIN CONTAINER */
+.home-new-contact-row {
+  width: 100%;
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+  gap: 22px;
+  padding: 0 12px;
+  margin-top: 18px;
+
+  background: #d7d7d7;
+  border: 5px solid #d7d7d7;   /* ✅ reduced border */
+}
+
+/* columns */
+.home-new-contact-col {
+  flex: 1;
+  min-width: 320px;
+}
+
+/* ======================================
+   LEFT - REACH US BOX
+====================================== */
+.home-new-reach-card {
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  padding: 16px; /* ✅ reduced */
+}
+
+/* double border box */
+.home-new-reach-border {
+  border: 2px solid #ffffff; /* ✅ thin */
+  padding: 48px 26px;        /* ✅ reduced to match original */
+  text-align: center;
+  position: relative;
+}
+
+/* inner border */
+.home-new-reach-border::after {
+  content: "";
+  position: absolute;
+  inset: 10px; /* ✅ thinner gap */
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  pointer-events: none;
+}
+
+/* Reach us heading */
+.home-new-reach-title {
+  margin: 0 0 34px 0;
+  color: #ffffff;
+  font-size: 16px;  /* ✅ decreased */
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* authority title */
+.home-new-reach-heading {
+  color: #ffffff;
+  font-size: 22px;  /* ✅ decreased */
+  line-height: 1.15;
+  text-transform: uppercase;
+  font-family: "Georgia", serif;
+  font-weight: 700;
+  margin: 0 0 14px 0;
+}
+
+/* address */
+.home-new-reach-address {
+  color: #ffffff;
+  font-size: 14px; /* ✅ decreased */
+  line-height: 1.65;
+  margin-top: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* helpdesk + email */
+.home-new-reach-helpdesk,
+.home-new-reach-email {
+  color: #ffffff;
+  font-size: 14px; /* ✅ decreased */
+  line-height: 1.65;
+  margin-top: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* highlight number + mail */
+.home-new-highlight {
+  color: #ffe500;
+  font-weight: 800;
+}
+
+.home-new-mail-link {
+  color: #ffe500;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+/* ======================================
+   RIGHT - FEEDBACK FORM BOX
+====================================== */
+/* ===========================
+   RIGHT FORM CARD (MATCH IMAGE)
+=========================== */
+/* ===========================
+   RIGHT FORM CARD (MATCH IMAGE)
+=========================== */
+/* ===============================
+   RIGHT SIDE FORM (APRERA STYLE)
+================================ */
+/* ===============================
+   MAIN WRAPPER
+================================ */
+/* ===============================
+   MAIN WRAPPER
+================================ */
+/* ===============================
+   MAIN WRAPPER
+================================ */
+.home-new-feedback-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 16px 10px;   /* ✅ little bit smaller */
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+
+/* ===============================
+   FORM CARD (SMALLER THAN REACH US)
+================================ */
+.home-new-form-card {
+  width: 100%;
+  max-width: 590px;     /* ✅ smaller than Reach Us */
+  background: #686868;
+  border-radius: 3px;
+  padding: 18px 24px;   /* ✅ reduced padding */
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* ===============================
+   TITLE
+================================ */
+.home-new-form-title {
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  font-size: 21px;      /* ✅ smaller */
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-new-form-title::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 3px;
+  background: #0b8ef2;
+  margin: 10px auto 14px auto;
+  border-radius: 2px;
+}
+
+/* ===============================
+   GRID
+================================ */
+.home-new-feedback-form {
+  width: 100%;
+}
+
+.home-new-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 18px;       /* ✅ smaller spacing */
+  width: 100%;
+}
+
+.home-new-field {
+  width: 100%;
+}
+
+/* ===============================
+   INPUT / SELECT
+================================ */
+.home-new-field input,
+.home-new-field select {
+  width: 100%;
+  height: 35px;         /* ✅ small height */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: #646464;
+  color: #ffffff;
+  padding: 0 12px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* ✅ placeholders */
+.home-new-field input::placeholder {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* select style */
+.home-new-field select {
+  cursor: pointer;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+/* option color */
+.home-new-field select option {
+  color: #000;
+}
+
+/* ===============================
+   TEXTAREA
+================================ */
+.home-new-textarea-wrap {
+  width: 100%;
+  margin-top: 14px;
+}
+
+.home-new-textarea-wrap textarea {
+  width: 100%;
+  min-height: 135px;    /* ✅ reduced height */
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: #646464;
+  color: #ffffff;
+  padding: 14px 14px;
+  border-radius: 3px;
+  outline: none;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  resize: none;
+  box-sizing: border-box;
+}
+
+/* textarea placeholder */
+.home-new-textarea-wrap textarea::placeholder {
+  color: rgba(255, 255, 255, 0.95);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+/* ===============================
+   SUBMIT BUTTON
+================================ */
+.home-new-submit-row {
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-new-submit-btn {
+  min-width: 100px;
+  padding: 8px 24px;
+ background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.home-new-submit-btn:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 900px) {
+  .home-new-form-card {
+    padding: 16px 14px;
+    max-width: 520px;   /* ✅ smaller */
+  }
+
+  .home-new-grid-2 {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .home-new-submit-btn {
+    width: 100%;
+  }
+}
+
+/* ===========================
+   ✅ FOOTER CSS
+=========================== */
+.home-new-footer {
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.home-new-footer-logos {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.home-new-footer-logos img {
+  height: 45px;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.home-new-footer-policy {
+  background: #333;
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  gap: 15px;
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+
+.home-new-footer-policy span {
+  cursor: pointer;
+}
+
+.home-new-footer-policy span:hover {
+  color: #fff;
+}
+
+.home-new-social-icons {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+}
+
+.home-new-social-icons span {
+  width: 32px;
+  height: 32px;
+  background: #555;
+  color: #fff;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.fb { background: #3b5998; }
+.tw { background: #1da1f2; }
+.yt { background: #ff0000; }
+
+.home-new-footer-bottom {
+ background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );;
+  display: flex;
+  align-items: center;
+  padding: 18px 20px;
+  font-size: 15px;
+}
+
+.home-new-footer-bottom .left { flex: 1; }
+.home-new-footer-bottom .center {
+  flex: 1;
+  text-align: center;
+  color: yellow;
+  font-weight: bold;
+}
+.home-new-footer-bottom .right {
+  flex: 1;
+  text-align: right;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .home-new-footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .home-new-footer-policy {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-new-social-icons {
+    margin-left: 0;
+  }
+}
+.home-new-philo-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.home-new-hero-title-wrap {
+  width: 100%;
+  position: relative;
+  height: 60px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.home-new-hero-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+
+  color: #fff;
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.55);
+}
+
+/* ✅ Right -> Middle fast (1s) -> Hold 60s -> Left fast (1s) */
+.home-new-hold-center {
+  animation: rightMidHoldLeft 62s linear;
+}
+
+@keyframes rightMidHoldLeft {
+  /* Start outside right */
+  0% {
+    transform: translateX(110%);
+    opacity: 0;
+  }
+
+  /* ✅ FAST enter to middle in ~1 second */
+  1.6% {
+    transform: translateX(30vw); /* move towards center */
+    opacity: 1;
+  }
+
+  /* ✅ Fix exact center */
+  2% {
+    transform: translateX(calc(50vw - 50%));
+    opacity: 1;
+  }
+
+  /* ✅ HOLD in center for ~60 seconds */
+  98% {
+    transform: translateX(calc(50vw - 50%));
+    opacity: 1;
+  }
+
+  /* ✅ FAST exit to left in last ~1 second */
+  100% {
+    transform: translateX(-120%);
+    opacity: 0;
+  }
+}
+/* OUR EXPERTISE title box */
+.home-new-expertise .home-new-section-title {
+background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  color: #ffffff;        /* white text */
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 4px;
+}
+/* FINAL section title style – matches image exactly */
+.home-new-section-title {
+background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  color: #ffffff;
+
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 4px;
+
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.home-new-section-title {
+  color: #ffffff !important;   /* force pure white text */
+}
+.home-new-hero-title-wrap {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 1px;
+}
+
+.home-new-hero-title {
+  position: absolute;
+  left: 120%;          /* start from RIGHT */
+  white-space: nowrap;
+
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.55);
+}
+
+/* animation once per statement */
+.home-new-hold-center {
+  animation: slideHoldSlide 4s linear forwards;
+}
+
+/* RIGHT → CENTER → HOLD → LEFT */
+@keyframes slideHoldSlide {
+
+  /* fast entry from right */
+  0% {
+    left: 120%;
+    opacity: 0;
+  }
+
+  20% {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+
+  /* hold center 2 seconds */
+  70% {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
+
+  /* exit fast to left */
+  100% {
+    left: -120%;
+    transform: translateX(0);
+    opacity: 0;
+  }
+}
+
+
+/* ===========================
+   LEADERS STYLE (APRERA TYPE)
+=========================== */
+
+.home-new-leaders {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 110px;
+  flex-wrap: wrap;
+}
+
+/* Card container */
+.home-new-leader-card {
+  text-align: center;
+  width: 300px;
+}
+
+/* Circular image with thick border */
+.home-new-leader-card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 8px solid #0a5ca8;   /* ✅ thick blue ring */
+  background: #fff;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}
+
+/* Smaller info box with white border */
+
+.home-new-leader-info {
+  background: #0a5ca8;
+  /* background: linear-gradient(to right, lab(68.29% -29.87 -23.03), #671f90); */
+  color: #ffffff;
+
+  width: 240px;              /* ✅ decreased width */
+  margin: 10px auto 0;
+
+  padding: 10px 8px;        /* ✅ decreased height */
+
+  border: 2px solid #ffffff; /* ✅ white border */
+  border-radius: 2px;
+
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+}
+
+/* Name */
+.home-new-leader-info h4 {
+  color: #ffffff !important;
+  font-size: 15px;          /* ✅ smaller */
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Designation */
+.home-new-leader-info p {
+  color: #ffffff !important;
+  font-size: 13.5px;        /* ✅ smaller */
+  margin-top: 4px;
+  line-height: 1.3;
+  font-weight: 500;
+}
+
+/*services*/
+.home-new-services {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background: #1e73b7;
+  border-top: 2px solid #ffffff;     /* ✅ top white border */
+  border-bottom: 2px solid #ffffff;  /* ✅ bottom white border */
+}
+
+/* each card */
+.home-new-service-card {
+  padding: 18px 16px;    /* ✅ slightly smaller height */
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+
+  color: #ffffff;
+
+  border-right: 2px solid #ffffff;   /* ✅ vertical white borders */
+  min-height: 80px;                  /* ✅ decreased */
+}
+
+/* remove last vertical border */
+.home-new-service-card:last-child {
+  border-right: none;
+}
+
+/* text */
+.home-new-service-card h3 {
+  margin: 0;
+  font-size: 16px;      /* ✅ slightly smaller */
+  font-weight: 500;
+  line-height: 1.25;
+  flex: 1;
+}
+
+/* smaller icon circle */
+.home-new-service-icon {
+  width: 56px;          /* ✅ decreased */
+  height: 56px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  border-radius: 50%;
+
+  border: 2px solid #ffffff;   /* ✅ white ring */
+}
+
+/* icon image smaller */
+.home-new-service-icon img {
+  width: 26px;         /* ✅ decreased */
+  height: 26px;
+  object-fit: contain;
+}
+
+/* hover */
+.home-new-service-card:hover {
+  background: #155a95;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.home-new-dash-icon img {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+}
+
+.home-new-expertise-icon img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+/* ======================================
+   QUICK LINKS / REGISTRATION OVER HERO
+   (Passport Seva Style Overlap)
+====================================== */
+
+
+
+/* ======================================
+   OUR PHILOSOPHY – CARD POP-UP ANIMATION
+====================================== */
+
+/* allow cards to come forward */
+.home-new-philosophy-wrapper {
+  position: relative;
+  overflow: visible;
+}
+
+/* philosophy cards base */
+.home-new-philo-item,
+.notice-card {
+  background: #ffffff;
+  border-radius: 16px;
+  transition: 
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+  position: relative;
+  z-index: 1;
+}
+
+/* hover / touch effect */
+.home-new-philo-item:hover,
+.notice-card:hover {
+  transform: translateY(-14px) scale(1.06);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.28);
+  z-index: 10;
+  cursor: pointer;
+}
+
+/* mobile tap support */
+.home-new-philo-item:active,
+.notice-card:active {
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* smooth icon pop */
+.home-new-icon-box {
+  transition: transform 0.35s ease;
+}
+
+.home-new-philo-item:hover .home-new-icon-box,
+.notice-card:hover .home-new-icon-box {
+  transform: scale(1.15);
+}
+/* ======================================
+   REGISTRATION CARDS – POP-UP ANIMATION
+====================================== */
+
+
+
+/* ======================================
+   REDUCE GAP BETWEEN SERVICE SECTIONS
+   (Promotors → Agent → Complaint)
+====================================== */
+
+/* reduce space above section heading */
+.hp-section-title {
+  margin-top: 20px !important;   /* ⬅ reduce from default */
+  margin-bottom: 12px !important;
+}
+
+/* reduce space below cards grid */
+.services-grid {
+  margin-bottom: 20px !important; /* ⬅ key line */
+}
+/* ======================================
+   REMOVE EXTRA SPACE BELOW COMPLAINT CORNER
+====================================== */
+
+/* target ONLY the last services grid */
+.services-grid:last-of-type {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+
+/* ======================================
+   REGISTRATION CARDS – DARK GREY BG + WHITE TEXT + BLACK ICONS
+====================================== */
+
+.registration-card {
+  background-color: #686161 !important;   /* thick/dark grey */
+}
+
+/* ======================================
+   REGISTRATION CARDS – LIGHT GREY BG + WHITE TEXT + SOFT BLACK ICONS
+====================================== */
+
+.registration-card {
+  background-color: #c7c0c0 !important;   /* light grey */
+}
+
+/* text → white */
+.registration-card p {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* icons → light black / dark grey (React Icons / SVG) */
+.registration-card svg {
+  color: #444444 !important;   /* soft black */
+}
+
+/* icons → light black (IMG icons) */
+.registration-card img {
+  filter: grayscale(100%) brightness(40%);
+}
+
+
+/* ======================================
+   COMPACT SERVICES SPACING (MATCH IMAGE 1)
+====================================== */
+
+/* Reduce space above section titles */
+.hp-section-title {
+  margin-top: 14px !important;
+  margin-bottom: 8px !important;
+  padding: 0 !important;
+}
+
+/* Reduce space below each services grid */
+.services-grid {
+  margin-bottom: 14px !important;
+  padding-bottom: 0 !important;
+}
+
+/* Remove extra space after last (Complaint Corner) */
+.services-grid:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+/* Reduce gap between icon and text */
+.service-card {
+  padding-top: 8px !important;
+  padding-bottom: 6px !important;
+}
+
+/* Reduce space between icon and underline */
+.service-card svg {
+  margin-bottom: 6px !important;
+}
+
+/* Reduce underline spacing */
+.service-card .hp-underline {
+  margin-top: 6px !important;
+}
+
+/* Reduce vertical gap between rows */
+.services-grid {
+  row-gap: 18px !important;
+}
+
+/* Reduce extra space inside Services container */
+
+
+
+
+
+/* ======================================
+   ICON COLOR FIX – NORMAL + HOVER
+====================================== */
+
+/* NORMAL state icons → light black */
+.service-card svg,
+.registration-card svg,
+.home-new-service-card svg {
+  color: #b9b7b7 !important;   /* soft black */
+  fill: #817f7f !important;
+}
+
+/* NORMAL state image icons */
+.service-card img,
+.registration-card img,
+.home-new-service-card img {
+  filter: grayscale(100%) brightness(45%) !important;
+}
+
+/* HOVER background (already correct, keeping for clarity) */
+.service-card:hover,
+.registration-card:hover,
+.home-new-service-card:hover {
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #686161
+  ) !important;
+
+  box-shadow: none !important;
+}
+
+/* HOVER icons → stay light black */
+.service-card:hover svg,
+.registration-card:hover svg,
+.home-new-service-card:hover svg {
+  color: #444444 !important;
+}
+
+.service-card:hover img,
+.registration-card:hover img,
+.home-new-service-card:hover img {
+  filter: grayscale(100%) brightness(45%) !important;
+}
+
+/* ======================================
+   HP-HOME – OUR PHILOSOPHY SECTION
+====================================== */
+
+/* section background */
+.homepublic-notice-section {
+  background-color: #f2f2f2;
+  padding: 60px 20px;
+}
+
+/* main container */
+.homepublic-notice-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* section title */
+.homepublic-notice-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 40px;
+}
+
+/* ===============================
+   TOP CARDS GRID
+================================ */
+.homepublic-notice-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  /* 👈 MAIN CHANGE */
+  gap: 30px;
+  margin-top: 30px;
+}
+/* card */
+.homepublic-notice-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 28px 22px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border 0.35s ease,
+    background 0.35s ease;
+}
+
+/* hover card */
+.homepublic-notice-card:hover {
+  transform: translateY(-14px);
+  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.25);
+  border: 1px solid #0a5ca8;
+  background: #f9fbfd;
+  cursor: pointer;
+}
+
+/* icon wrapper */
+.homepublic-notice-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #f1f1f1;
+  transition: all 0.35s ease;
+}
+
+/* icon */
+.homepublic-notice-icon svg {
+  font-size: 30px;
+  color: #0a5ca8;   /* 🔥 blue color */
+}
+
+/* icon hover */
+.homepublic-notice-card:hover
+.homepublic-notice-icon {
+  background: #0a5ca8;
+}
+
+.homepublic-notice-card:hover
+.homepublic-notice-icon svg {
+  color: #ffffff;
+  transform: scale(1.2);
+}
+
+/* card title */
+.homepublic-notice-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.homepublic-notice-card:hover h3 {
+  color: #0a5ca8;
+}
+
+/* description */
+.homepublic-notice-text {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===============================
+   RIGHT SIDE – MAGNIFYING TOWARDS
+================================ */
+.homepublic-philosophy-right {
+  margin-top: 30px;
+}
+
+/* title */
+.homepublic-philosophy-right h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+/* blue underline */
+.homepublic-title-line {
+  width: 40px;
+  height: 3px;
+  background: #0a5ca8;
+  margin-bottom: 20px;
+}
+
+/* ===============================
+   ARROW LIST (MATCH IMAGE 2)
+================================ */
+.homepublic-arrow-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* list item */
+.homepublic-arrow-list li {
+  position: relative;
+  padding: 10px 15px 10px 33px;
+  margin-bottom: 10px;
+
+  background: #ffffff;
+  font-size: 14px;
+  color: #333;
+
+  transition:
+    background 0.15s ease,
+    box-shadow 0.15s ease,
+    padding-left 0.15s ease;
+}
+
+/* alternating background */
+.homepublic-arrow-list li:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+/* arrow */
+.homepublic-arrow-list li::before {
+  content: "▶";
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #0a5ca8;
+  font-size: 12px;
+}
+
+/* hover effect (SECOND IMAGE STYLE) */
+.homepublic-arrow-list li:hover {
+  background: #eef3f8;
+  box-shadow: inset 4px 0 0 #0a5ca8;
+  padding-left: 48px;
+  cursor: pointer;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 900px) {
+  .homepublic-notice-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .homepublic-notice-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* FORCE dashboard stats icons to light black */
+.stats-section .stats-item .stats-icon {
+  color: #817f7f !important;   /* light grey */
+  fill: #4a2f2f!important;    /* SVG fill */
+}
+/* SERVICE CARD UNDERLINE → LIGHT BLACK */
+.service-card .hp-underline {
+  background-color: #ccc9c9 !important;  /* light black */
+  height: 2px;                           /* keep same thickness */
+  width: 100%;
+  display: block;
+}  
+/* EXPERTISE ICON → LIGHT BLACK */
+/* EXPERTISE ICON → LIGHT GREY */
+.home-new-expertise-icon img {
+  filter: grayscale(100%) brightness(80%);
+}
+
+
+/* ======================================
+   SERVICES SECTION – EXACT APRERA LINES
+   (MATCHES IMAGE-2)
+====================================== */
+
+/* Services grid layout */
+.services-grid {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+/* Individual service card */
+.service-card {
+  text-align: center;
+}
+
+/* Icon size + color */
+.service-card svg {
+  font-size: 36px;
+  color: #8c8c8c;
+  margin-bottom: 6px;
+}
+
+/* Text */
+.service-card p {
+  font-size: 12px;
+  color: #000;
+  margin: 0;
+}
+
+/* 👇 SMALL UNDERLINE BELOW EACH ITEM */
+.service-card .hp-underline {
+  display: block;
+  width: 28px;
+  height: 2px;
+  background-color: #d6d6d6;
+  margin: 6px auto 0;
+}
+
+/* ======================================
+   HP HOME – REGISTRATION ICON CARDS
+   (MATCH IMAGE-1 EXACTLY)
+====================================== */
+
+/* =========================
+   ✅ CM CARD FIX (KEEP HERO)
+========================= */
+.ap-home-cm-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 18px;
+  border-radius: 14px;
+  text-align: center;
+
+  width: 240px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* 🔥 CM IMAGE → SQUARE (NOT CIRCLE) */
+.ap-home-cm-card img {
+  width: 170px !important;
+  height: 170px !important;
+
+  object-fit: cover;
+
+  border-radius: 12px !important;   /* ✅ square */
+
+  background: #eaeaea;
+  padding: 10px;
+}
+
+/* =========================
+   ✅ SIDE LEADER CARDS
+========================= */
+.ap-home-side-leader {
+  display: flex;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.95);
+  padding: 12px 14px;
+  border-radius: 12px;
+
+  width: 260px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+
+/* 🔥 SIDE IMAGES → SQUARE */
+.ap-home-side-leader img {
+  width: 65px !important;
+  height: 65px !important;
+
+  object-fit: cover;
+
+  border-radius: 10px !important;  /* ✅ square */
+
+  margin-right: 12px;
+}
+/* CM CARD */
+.ap-home-cm-card {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 18px;
+  border-radius: 14px;
+  text-align: center;
+  width: 240px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* 🔥 INNER BEIGE BOX LIKE FIRST IMAGE */
+.ap-home-cm-card img {
+  width: 170px !important;
+  height: 170px !important;
+
+  object-fit: cover;
+
+  border-radius: 12px !important;
+
+  background-color: #eeeee1 !important;  /* ✅ GREY */
+  padding: 12px !important;
+
+  display: block;
+  margin: 0 auto;
+}
+
+/* CM NAME COLOR */
+.ap-home-cm-card h4 {
+  color: #6b3f1d;   /* ✅ brown like original */
+  font-weight: 700;
+}
+
+/* SIDE LEADER NAME COLOR */
+.ap-home-side-leader h5 {
+  color: #6b3f1d;   /* ✅ same brown */
+  font-weight: 700;
+}
+
+/* ======================================
+   ✅ SERVICES → QUICK LINKS STYLE (NEW)
+   (ADD ONLY — DO NOT REMOVE ANYTHING ABOVE)
+====================================== */
+
+/* section title */
+.homeservices-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 26px 0 14px;
+  color: #111;
+}
+
+/* grid like quick links */
+.homeservices-services-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 22px;
+  margin-bottom: 26px;
+}
+
+/* card look (same as quick links boxes) */
+.homeservices-service-card {
+  background: #f8f9fb;
+  border-radius: 14px;
+  padding: 22px 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* hover effect */
+.homeservices-service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* icon wrapper (colored square like second image) */
+.homeservices-service-card svg {
+  width: 54px;
+  height: 54px;
+  padding: 14px;
+  border-radius: 14px;
+  margin-bottom: 12px;
+
+  color: #ffffff !important;
+
+  /* 🔥 default color */
+  background: #2563eb;
+}
+
+/* different colors per card (like Quick Links) */
+.homeservices-service-card:nth-child(5n+1) svg {
+  background: #2563eb; /* blue */
+}
+.homeservices-service-card:nth-child(5n+2) svg {
+  background: #f97316; /* orange */
+}
+.homeservices-service-card:nth-child(5n+3) svg {
+  background: #16a34a; /* green */
+}
+.homeservices-service-card:nth-child(5n+4) svg {
+  background: #9333ea; /* purple */
+}
+.homeservices-service-card:nth-child(5n+5) svg {
+  background: #10b981; /* teal */
+}
+
+/* text */
+.homeservices-service-card p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.4;
+}
+
+/* REMOVE old underline if exists */
+.homeservices-underline {
+  display: none !important;
+}
+
+/* DEFAULT ICON STYLE */
+.homepublic-notice-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;   /* square with rounded corners */
+}
+
+/* ICON SIZE + WHITE COLOR */
+.homepublic-notice-icon svg {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+/* DIFFERENT COLORS */
+
+/* 🔵 BLUE */
+.icon-0 {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+}
+
+/* 🟠 ORANGE */
+.icon-1 {
+  background: linear-gradient(135deg, #fb923c, #f97316);
+}
+
+/* 🟢 GREEN */
+.icon-2 {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+/* 🟣 PURPLE */
+.icon-3 {
+  background: linear-gradient(135deg, #a855f7, #7e22ce);
+}

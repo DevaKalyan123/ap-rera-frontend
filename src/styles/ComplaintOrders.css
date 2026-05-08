@@ -1,0 +1,105 @@
+.complaint-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Breadcrumb */
+.complaint-breadcrumb {
+  background: #1e88e5;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.complaint-breadcrumb span {
+  color: #ffeb3b;
+}
+
+/* Title */
+.complaint-title {
+  margin: 15px 0 5px;
+  font-size: 22px;
+}
+
+.complaint-title-underline {
+  width: 40px;
+  height: 3px;
+  background: #1e88e5;
+  margin-bottom: 15px;
+}
+
+/* Controls */
+.complaint-controls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.complaint-controls select,
+.complaint-controls input {
+  padding: 4px 6px;
+  font-size: 14px;
+}
+
+/* Table */
+.complaint-table-main {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.complaint-table-main th {
+  background: #3d4f63;
+  color: white;
+  padding: 8px;
+}
+
+.complaint-table-main td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.complaint-table-main tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.complaint-table-main td:nth-child(1),
+.complaint-table-main td:nth-child(4) {
+  text-align: center;
+}
+
+/* NEW badge */
+.complaint-new-badge {
+  background: red;
+  color: yellow;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 12px;
+  margin-left: 6px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Pagination */
+.complaint-pagination {
+  display: flex;
+  justify-content: flex-end; /* ✅ RIGHT SIDE */
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.complaint-pagination button {
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.complaint-pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

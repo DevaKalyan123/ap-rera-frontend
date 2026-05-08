@@ -1,0 +1,330 @@
+/* ===== Layout ===== */
+
+.scrutiny-layout{
+display:flex;
+min-height:100vh;
+}
+
+/* ===== Sidebar ===== */
+
+.scrutiny-sidebar{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 250px;
+    height: calc(100vh - 70px);
+    background: #0f3556;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Hide Scrollbar */
+.scrutiny-sidebar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.scrutiny-sidebar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Sidebar hidden */
+.scrutiny-sidebar-closed{
+    transform: translateX(-250px);
+}
+
+/* Sidebar visible */
+.scrutiny-sidebar-open{
+    transform: translateX(0);
+}
+
+/* ===== Sidebar Title ===== */
+
+.scrutiny-sidebar-title{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+    white-space: nowrap;        /* 🔥 MAIN FIX */
+}
+
+/* ===== Sidebar Buttons ===== */
+
+.scrutiny-sidebar button{
+    background: none;
+    border: none;
+    color: #e6edf5;
+    text-align: left;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 14px 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-left: 4px solid transparent;
+    transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.scrutiny-sidebar button:hover{
+    background: #174a75;
+    color: #ffffff;
+    border-left: 4px solid #ffffff;
+}
+
+/* Active button */
+.scrutiny-sidebar button.active{
+    background: #1f5d8b;
+    color: #ffffff;
+    border-left: 4px solid #00c3ff;
+    font-weight: 600;
+}
+
+/* Divider */
+.scrutiny-sidebar button:not(:last-child){
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+
+
+/* ===== Main Content ===== */
+
+.scrutiny-main{
+margin-left:250px;
+margin-top: 70px;
+width:100%;
+min-height:calc(100vh - 70px);
+background:#f5f5f5;
+padding:20px;
+}
+
+/* When sidebar closed */
+
+.scrutiny-main-full{
+margin-left:0;
+}
+
+/* ===== Top Header ===== */
+
+.scrutiny-top-header{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:70px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:10px 20px;
+background:#f2f2f2;
+border-bottom:1px solid #ddd;
+z-index:2000;
+}
+
+.scrutiny-header-left{
+display:flex;
+align-items:center;
+gap:12px;
+}
+.scrutiny-header-logo{
+width:52px;
+height:52px;
+border-radius:50%;          /* makes circle */
+object-fit:contain;
+background:#ffffff;
+border:2px solid #0b4ea2;   /* blue ring */
+padding:6px;
+}
+
+.scrutiny-header-left h2{
+font-size:22px;
+font-weight:600;
+color: #0b4ea2;
+}
+
+.scrutiny-header-right{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.scrutiny-search-btn{
+background:red;
+color:white;
+border:none;
+padding:10px 20px;
+font-weight:bold;
+cursor:pointer;
+border-radius:4px;
+}
+
+/* Hamburger */
+
+.scrutiny-hamburger{
+    font-size: 26px;
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-right: 10px;
+
+    height: 52px;              /* ✅ MATCH LOGO HEIGHT */
+    display: flex;
+    align-items: center;       /* ✅ vertical center */
+    justify-content: center;
+}
+
+.scrutiny-logo-text{
+font-size:24px;
+font-weight:600;
+}
+
+.scrutiny-panel-title{
+font-size:24px;
+margin-left:20px;
+}
+
+/* ===== Dashboard ===== */
+
+.scrutiny-dashboard-content{
+padding:20px 30px;
+background:#f5f5f5;
+min-height:calc(100vh - 70px); /* header height */
+margin-top:0;
+}
+
+.scrutiny-dashboard-cards{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.scrutiny-card{
+background:rgb(255, 255, 255);
+padding:30px;
+border-radius:10px;
+width:200px;
+text-align:center;
+box-shadow:0 2px 10px rgba(0,0,0,0.15);
+}
+
+.scrutiny-card h3{
+font-size:32px;
+margin-bottom:10px;
+}
+
+.scrutiny-card p{
+font-size:16px;
+color:#444;
+}
+
+.scrutiny-table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+}
+
+.scrutiny-table th,
+.scrutiny-table td{
+border:1px solid #ddd;
+padding:10px;
+text-align:center;
+}
+
+.scrutiny-table th{
+background:#0f3556;
+color:white;
+}
+
+.scrutiny-view-btn{
+background:#0f3556;
+color:white;
+border:none;
+padding:6px 12px;
+cursor:pointer;
+border-radius:4px;
+}
+
+.scrutiny-view-btn:hover{
+background:#174a75;
+}
+
+.scrutiny-profile-img{
+width:38px;
+height:38px;
+border-radius:50%;
+object-fit:cover;
+cursor:pointer;
+border:2px solid #0f3556;
+margin-left:10px;
+}
+
+/* Profile wrapper */
+.scrutiny-profile-wrapper{
+position:relative;
+margin-left:10px;
+}
+
+/* Small profile icon */
+.scrutiny-profile-img{
+width:40px;
+height:40px;
+border-radius:50%;
+cursor:pointer;
+border:2px solid #0f3556;
+}
+
+/* Profile popup card */
+.scrutiny-profile-card{
+position:absolute;
+top:55px;
+right:0;
+width:260px;
+background:white;
+border-radius:10px;
+box-shadow:0 8px 25px rgba(0,0,0,0.2);
+overflow:hidden;
+z-index:1000;
+}
+
+/* top section */
+.scrutiny-profile-top{
+background:#d7e3f3;
+padding:20px;
+text-align:center;
+}
+
+.scrutiny-profile-large{
+width:70px;
+height:70px;
+border-radius:50%;
+margin-bottom:10px;
+}
+
+.scrutiny-profile-top h3{
+margin:5px 0;
+}
+
+.scrutiny-profile-top p{
+font-size:14px;
+color:#555;
+}
+
+/* logout button */
+.scrutiny-logout-btn{
+width:90%;
+margin:15px auto;
+display:block;
+padding:10px;
+background:#0f3556;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+font-weight:bold;
+}

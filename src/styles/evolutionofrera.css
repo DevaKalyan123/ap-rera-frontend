@@ -1,0 +1,142 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f5f5;
+}
+
+/* PAGE */
+.evofrera-page-container {
+  background: #fff;
+  padding: 15px;
+  border:2px gray solid;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 30px;
+}
+
+/* BREADCRUMB */
+.evofrera-breadcrumb {
+  background: #1e90ff;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+.evofrera-breadcrumb .evofrera-link {
+  margin: 0 4px;
+}
+
+.evofrera-breadcrumb .evofrera-active {
+  font-weight: bold;
+}
+
+/* INTRO */
+.evofrera-intro-section {
+  display: flex;
+  gap: 20px;
+  padding: 20px 10px;
+}
+
+.evofrera-intro-left {
+  flex: 2;
+}
+
+.evofrera-intro-left h2 {
+  margin: 0;
+}
+
+.evofrera-underline {
+  width: 30px;
+  height: 3px;
+  background: #0b5aa3;
+  margin: 8px 0 15px;
+}
+
+.evofrera-intro-left p {
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.evofrera-intro-right {
+  flex: 1;
+  border: 1px solid #1e90ff;
+  padding: 10px;
+}
+
+.evofrera-intro-right img {
+  width: 100%;
+}
+
+/* TIMELINE */
+.evofrera-timeline-container {
+  position: relative;
+  width: 90%;
+  margin: 3px auto;
+  margin-left: 50px;
+  border: 2px solid gray;
+  background-color: #f5f5f5;
+}
+
+.evofrera-timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: #ccc;
+  transform: translateX(-50%);
+
+}
+
+.evofrera-timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+}
+
+.evofrera-timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.evofrera-timeline-item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.evofrera-timeline-year {
+  position: absolute;
+  top: 20px;
+  width: 44px;
+  height: 44px;
+  background: #ff9800;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.evofrera-timeline-item.left .evofrera-timeline-year {
+  right: -22px;
+}
+
+.evofrera-timeline-item.right .evofrera-timeline-year {
+  left: -22px;
+}
+
+/* CARD */
+.evofrera-timeline-card {
+  padding: 14px 18px;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* COLORS */
+.evofrera-timeline-card.blue { background: #2196f3; }
+.evofrera-timeline-card.red { background: #e53935; }
+.evofrera-timeline-card.green { background: #4caf50; }
+.evofrera-timeline-card.orange { background: #fb8c00; }

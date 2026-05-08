@@ -1,0 +1,147 @@
+{
+  "Sheet1": [
+    {
+      "S.No.": "1",
+      "District Name": "Srikakulam",
+      "No. Of Projects Received": "139",
+      "Approved": "132",
+      "Rejected": "0",
+      "Under process": "1",
+      "Promoter-(shortfall)": "6",
+      "Total Amount": "8429603",
+      "": ""
+    },
+    {
+      "S.No.": "2",
+      "District Name": "Vizianagaram",
+      "No. Of Projects Received": "651",
+      "Approved": "599",
+      "Rejected": "0",
+      "Under process": "7",
+      "Promoter-(shortfall)": "45",
+      "Total Amount": "49853213.35",
+      "": ""
+    },
+    {
+      "S.No.": "3",
+      "District Name": "Visakhapatnam",
+      "No. Of Projects Received": "2027",
+      "Approved": "1857",
+      "Rejected": "0",
+      "Under process": "13",
+      "Promoter-(shortfall)": "157",
+      "Total Amount": "146802449.5",
+      "": ""
+    },
+    {
+      "S.No.": "4",
+      "District Name": "East Godavari",
+      "No. Of Projects Received": "1020",
+      "Approved": "927",
+      "Rejected": "0",
+      "Under process": "15",
+      "Promoter-(shortfall)": "78",
+      "Total Amount": "47666077.1",
+      "": ""
+    },
+    {
+      "S.No.": "5",
+      "District Name": "West Godavari",
+      "No. Of Projects Received": "360",
+      "Approved": "300",
+      "Rejected": "0",
+      "Under process": "4",
+      "Promoter-(shortfall)": "56",
+      "Total Amount": "23130782",
+      "": ""
+    },
+    {
+      "S.No.": "6",
+      "District Name": "Krishna",
+      "No. Of Projects Received": "1056",
+      "Approved": "886",
+      "Rejected": "0",
+      "Under process": "30",
+      "Promoter-(shortfall)": "140",
+      "Total Amount": "104264665.9",
+      "": ""
+    },
+    {
+      "S.No.": "7",
+      "District Name": "Guntur",
+      "No. Of Projects Received": "1129",
+      "Approved": "947",
+      "Rejected": "0",
+      "Under process": "21",
+      "Promoter-(shortfall)": "161",
+      "Total Amount": "110055513",
+      "": ""
+    },
+    {
+      "S.No.": "8",
+      "District Name": "Prakasam",
+      "No. Of Projects Received": "75",
+      "Approved": "56",
+      "Rejected": "0",
+      "Under process": "4",
+      "Promoter-(shortfall)": "15",
+      "Total Amount": "8918695",
+      "": ""
+    },
+    {
+      "S.No.": "9",
+      "District Name": "SPR Nellore",
+      "No. Of Projects Received": "181",
+      "Approved": "151",
+      "Rejected": "0",
+      "Under process": "2",
+      "Promoter-(shortfall)": "28",
+      "Total Amount": "17890180",
+      "": ""
+    },
+    {
+      "S.No.": "10",
+      "District Name": "Chittoor",
+      "No. Of Projects Received": "196",
+      "Approved": "164",
+      "Rejected": "0",
+      "Under process": "5",
+      "Promoter-(shortfall)": "27",
+      "Total Amount": "33318604",
+      "": ""
+    },
+    {
+      "S.No.": "11",
+      "District Name": "Y.S.R Kadapa",
+      "No. Of Projects Received": "93",
+      "Approved": "81",
+      "Rejected": "0",
+      "Under process": "0",
+      "Promoter-(shortfall)": "12",
+      "Total Amount": "10336504.6",
+      "": ""
+    },
+    {
+      "S.No.": "12",
+      "District Name": "Ananthapuramu",
+      "No. Of Projects Received": "84",
+      "Approved": "73",
+      "Rejected": "0",
+      "Under process": "2",
+      "Promoter-(shortfall)": "9",
+      "Total Amount": "15016095",
+      "": ""
+    },
+    {
+      "S.No.": "13",
+      "District Name": "Kurnool",
+      "No. Of Projects Received": "129",
+      "Approved": "116",
+      "Rejected": "0",
+      "Under process": "2",
+      "Promoter-(shortfall)": "11",
+      "Total Amount": "13165063",
+      "": ""
+    }
+  ]
+}

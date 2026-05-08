@@ -1,0 +1,129 @@
+/* PAGE BASE */
+.proregi-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f7fb;        /* outside card background */
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/* MAIN CARD */
+.proregi-card {
+  width: 84%;
+  margin: 20px auto 35px;
+  border: 1px solid #d6d6d6;
+  padding: 25px 25px 35px;
+  background: #ffffff;
+}
+
+/* breadcrumb attached to card */
+.proregi-breadcrumb-card {
+  background: #0c84e4;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 13px;
+  margin: -25px -25px 15px -25px;
+  border-bottom: 1px solid #b6b6b6;
+}
+
+.proregi-breadcrumb-card span {
+  color: #ffe14d;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* heading underline */
+.proregi-card .proregi-h2 {
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.proregi-card .proregi-h2::after {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 3px;
+  margin-top: 6px;
+  background: #0c84e4;
+}
+
+/* section headings */
+.proregi-card .proregi-h3 {
+  margin-top: 22px;
+  margin-bottom: 10px;
+  color: #1b2e57;
+  font-size: 16px;
+}
+
+/* lists */
+.proregi-list {
+  margin-left: 18px;
+  line-height: 1.55;
+  font-size: 16px;
+}
+
+.proregi-link {
+  color: #0b5ed7;
+  font-weight: 650;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* form bottom section */
+.proregi-application-type {
+  margin-top: 25px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.proregi-application-type label {
+  margin-right: 18px;
+}
+
+.proregi-submit-btn {
+  margin-bottom: 10px;
+  background: #0c70de;
+  border: none;
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: 3px;
+  cursor: pointer;
+   float: right;
+}
+
+.proregi-submit-btn:hover {
+  opacity: 0.9;
+}
+
+/* Fee calculator link */
+.proregi-nav-link-like {
+  color: #0a8a00;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.proregi-nav-link-like:hover {
+  opacity: 0.8;
+}
+.proregi-section-label {
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 6px;
+}
+
+.proregi-address-red {
+  color: #d00000;
+}
+
+
+.proregi-card .proregi-h3 {
+  color: darkcyan;
+  text-decoration: underline;
+}
+
+
+

@@ -1,0 +1,154 @@
+/* ===============================
+   BASE
+   =============================== */
+
+body {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===============================
+   PAGE CONTAINER
+   =============================== */
+
+.extension-pa-page {
+  max-width: 1200px;
+  margin: 20px auto 0;
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  border-top: none;
+  min-height: 60vh;
+}
+
+/* ===============================
+   BREADCRUMB
+   =============================== */
+
+.extension-pa-breadcrumb {
+  background: #1484e6;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.extension-pa-home {
+  color: yellow;
+  font-weight: bold;
+  margin: 0 6px;
+}
+
+/* ===============================
+   CONTENT AREA
+   =============================== */
+
+.pa-content-full {
+  padding: 20px 25px 10px;   /* 🔽 bottom padding reduced */
+}
+
+/* ===============================
+   TITLE
+   =============================== */
+
+.extension-pa-title {
+  text-align: center;
+  margin: 0 0 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* ===============================
+   TABLE
+   =============================== */
+
+.extension-pa-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 5px;       /* 🔽 bottom gap reduced */
+}
+
+.extension-pa-table th {
+  background: #3f556b;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #cfcfcf;
+  font-size: 13px;
+  text-align: center;
+}
+
+.extension-pa-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: 13px;
+  text-align: center;
+}
+
+/* ===============================
+   APPLICATION NO LINK
+   =============================== */
+
+.extension-pa-link {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ===============================
+   DROPDOWNS
+   =============================== */
+
+.extension-dropdown-menu {
+  position: absolute;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.extension-dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.extension-dropdown-menu li:hover {
+  background: #f0f0f0;
+}
+
+/* Sub Dropdown */
+
+.extension-sub-dropdown {
+  position: relative;
+}
+
+.extension-sub-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  min-width: 180px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.extension-sub-dropdown:hover .sub-dropdown-menu {
+  display: block;
+}
+
+.extension-arrow {
+  float: right;
+}
+
+
+
+
+/* Move table slightly inside without affecting anything else */
+.extension-pa-table {
+  width: calc(100% - 40px);  /* 👈 left + right lopaliki */
+  margin-left: 20px;
+  margin-right: 20px;
+}

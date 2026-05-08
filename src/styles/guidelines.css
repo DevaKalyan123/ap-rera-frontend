@@ -1,0 +1,94 @@
+.guidelines-container {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: "Segoe UI", Arial;
+}
+
+/* Breadcrumb */
+.guidelines-breadcrumb {
+  background: #0c84e4;
+  color: #fff;
+  padding: 10px 18%;
+  font-size: 13px;
+}
+
+.guidelines-breadcrumb span {
+  color: #ffe14d;
+  font-weight: 600;
+}
+
+/* Cards */
+.guideline-card {
+  width: 64%;
+  margin: 20px auto;
+  border: 1px solid #d6d6d6;
+  display: grid;
+  grid-template-columns: 120px auto 120px;
+  align-items: center;
+  background: #fff;
+}
+
+/* LEFT — step box */
+.guidelines-step-box {
+  height: 100%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.guidelines-step1 { background: #d9534f; }
+.guidelines-step2 { background: #f0ad4e; }
+.guidelines-step3 { background: #0d6efd; }
+
+/* CONTENT AREA */
+.guideline-content {
+  padding: 18px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.guideline-content ul {
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+/* NOTE text */
+.guidelines-note {
+  margin-top: 5px;
+  color: #c0392b;
+  font-size: 13px;
+}
+
+/* Right icon box */
+.guidelines-icon-box {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.guidelines-pr-link{
+  color: #0c4da2;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-left: 3px;
+  gap: 2px;
+}
+.guidelines-icon1 { background: #d9534f; }
+.guidelines-icon2 { background: #f0ad4e; }
+.guidelines-icon3 { background: #0d6efd; }
+
+/* Links */
+.guidelines-link-text {
+  color: #0c4da2;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.guidelines-icon-box i {
+  font-size: 28px;
+}

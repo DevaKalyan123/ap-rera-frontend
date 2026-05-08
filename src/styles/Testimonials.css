@@ -1,0 +1,49 @@
+/* ===== Outer Page Container ===== */
+.outer-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+}
+
+/* ===== Breadcrumb ===== */
+.breadcrumb-bar {
+  background: #0d86e7;
+  color: #ffffff;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.breadcrumb-bar span {
+  font-weight: 500;
+}
+
+.breadcrumb-bar .active {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+/* ===== Inner Box ===== */
+.inner-container {
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  padding: 20px;
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Image Styling ===== */
+.work-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  background: #ffffff;
+  padding: 10px;
+}

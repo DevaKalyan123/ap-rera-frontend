@@ -1,0 +1,162 @@
+.agent-payments-payment-center-box {
+  width: 520px;
+  margin: 0 auto;
+  border: 2px solid #1e88e5;
+  padding: 15px;
+  background: #fff;
+}
+
+.agent-payments-payment-box-header {
+  background: #1e88e5;
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: bold;
+}
+.agent-payments-breadcrumb-bar{
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+.agent-payments-payment-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  font-size: 14px;
+}
+
+.agent-payments-payment-top p {
+  margin: 2px 0;
+}
+
+.agent-payments-payment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.agent-payments-payment-table td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  font-size: 14px;
+}
+
+.agent-payments-payment-table td:first-child {
+  width: 45%;
+  font-weight: 600;
+  background: #f7f7f7;
+}
+
+.agent-payments-payment-table td:last-child {
+  width: 55%;
+}
+
+.agent-payments-payment-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  padding: 8px 10px;
+  border: 2px solid #1e88e5;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.agent-payments-payment-gateway {
+  margin-top: 15px;
+}
+
+.agent-payments-payment-gateway label {
+  display: block;
+  margin-top: 5px;
+}
+
+.agent-payments-payment-btn-row {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.agent-payments-payment-btn {
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.agent-payments-payment-btn:hover {
+  background: #1565c0;
+}
+
+
+
+/* ================= GATEWAY + AMOUNT ================= */
+
+.agent-payments-gateway-amount-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  gap: 20px;
+}
+
+.agent-payments-payment-gateway {
+  font-size: 14px;
+}
+
+.agent-payments-payment-gateway label {
+  display: block;
+  margin-top: 6px;
+  cursor: pointer;
+}
+
+.agent-payments-payment-gateway input {
+  margin-right: 6px;
+}
+
+/* ================= TOTAL BOX ================= */
+
+.agent-payments-total-box {
+  border: 2px solid #1e88e5;
+  padding: 8px 12px;
+  font-weight: bold;
+  font-size: 14px;
+  min-width: 160px;
+  text-align: right;
+}
+
+/* ================= ACTION BUTTONS ================= */
+
+.agent-payments-action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 18px;
+}
+
+.agent-payments-make-btn {
+  background: #1e88e5;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.agent-payments-make-btn:hover {
+  background: #1565c0;
+}
+
+.agent-payments-cancel-btn {
+  background: #757575;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.agent-payments-cancel-btn:hover {
+  background: #616161;
+}

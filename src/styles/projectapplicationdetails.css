@@ -1,0 +1,415 @@
+.projectapplicationdetails-form-container {
+  max-width: 900px;
+  margin: 30px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.projectapplicationdetails-form-title {
+  font-size: 22px;
+  border-bottom: 2px solid #1e88e5;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.projectapplicationdetails-application-form {
+  border: 2px solid #1e88e5;
+  padding: 25px;
+  background: #fff;
+}
+
+.projectapplicationdetails-form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.projectapplicationdetails-form-row label {
+  width: 220px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.projectapplicationdetails-form-row input {
+  flex: 1;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+}
+
+.projectapplicationdetails-button-row {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.projectapplicationdetails-btn {
+  padding: 8px 18px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.projectapplicationdetails-reset {
+  background: #9e9e9e;
+  color: #fff;
+}
+
+.projectapplicationdetails-submit {
+  background: #1e88e5;
+  color: #fff;
+}
+
+
+.projectapplicationdetails-form-row label {
+  width: 260px;   /* increased width for long text */
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+
+
+/* Overall form container */
+.projectapplicationdetails-form-container {
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+/* Each row */
+.projectapplicationdetails-form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+/* Labels */
+.projectapplicationdetails-form-row label {
+  width: 380px;           /* label fixed */
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* Text & Date inputs */
+.projectapplicationdetails-form-row input[type="text"],
+.projectapplicationdetails-form-row input[type="date"] {
+  width: 340px;           /* 🔹 reduced width */
+  padding: 7px 8px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* File upload inputs */
+.projectapplicationdetails-form-row input[type="file"] {
+  width: 340px;           /* 🔹 reduced width */
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+/* Section heading */
+.projectapplicationdetails-section-title {
+  margin: 25px 0 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1e88e5;
+  border-bottom: 1px solid #1e88e5;
+  padding-bottom: 4px;
+}
+
+/* Buttons */
+.projectapplicationdetails-button-row {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.projectapplicationdetails-btn {
+  padding: 7px 18px;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.projectapplicationdetails-btn.reset {
+  background: #9e9e9e;
+  color: #fff;
+}
+
+.projectapplicationdetails-btn.submit {
+  background: #1e88e5;
+  color: #fff;
+}
+
+
+
+
+/* Remove calendar icon only for specific fields */
+.projectapplicationdetails-no-calendar::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.projectapplicationdetails-no-calendar {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+
+/* Only for Form E row */
+.projectapplicationdetails-form-e-row {
+  position: relative;       /* anchor for red text */
+  padding-bottom: 22px;     /* space for red text */
+}
+
+/* Red text positioned BELOW row */
+.projectapplicationdetails-form-e-row .download-note {
+  position: absolute;
+  left: 0;                  /* start under label */
+  bottom: 0;
+}
+
+/* Red link styling */
+.projectapplicationdetails-download-note a {
+  color: red;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* Already added for Form E – reuse for Form P4 also */
+.projectapplicationdetails-form-e-row,
+.projectapplicationdetails-form-p4-row {
+  position: relative;
+  padding-bottom: 22px;
+}
+
+.projectapplicationdetails-form-e-row .download-note,
+.projectapplicationdetails-form-p4-row .download-note {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.projectapplicationdetails-download-note a {
+  color: red;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.projectapplicationdetails-file-error {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+
+.projectapplicationdetails-download-note {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+
+
+/* Ensure everything stays inside the blue border */
+.projectapplicationdetails-form-container,
+.projectapplicationdetails-application-form,
+.projectapplicationdetails-form-row {
+  box-sizing: border-box;
+}
+
+/* Reduce file input width slightly so it stays inside */
+.projectapplicationdetails-form-row input[type="file"] {
+  width: 95%;          /* 👈 main fix */
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Optional: align file inputs nicely */
+.projectapplicationdetails-form-row {
+  padding-right: 10px; /* 👈 pushes content left */
+}
+/* Form E row adjustments */
+.projectapplicationdetails-form-e-top {
+  justify-content: flex-start; /* left side ki */
+  gap: 20px;
+}
+
+/* File input left align */
+.projectapplicationdetails-form-e-top input[type="file"] {
+  margin-left: 0;
+}
+
+/* If grid use chestunnaru ante */
+.projectapplicationdetails-form-e-top {
+  grid-template-columns: auto 1fr; /* label + file left */
+}
+
+/* Force Form E upload to right side like others */
+.projectapplicationdetails-form-e-top {
+  display: grid;
+  grid-template-columns: 1fr 300px; /* label left, upload right */
+  align-items: center;
+  gap: 20px;
+}
+
+/* Make sure file input fills right column */
+.projectapplicationdetails-form-e-top input[type="file"] {
+  width: 100%;
+}
+
+/* Red text stays under label (left aligned) */
+.projectapplicationdetails-download-note {
+  margin-left: 0;
+  padding-left: 0;
+  color: red;
+  font-size: 14px;
+}
+
+
+
+/* SAME width for all upload inputs */
+.projectapplicationdetails-form-row input[type="file"],
+.projectapplicationdetails-form-e-top input[type="file"] {
+  width: 100%;              /* 👈 full width */
+  max-width: 360px;         /* 👈 SAME max length as row 5 */
+  height: 38px;
+  box-sizing: border-box;
+}
+
+/* Same grid for all rows */
+.projectapplicationdetails-form-row,
+.projectapplicationdetails-form-e-top {
+  display: grid;
+  grid-template-columns: 1fr 360px; /* label | upload */
+  align-items: center;
+  gap: 20px;
+}
+
+/* Red text stays under label */
+.projectapplicationdetails-download-note {
+  grid-column: 1 / 2;
+  margin-top: 6px;
+  color: red;
+  font-size: 14px;
+}
+
+
+
+
+
+
+/* Move the RIGHT column (upload area) slightly to the right */
+.projectapplicationdetails-form-row,
+.projectapplicationdetails-form-e-top {
+  grid-template-columns: 1fr 380px; /* 👈 increase right column */
+}
+
+/* Keep file input full inside that column */
+.projectapplicationdetails-form-row input[type="file"],
+.projectapplicationdetails-form-e-top input[type="file"] {
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* 🔥 FINAL ALIGNMENT FIX FOR ALL UPLOAD DOCUMENTS */
+.projectapplicationdetails-form-row {
+  display: flex;              /* flex only */
+  align-items: center;
+}
+
+.projectapplicationdetails-form-row label {
+  width: 380px;               /* same as text fields */
+}
+
+.projectapplicationdetails-form-row input[type="file"] {
+  width: 340px;               /* same width everywhere */
+  margin-left: 0;             /* remove odd shift */
+}
+
+
+/* Increase length of upload (Choose File) inputs */
+.projectapplicationdetails-form-row input[type="file"] {
+  width: 380px;   /* 👈 pencham (previous 340px/360px nundi) */
+}
+
+
+
+
+/* Allow items to go to next line */
+.projectapplicationdetails-form-row {
+  flex-wrap: wrap;
+}
+
+/* File input stays in one line */
+.projectapplicationdetails-form-row input[type="file"] {
+  flex: 0 0 340px; /* same width as before */
+}
+
+/* Error message EXACTLY below Choose File */
+.projectapplicationdetails-file-error {
+  width: 340px;          /* same as file input */
+  margin-left: 380px;   /* label width */
+  margin-top: 4px;
+  color: red;
+  font-size: 12px;
+}
+
+
+
+
+.projectapplicationdetails-file-error {
+  width: 340px;          
+  margin-left: 380px;   
+  margin-top: 0px;      /* 👈 paiki move */
+  line-height: 1.2;     /* 👈 tight spacing */
+  color: red;
+  font-size: 12px;
+}
+
+
+
+.projectapplicationdetails-file-error {
+  width: 340px;
+  margin-left: 400px;  /* 👈 right side ki move (previous 380px nundi) */
+  margin-top: 0px;
+  line-height: 1.2;
+  color: red;
+  font-size: 12px;
+}
+
+
+
+.projectapplicationdetails-note-text {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+
+
+/* 🔽 Reduce underline length (not thickness) */
+.projectapplicationdetails-section-title {
+  display: inline-block;   /* already undi but ensure */
+  padding-bottom: 4px;
+  position: relative;
+  border-bottom: none;     /* remove full border */
+}
+
+.projectapplicationdetails-section-title::after {
+  content: "";
+  display: block;
+  width: 180px;            /* 👈 underline length control (adjust here) */
+  border-bottom: 1px solid #1e88e5;
+  margin-top: 4px;
+}

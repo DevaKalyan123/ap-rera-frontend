@@ -1,0 +1,190 @@
+.scf-scf-header { display:flex; justify-content:space-between; padding:15px 25px; background:white; border-top:6px solid #5b8db8; border-bottom:2px solid #000; }
+.scf-scf-logo { display:flex; gap:15px; align-items:center; }
+.scf-scf-logo h2 { color:#2b5d8a; font-size:22px; }
+.scf-scf-ap-logo { width:70px; }
+.scf-main-content,
+.scf-page-container {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+
+
+
+
+.scf-scf-body {
+  margin: 0;
+  padding: 0;
+   display: flex;
+  align-items: flex-start;  /* 🔥 ensures top alignment */
+  
+}
+
+header,
+.scf-navbar,
+.scf-navbar {
+  margin: 0;
+  padding: 0;
+}
+
+.scf-scf-sidebar { width:230px; background:#274c77; color:white;  min-height:calc(100vh - 120px);  }
+.scf-scf-sidebar ul { list-style:none; padding:0; }
+.scf-scf-sidebar li { padding:15px; cursor:pointer; }
+.scf-scf-sidebar .active { background:#3a6ea5; }
+
+.scf-scf-content {
+  flex: 1;
+  padding: 0px 30px;   /* 🔥 top padding remove */
+}
+
+.scf-form-box { border:1px solid #ccc; padding:20px; background:#fff; }
+.scf-upload-row input {
+  height: 28px;
+  font-size: 13px;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.scf-header + div {
+  margin-top: 0 !important;
+}
+
+.scf-form-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+.scf-form-row { display:flex; gap:20px; margin-top:15px; }
+.scf-form-row div {
+  flex: 1;
+}
+.scf-req {
+  color: red;
+  margin-left: 2px;
+}
+
+.scf-form-row textarea {
+  width: 100%;
+  height: 30px;        /* small height */
+  font-size: 13px;
+  padding: 4px;
+  border: 1px solid #ccc;   /* normal thin border */
+  outline: none;            /* remove default thick outline */
+  box-shadow: none; 
+}
+
+.scf-upload-row { display:flex; gap:15px; margin-top:15px; }
+
+.scf-btns { margin-top:20px; text-align:center; }
+
+.scf-save { background:#2b6cb0; color:white; padding:8px 20px; }
+.scf-clear { background:#f56565; color:white; padding:8px 20px; }
+.scf-breadcrumb span {
+  color: #2b6cb0; /* blue */
+  font-weight: 600;
+}
+.scf-admin-main > div {
+  padding: 0 !important;
+}
+main {
+  min-height: auto ;
+}
+.scf-breadcrumb {
+  margin: 0;
+  padding:  0;   /
+}
+.scf-form-box h3 {
+  color: #2b6cb0; /* blue */
+  font-weight: 600;
+}
+
+.scf-form-grid input,
+.scf-form-grid select {
+  height: 28px;
+  font-size: 13px;
+  padding: 3px 6px;
+}
+
+
+
+.scf-form-box h4 {
+  color: #2b6cb0;
+  font-weight: 600;
+}
+.scf-form-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background: #fff;
+  border-radius: 6px;
+}
+/* Upload container row */
+.scf-upload-container {
+     display: grid; /* 🔥 CHANGE */
+  grid-template-columns: 1fr 1fr auto;
+  gap: 15px;
+  align-items: start;
+  margin-top: 15px;
+}
+
+/* Each field */
+.scf-upload-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+/* Labels */
+.scf-upload-field label {
+  font-size: 13px;
+  margin-bottom: 6px;
+  height: 18px; 
+}
+
+
+/* Input fields */
+.scf-upload-field input {
+  height: 36px;
+  padding: 5px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+   box-sizing: border-box;    /* 🔥 MUST */
+}
+
+/* File input bigger */
+.file-input {
+  height: 36px;
+  padding: 3px;
+   width: 100%;
+}
+
+/* Add button styling */
+.scf-add-btn {
+  background: #2b6cb0;
+  color: white;
+  padding: 7px 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: -5px;
+}
+
+
+/* Save & Clear (already good but refine) */
+.scf-btns button {
+  margin: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.scf-save {
+  background: #2b6cb0;
+  color: white;
+  padding: 8px 25px;
+}
+
+.scf-clear {
+  background: #f56565;
+  color: white;
+  padding: 8px 25px;
+}

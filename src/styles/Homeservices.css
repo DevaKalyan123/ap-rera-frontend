@@ -1,0 +1,135 @@
+.home-services-card {
+  max-width: 1200px;
+  margin: 50px auto;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 30px 40px 50px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.homemain-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+/* REGISTRATION */
+.homeregistration-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.homeregistration-card {
+  background: #fff2cc;
+  border-radius: 12px;
+  padding: 18px;
+  text-align: center;
+}
+
+.homeregistration-card img {
+  width: 42px;
+  margin-bottom: 10px;
+}
+
+.homeregistration-card p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* SECTION TITLES */
+.homeservices-section-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 40px 0 30px;
+}
+
+/* SERVICES GRID */
+.homeservices-services-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 30px;
+  margin-bottom: 50px;
+}
+
+/* SERVICE CARD */
+.homeservices-service-card {
+  text-align: center;
+  padding: 24px 16px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homeservices-service-icon {
+  font-size: 40px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.homeservices-service-card p {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.homeservices-underline {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* HOVER */
+.homeservices-service-card:hover { background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+}
+
+.homeservices-service-card:hover p,
+.homeservices-service-card:hover .homeservices-service-icon {
+  color: #fff;
+}
+
+.homeservices-service-card:hover .homeservices-underline {
+  background: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+  .homeregistration-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .homeservices-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .homeregistration-grid,
+  .homeservices-services-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* SECTION DIVIDER (like Quick Links page) */
+.homesection-divider {
+  width: 100%;
+  height: 1px;
+  background-color: #d0d0d0;
+  margin: 40px 0 30px;
+}
+
+/* REMOVE small underline below section titles */
+.homeservices-section-title::after {
+  content: none !important;
+  display: none !important;
+}

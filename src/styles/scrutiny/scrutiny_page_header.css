@@ -1,0 +1,57 @@
+.scrutiny-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 22px;
+  margin-bottom: 18px;
+  border: 1px solid #d7e6f4;
+  background: #ffffff;
+  box-shadow: 0 6px 18px rgba(25, 60, 95, 0.06);
+}
+
+.scrutiny-page-breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  color: #2472be;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.scrutiny-page-breadcrumb span:first-child {
+  color: #0f2740;
+}
+
+.scrutiny-page-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #2472be;
+  font-size: 18px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.scrutiny-page-print {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #b9cee2;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1d4f80;
+  cursor: pointer;
+}
+
+.scrutiny-page-print:hover {
+  background: #f3f8fe;
+}
+
+@media (max-width: 768px) {
+  .scrutiny-page-header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 16px;
+  }
+}

@@ -1,0 +1,414 @@
+/* ===== PAGE LAYOUT ===== */
+.upload-documents-container {
+  padding: 20px 40px;
+  background: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+/* ===== BREADCRUMB FIX ===== */
+
+.header-navigation {
+  background: #0b7cff;   /* single blue bar */
+  padding: 10px 20px;
+  border-radius: 0;      /* remove extra rounded box */
+  margin-bottom: 20px;
+}
+
+/* remove inner box effect */
+
+.breadcrumb {
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: white;
+  font-size: 14px;
+}
+
+/* link colors */
+.breadcrumb{
+  color: white !important;
+
+}
+
+.breadcrumb a{
+  color: white !important;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.breadcrumb a:first-child {
+  color: #ffeb3b !important;   /* Home yellow */
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+/* Page title */
+.page-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 10px;
+  color: #000;
+}
+
+/* ===== SECTION HEADINGS ===== */
+
+.subheading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007b8f;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.subheading::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #0b7cff;
+  display: block;
+  margin-top: 6px;
+}
+
+/* (Fix extra long lines) */
+.section-header {
+  margin-bottom: 10px;
+}
+
+/* ===== FORM WRAPPER ===== */
+
+.upload-form {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.08);
+}
+
+.form-section {
+  width: 100%;
+}
+
+/* ===== DOCUMENTS TABLE ===== */
+
+.documents-table-container {
+  overflow-x: auto;
+}
+
+.documents-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-header {
+  background: #0b7cff;
+}
+
+.table-header td {
+  padding: 12px;
+  font-weight: 600;
+  border: 1px solid #c59144;
+}
+
+/* Table rows */
+
+.document-row td {
+  border: 1px solid #c59144;
+  padding: 10px;
+  vertical-align: middle;
+  background: #fff;
+}
+
+/* Document type */
+
+.document-type {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+/* ===== FILE UPLOAD ===== */
+
+.file-upload-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.file-input {
+  display: none;
+}
+
+.file-input-label {
+  background: #0b7cff;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.file-input-label:hover {
+  background: #095ec2;
+}
+
+.file-name-display {
+  font-size: 14px;
+  color: #555;
+}
+
+/* ===== UPLOADED COLUMN ===== */
+
+.uploaded-column {
+  font-size: 14px;
+}
+
+.lnk-link {
+  color: #0b7cff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.lnk-link:hover {
+  text-decoration: underline;
+}
+
+.delete-link img {
+  width: 16px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+/* ===== PROGRESS BAR ===== */
+
+.progress-bar {
+  width: 100%;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  background: #0b7cff;
+  height: 18px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+}
+
+/* ===== SUBMITTED BY SECTION ===== */
+
+.submitted-by-section {
+  margin-top: 20px;
+  padding: 18px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.submitted-by-label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ===== CONSULTANCY DETAILS ===== */
+
+.consultancy-details-section {
+  margin-top: 25px;
+}
+
+/* Rows */
+
+.innerdivrow {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 18px;
+  width: 100%;
+}
+
+/* Columns */
+
+.col-sm-4 {
+  flex: 1;        /* equal width */
+}
+
+.col-sm-8 {
+  flex: 2;        /* address wider */
+}
+
+/* Form group */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Labels */
+
+.label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+/* Inputs */
+
+.inputbox {
+  width: 100%;
+  height: 42px;               /* SAME HEIGHT */
+  padding: 10px 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+
+/* Address textarea */
+
+textarea.inputbox {
+  height: 42px;               /* SAME AS INPUT */
+  min-height: 42px;
+  resize: vertical;          /* user can expand if needed */
+}
+
+/* Focus */
+
+.inputbox:focus {
+  outline: none;
+  border-color: #0b7cff;
+  background: #fff;
+}
+
+/* ===== NOTE TEXT ===== */
+
+.note-section {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #e21010;
+}
+
+/* ===== DECLARATION INLINE STYLE ===== */
+
+.declaration-content {
+  margin-top: 12px;
+}
+
+/* Force declaration in one row */
+
+.declaration-inline {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+/* Checkbox */
+
+.declaration-checkbox {
+  margin: 0;
+}
+
+/* I/We */
+
+.declaration-prefix {
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+/* Name input box */
+
+.declaration-name-input {
+  width: 220px;
+  height: 40px;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Sentence */
+
+.declaration-text {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Declaration section spacing */
+
+.declaration-section {
+  margin-top: 25px;
+}
+
+/* Heading underline (same as other sections) */
+
+.subheading {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007b8f;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.subheading::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background: #0b7cff;
+  display: block;
+  margin-top: 6px;
+}
+
+/* ===== NOTES ===== */
+
+.additional-notes-section {
+  margin-top: 20px;
+}
+
+.notes-content {
+  margin-top: 10px;
+}
+
+.note-item {
+  margin-bottom: 10px;
+}
+
+.note-text1 {
+  color: #000;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+.form-actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.save-button {
+  background-color: #1e88e5 !important;
+  border: none !important;
+
+  padding: 10px 36px;
+  font-size: 16px;
+  font-weight: 600;
+
+  border-radius: 6px;
+  color: white;
+
+  cursor: pointer;
+
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.18);
+  transition: 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: #1976d2 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.22);
+}

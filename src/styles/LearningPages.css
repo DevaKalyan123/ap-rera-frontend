@@ -1,0 +1,153 @@
+.homeview-learning-page {
+  background: #f5f5f5;
+  padding-bottom: 40px;
+}
+
+.homeview-breadcrumb-bar {
+  width: calc(100% - 70px);  /* 35px left + 35px right */
+  margin: 0 35px;           /* same as white box */
+  background: #0b8ef2;
+  padding: 10px 35px;
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial, sans-serif;
+}
+
+
+.homeview-bread-text {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.homeview-bread-link {
+  color: #ffe600;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 0 8px;
+}
+
+.homeview-bread-slash {
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+.homeview-bread-current {
+  color: #fff;
+  font-weight: 500;
+}
+
+.homeview-page-container {
+  background: #fff;
+  margin: 0px 35px;
+  padding: 25px 35px;
+  border: 1px solid #ddd;
+}
+
+.homeview-page-title {
+  font-size: 22px; /* ✅ decreased */
+  font-weight: 500;
+  margin: 16px 0 8px;
+  font-family: Arial, sans-serif;
+}
+
+.homeview-page-line {
+  width: 70px;
+  height: 3px;
+  background: #005bb5;
+  margin: 12px 0 22px;
+}
+
+.homeview-page-para {
+  font-size: 14px; /* ✅ decreased */
+  line-height: 25px; /* ✅ decreased */
+  color: #222;
+  margin-bottom: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.homeview-page-subtitle {
+  color: #0a8c9f;
+  font-size: 15px; /* ✅ decreased */
+  font-weight: bold;
+  margin: 25px 0 12px;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.homeview-page-bigtitle {
+  font-size: 22px; /* ✅ decreased */
+  font-weight: 500;
+  margin-top: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.homeview-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-top: 16px;
+  margin-bottom: 25px;
+}
+
+.homeview-page-list {
+  list-style: none;
+  padding: 0;
+}
+
+.homeview-page-list li {
+  font-size: 15px; /* ✅ decreased */
+  line-height: 28px; /* ✅ decreased */
+  color: #222;
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 8px;
+}
+
+.homeview-page-list li::before {
+  content: "▶";
+  color: #222;
+  position: absolute;
+  left: 0;
+  top: 3px;
+  font-size: 11px; /* ✅ decreased */
+}
+
+.homeview-vendor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 45px;
+}
+
+.homeview-vendor-title {
+  color: #0a8c9f;
+  font-size: 22px; /* ✅ decreased */
+  font-weight: bold;
+  margin: 8px 0 12px;
+  font-family: Arial, sans-serif;
+}
+
+.homeview-vendor-list {
+  list-style: none;
+  padding: 0;
+}
+
+.homeview-vendor-list li {
+  font-size: 15px; /* ✅ decreased */
+  line-height: 28px; /* ✅ decreased */
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 6px;
+}
+
+.homeview-vendor-list li::before {
+  content: "▶";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  font-size: 9px; /* ✅ decreased */
+  color: #222;
+}
+.homeview-gap-zone {
+  height: 20px;   /* adjust as you like (15px, 20px, 30px) */
+  background: #f5f5f5; /* same as page background */
+}

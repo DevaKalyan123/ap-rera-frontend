@@ -1,0 +1,211 @@
+/* =========================
+   OVERLAY
+========================= */
+.announcement-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;              /* ⬇ less top space */
+}
+
+/* =========================
+   POPUP CONTAINER
+========================= */
+.announcement-popup-container {
+  width: 750px;
+  background: #ffffff;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.4);
+}
+
+/* =========================
+   HEADER
+========================= */
+.announcement-popup-header {
+  height: 36px;                  /* ⬇ reduced height */
+  background: #0a5ca8;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 0 8px;                /* ⬇ less padding */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.announcement-popup-header button {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* =========================
+   BODY (MIN WHITE SPACE)
+========================= */
+.announcement-popup-body {
+  padding: 4px;                  /* ⬇ main fix */
+  overflow: hidden;
+}
+
+/* =========================
+   IMAGE POPUP (NO EXTRA SPACE)
+========================= */
+.announcement-image-only {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;                  /* ⬇ */
+}
+
+.announcement-image-only img {
+  width: 500px;
+  height: auto;
+  max-height: 800px;             /* ⬇ height reduced */
+  object-fit: contain;
+  border: none;
+  background: #ffffff;
+}
+
+/* =========================
+   ANNOUNCEMENT CARD (COMPACT)
+========================= */
+.announcement-card {
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 25px 30px;              /* ⬇ compact */
+  margin-bottom: 8px;            /* ⬇ gap reduced */
+}
+
+.announcement-card:last-child {
+  margin-bottom: 0;
+}
+
+.announcement-title {
+  font-weight: bold;
+  font-size: 17px;             /* ⬇ */
+  margin-bottom: 3px;
+}
+
+.announcement-card p {
+  margin: 0;
+  font-size: 16px;               /* ⬇ */
+  line-height: 1.3;
+  color: #333;
+}
+
+.announcement-card:hover p {
+  color: #0a5ca8;
+  font-size: 17px;
+}
+
+/* =========================
+   NEW BADGE (SMALL)
+========================= */
+.announcement-new-badge {
+  background: red;
+  color: yellow;
+  font-size: 13px;              /* ⬇ */
+  font-weight: bold;
+  padding: 1px 4px;              /* ⬇ */
+  border-radius: 10px;
+  margin: 0 3px;
+    animation: blinkBadge 1s infinite;
+
+}
+
+
+/* Blink animation */
+@keyframes blinkBadge {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* =========================
+   PDF VIEW (NO WHITE SPACE)
+========================= */
+.announcement-pdf-viewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;                  /* ⬇ */
+}
+
+.announcement-pdf-viewer iframe {
+  width: 470px;
+  height: 560px;                 /* ⬇ */
+  border: none;
+  background: #ffffff;
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+  .announcement-popup-container {
+    width: 95%;
+  }
+
+  .announcement-image-only img,
+  .announcement-pdf-viewer iframe {
+    width: 100%;
+    max-height: 65vh;             /* ⬇ */
+  }
+}
+.announcement-popup-container {
+  width: 750px;
+  background: #ffffff;
+  border-radius: 4px;
+  overflow: visible;     /* 🔥 IMPORTANT */
+  display: flex;
+  flex-direction: column;
+}
+.announcement-popup-body {
+  padding: 6px;
+  overflow: visible;    /* 🔥 */
+}
+.announcement-image-only img {
+  width: 520px;
+  height: auto;
+  max-height: none;     /* 🔥 VERY IMPORTANT */
+  display: block;
+}
+.announcement-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+  overflow-y: auto;     /* 🔥 PAGE SCROLL HERE */
+}
+.announcement-doc-frame img {
+  width: 520px;        /* document width */
+  height: auto;
+  max-height: none;    /* 🔥 VERY IMPORTANT */
+  display: block;
+}
+.announcement-doc-frame {
+  height: 100%;
+  overflow-y: scroll;      /* ✅ ONLY THIS */
+  padding-right: 10px;     /* space for scrollbar */
+  display: flex;
+  justify-content: center;
+}

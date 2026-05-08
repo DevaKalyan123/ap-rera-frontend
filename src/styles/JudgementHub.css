@@ -1,0 +1,92 @@
+/* Page background */
+.judgement-page {
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+
+/* Main white container */
+.judgement-container {
+  background: #ffffff;
+  max-width: 1100px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+
+/* Breadcrumb bar */
+.judgement-breadcrumb {
+  background: #1e90ff;
+  color: #ffffff;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+.judgement-breadcrumb a,
+.judgement-breadcrumb span {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Inner content padding */
+.judgement-content {
+  padding: 20px;
+}
+
+/* Page heading */
+.judgement-page-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  margin: 0 0 18px;
+  position: relative;
+}
+
+.judgement-page-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 30px;
+  height: 3px;
+  background-color: #1e90ff;
+}
+
+/* Table styling */
+.judgement-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.judgement-table th {
+  background: #3f556b;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+.judgement-table td {
+  border: 1px solid #000;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.judgement-desc-text {
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Download icon */
+.judgement-download-link {
+  font-size: 18px;
+  color: #1e90ff;
+  cursor: pointer;
+}
+
+.judgement-download-link:hover {
+  color: #0056b3;
+}

@@ -1,0 +1,162 @@
+/* ================= PAGE BACKGROUND ================= */
+.fc-page-wrapper {
+  min-height: 100vh;
+  background: #ededed;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ================= MAIN CARD ================= */
+.fc-content-card {
+  max-width: 1100px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* ================= BREADCRUMB ================= */
+.fc-breadcrumb-bar {
+  background: #1e88e5;
+  color: #ffffff;
+  padding: 8px 15px;
+  font-size: 13px;
+}
+
+.fc-breadcrumb-bar span {
+  font-weight: 600;
+}
+
+.fc-breadcrumb-bar .active {
+  text-decoration: underline;
+}
+
+/* ================= TITLE ================= */
+.fc-page-title {
+  font-size: 18px;
+  color: #1a9397;
+  padding: 14px 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #dcdcdc;
+
+}
+
+.fc-page-title {
+  border-bottom: none !important;
+}
+
+
+/* ================= FORM ================= */
+.fc-fee-form {
+  padding: 20px 30px 30px;
+}
+
+/* ================= FORM ROW ================= */
+.fc-form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+/* ================= LABEL ================= */
+.fc-form-row label {
+  width: 360px;
+  font-size: 13px;
+  color: #000;
+  line-height: 1.4;
+}
+
+/* ================= REQUIRED ================= */
+.fc-required {
+  color: red;
+  font-weight: bold;
+}
+
+/* ================= INPUTS ================= */
+.fc-form-row input,
+.fc-form-row select {
+  width: 260px;
+  padding: 6px 8px;
+  font-size: 12px;
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+  background: #fff;
+}
+
+/* ================= BUTTON ROW ================= */
+.fc-last-row {
+  align-items: center;
+}
+
+/* ================= BUTTON ================= */
+.fc-calculate-btn {
+  background: #0b5ed7;
+  color: #ffffff;
+  border: none;
+  padding: 6px 20px;
+  font-size: 12px;
+  border-radius: 3px;
+  cursor: pointer;
+
+  /* 🔽 IMPORTANT FIX */
+  margin-top: 8px;
+}
+
+.fc-calculate-btn:hover {
+  background: #084298;
+}
+
+
+/* ================= RESULT SUMMARY ================= */
+.fc-fee-summary {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.fc-fee-summary div {
+  display: flex;
+  justify-content: space-between;
+  width: 520px;
+  margin-bottom: 8px;
+}
+
+.fc-fee-summary .total {
+  font-weight: bold;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .fc-form-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .fc-form-row label {
+    width: 100%;
+    margin-bottom: 6px;
+  }
+
+  .fc-form-row input,
+  .fc-form-row select {
+    width: 100%;
+  }
+
+  .fc-calculate-btn {
+    margin-top: 10px;
+  }
+
+  .fc-fee-summary div {
+    width: 100%;
+  }
+}
+/* ================= BUTTON ROW ALIGN RIGHT ================= */
+.fc-last-row {
+  justify-content: flex-end;
+  padding-right: 26%;
+}
+
+/* Button row alignment */
+.fc-last-row {
+  justify-content: flex-end;
+  align-items: flex-start;   /* 🔥 key for date picker overlap issue */
+}

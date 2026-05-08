@@ -1,0 +1,228 @@
+/* ================= GLOBAL ================= */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef1f5;   /* softer page background */
+}
+
+/* ================= PAGE ================= */
+.pr-nur-page {
+  min-height: 100vh;
+  padding: 30px;
+}
+
+/* ================= CARD ================= */
+.pr-nur-card {
+  width: 1000px;
+  margin: auto;
+  background: #ffffff;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  padding-bottom: 30px;
+}
+
+/* ================= BREADCRUMB ================= */
+.pr-nur-breadcrumb {
+  background: #0d6efd;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-size: 13px;
+}
+
+.pr-nur-breadcrumb span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.pr-nur-breadcrumb .active {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* ================= TITLE ================= */
+.pr-nur-title {
+  font-size: 20px;
+  padding: 14px 18px 6px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #0d6efd;
+  display: inline-block;
+}
+
+/* ================= FORM ================= */
+.pr-nur-form {
+  padding: 20px 32px 36px;
+  margin: 16px;                     /* ⬅ space from card edge */
+  border: 1px solid #cfcfcf;        /* ⬅ container box line */
+  border-radius: 4px;               /* ⬅ subtle rounding */
+  background: #ffffff;              /* ⬅ clean white */
+}
+
+
+.pr-nur-form label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.pr-required {
+  color: red;
+}
+
+/* ================= PAN ROW ================= */
+.pr-nur-input-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  margin-bottom: 26px;
+}
+
+.pr-pan-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.pr-pan-field input {
+  width: 220px;
+  height: 32px;
+  padding: 6px 8px;
+  font-size: 12px;
+  border: 1px solid #bfc7d1;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* ================= GET DETAILS BUTTON ================= */
+.pr-nur-btn {
+  height: 32px;
+  background: #0b5ed7;
+  color: #ffffff;
+  border: none;
+  padding: 6px 18px;
+  font-size: 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pr-nur-btn:hover {
+  background: #084298;
+}
+
+/* ================= GRID ROWS ================= */
+.pr-nur-row {
+  display: grid;
+  gap: 24px;
+  margin-bottom: 18px;
+}
+
+/* PAN row */
+.pr-nur-row.single {
+  grid-template-columns: 1fr;
+  max-width: 260px;
+  padding-right: 15%;
+}
+
+/* Two-field rows */
+.pr-nur-row.two {
+  grid-template-columns: 1fr 1fr;
+  padding-right: 35%;
+}
+
+/* Three-field rows */
+.pr-nur-row.three {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Upload + Captcha row */
+.pr-nur-row.four {
+  grid-template-columns: 1fr 1fr;
+  max-width: 600px;
+}
+
+/* ================= INPUTS & SELECTS ================= */
+.pr-nur-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.pr-nur-field input,
+.pr-nur-field select {
+  width: 100%;
+  height: 32px;
+  padding: 6px 8px;
+  font-size: 12px;
+  border: 1px solid #bfc7d1;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+
+/* Focus effect */
+.pr-nur-field input:focus,
+.pr-nur-field select:focus {
+  outline: none;
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 1px rgba(13,110,253,0.25);
+}
+
+/* File input */
+.pr-nur-field input[type="file"] {
+  height: 32px;
+  padding: 3px;
+  font-size: 12px;
+}
+
+/* ================= CAPTCHA ================= */
+.pr-captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.pr-captcha-text {
+  padding: 6px 10px;
+  background: #fdecec;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #c62828;
+  border: 1px solid #f5bcbc;
+}
+
+.pr-refresh-btn {
+  height: 32px;
+  width: 32px;
+  border: none;
+  background: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Fix captcha input size */
+.pr-captcha-input {
+  width: 140px;
+  height: 32px;
+}
+
+/* ================= ACTIONS ================= */
+.pr-nur-actions {
+  text-align: right;
+  margin-top: 16px;
+}
+
+.pr-nur-register-btn {
+  background: #0d6efd;
+  color: #ffffff;
+  padding: 6px 18px;
+  font-size: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pr-nur-register-btn:hover {
+  background: #084298;
+}

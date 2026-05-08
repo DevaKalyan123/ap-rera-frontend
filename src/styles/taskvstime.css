@@ -1,0 +1,127 @@
+/* ---------- Page Background ---------- */
+body {
+  background: #e6e6e6;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* ---------- Center White Box ---------- */
+.task-container {
+  width: 86%;
+  max-width: 1100px;
+  margin: 20px auto;
+  background: #ffffff;
+  border: 1px solid #cfcfcf;
+  padding: 0;
+}
+
+/* ---------- Breadcrumb Bar ---------- */
+.breadcrumb {
+  background: #1e88e5;
+  color: #ffffff;
+  padding: 6px 12px;
+  font-size: 13px;
+}
+
+.breadcrumb span {
+  color: #e3f2fd;
+  cursor: pointer;
+}
+
+/* ---------- Title ---------- */
+.page-title {
+  padding: 15px 15px 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/* ---------- Controls ---------- */
+.table-controls {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+.table-controls select,
+.table-controls input {
+  padding: 2px 4px;
+  font-size: 12px;
+}
+
+/* ---------- Table ---------- */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.task-table thead th {
+  background: #3b4a59;
+  color: #ffffff;
+  padding: 7px;
+  border: 1px solid #ffffff;
+  text-align: center;
+}
+
+.task-table tbody td {
+  border: 1px solid #d3d3d3;
+  padding: 6px 8px;
+  vertical-align: top;
+}
+
+.task-table tbody td:nth-child(1) {
+  width: 60px;
+  text-align: center;
+}
+
+.task-table tbody td:nth-child(3) {
+  width: 160px;
+}
+
+/* ---------- Footer ---------- */
+.table-footer {
+  padding: 8px 15px;
+  font-size: 12px;
+  border-top: 1px solid #dcdcdc;
+  overflow: hidden;
+}
+
+/* ---------- Pagination ---------- */
+.pagination {
+  float: right;
+}
+
+.pagination button {
+  border: 1px solid #cfcfcf;
+  background: #ffffff;
+  padding: 2px 6px;
+  margin-left: 3px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #1e88e5;
+  color: #ffffff;
+  border-color: #1e88e5;
+}
+
+.pagination button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .task-container {
+    width: 96%;
+  }
+
+  .table-controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+}

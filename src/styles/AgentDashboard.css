@@ -1,0 +1,80 @@
+.agent-dashboard-wrapper {
+  display: flex;
+  margin: 25px;
+  gap: 25px;
+  font-family: Arial, sans-serif;
+}
+
+/* LEFT MENU */
+.agent-sidebar {
+  width: 240px;
+  background: #111;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.menu-item {
+  padding: 15px 18px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.menu-item:hover {
+  background: #222;
+}
+
+.menu-item.active {
+  background: #0b5ed7;
+  font-weight: bold;
+}
+
+/* RIGHT PANEL */
+.agent-content {
+  flex: 1;
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.page-title {
+  border-bottom: 2px solid #0b5ed7;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* TABLE */
+.agent-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.agent-table th {
+  background: #34495e;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.agent-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.application-link {
+  color: #0b5ed7;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.application-link:hover {
+  text-decoration: underline;
+}
+
+.no-data {
+  padding: 25px;
+  font-style: italic;
+}

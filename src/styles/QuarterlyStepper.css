@@ -1,0 +1,70 @@
+/* Container */
+.qutadocu-stepper-box {
+  border: 1px solid #dcdcdc;
+  background-color: white;
+  padding: 20px 60px;
+  margin: 2px 0 30px 0;
+  position: relative;
+}
+
+/* Horizontal Line */
+.qutadocu-stepper-line {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  right: 60px;
+  height: 2px;
+  background-color: #cfcfcf;
+  z-index: 1;
+}
+
+/* Step Wrapper */
+.qutadocu-stepper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Each Step */
+.qutadocu-step {
+  flex: 1;
+  cursor: pointer;
+}
+
+/* Circle */
+.qutadocu-step-circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: 2px solid #cfcfcf;
+  color: #777;
+  line-height: 42px;
+  margin: 0 auto;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+/* Completed */
+.qutadocu-step-circle.qutadocu-completed {
+  background-color: #43a047;
+  border-color: #43a047;
+  color: #ffffff;
+}
+
+/* Active */
+.qutadocu-step-circle.qutadocu-active {
+  background-color: #43a047;
+  border-color: #43a047;
+  color: #ffffff;
+}
+
+/* Label */
+.qutadocu-step-label {
+  margin-top: 14px;
+  font-size: 15px;
+  color: #333;
+}

@@ -1,0 +1,106 @@
+.acr-stepper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  background: #ffffff;
+  border: 1px solid #dfe4ed;
+  border-radius: 12px;
+  padding: 14px 20px;
+  margin-bottom: 28px;
+  box-shadow: 0 6px 20px rgba(31, 115, 183, 0.08);
+}
+
+.acr-step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 200px;
+  flex: 1 1 180px;
+  padding: 6px 0;
+  color: #1c2340;
+}
+
+.acr-step-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #c8d3e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  background: #ffffff;
+  color: #5c6377;
+}
+
+.acr-step-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.acr-step-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.acr-step-description {
+  font-size: 12px;
+  color: #5f6577;
+  line-height: 1.4;
+}
+
+.acr-step.active .acr-step-circle {
+  background: #1f73b7;
+  border-color: #1f73b7;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(31, 115, 183, 0.4);
+}
+
+.acr-step.completed .acr-step-circle {
+  background: #e5f2ff;
+  border-color: #1f73b7;
+  color: #1f73b7;
+}
+
+.acr-step.completed .acr-step-text .acr-step-title {
+  color: #1f73b7;
+}
+
+.acr-step.clickable {
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.acr-step.clickable:hover .acr-step-circle {
+  border-color: #1f73b7;
+}
+
+.acr-step-connector {
+  width: 40px;
+  height: 2px;
+  background: #d7dce5;
+  border-radius: 999px;
+  flex: 0 0 40px;
+}
+
+.acr-step-connector.active {
+  background: linear-gradient(90deg, #1f73b7, #6ca5ff);
+}
+
+@media (max-width: 900px) {
+  .acr-stepper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .acr-step,
+  .acr-step-connector {
+    width: 100%;
+  }
+
+  .acr-step-connector {
+    margin: 0;
+  }
+}

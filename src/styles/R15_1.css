@@ -1,0 +1,80 @@
+.r15-container {
+  background-color: #f4f7f6;
+  min-height: 100vh;
+}
+
+.breadcrumb-bar {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+}
+
+.breadcrumb-bar .link {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.chart-content-box {
+  background: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+  display: flex;
+  gap: 30px;
+}
+
+.chart-wrapper {
+  flex: 1;
+  position: relative;
+  height: 450px;
+}
+
+/* The red callout box on top of the first bar */
+.rating-callout {
+  position: absolute;
+  top: 10px;
+  left: 65px; /* Adjust based on bar position */
+  border: 2px solid #F44336;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.rating-callout span {
+  display: block;
+  font-size: 12px;
+  color: #666;
+}
+
+.rating-callout strong {
+  font-size: 18px;
+  color: #333;
+}
+
+.chart-area {
+  height: 100%;
+}
+
+.legend-container {
+  width: 280px;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.legend-container h3 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.legend-container li {
+  list-style: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+}

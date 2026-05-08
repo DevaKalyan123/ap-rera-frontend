@@ -1,0 +1,455 @@
+/* PAGE BACKGROUND */
+.projwizard-page {
+  background: #f5f7fb;
+  min-height: 100vh;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 20px 0;
+}
+
+/* MAIN CARD */
+.projwizard-card {
+  max-width: 1400px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+}
+
+/* BREADCRUMB */
+.projwizard-breadcrumb {
+  background: #0c84e4;
+  color: white;
+  padding: 8px 12px;
+  font-size: 13px;
+}
+
+.projwizard-breadcrumb span {
+  color: #ffe14d;
+  font-weight: 600;
+}
+
+/* HEADER */
+.projwizard-title {
+  margin: 15px 18px 0;
+  font-size: 22px;
+}
+
+.projwizard-main-title {
+  margin: 15px 18px 0;
+  font-size: 22px;
+  border-bottom: 3px solid #0c84e4;
+  padding-bottom: 10px;
+  width: fit-content;
+}
+
+.projwizard-header-line {
+  width: 60px;
+  height: 3px;
+  background: #0c84e4;
+  margin: 6px 18px 14px;
+}
+
+/* STEPPER */
+.projwizard-stepper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  padding: 18px 30px 10px;
+  text-align: center;
+}
+
+.projwizard-stepper::before {
+  content: "";
+  position: absolute;
+  top: 34px;
+  left: 55px;
+  right: 55px;
+  height: 1px;
+  background: #cfcfcf;
+  z-index: 0;
+}
+
+.projwizard-step-item {
+  font-size: 11px;
+}
+
+.projwizard-step-circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid #cfcfcf;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.projwizard-step-circle.projwizard-active {
+  background: #6fbe4a;
+  border-color: #6fbe4a;
+  color: white;
+}
+
+.projwizard-step-label {
+  line-height: 1.2;
+}
+
+/* FORM BODY */
+.projwizard-form-body {
+  padding: 20px 30px 30px;
+}
+
+/* SECTION */
+.projwizard-section-block {
+  margin-bottom: 22px;
+}
+
+.projwizard-section-block .projwizard-h3 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: #008c99;
+}
+
+/* BOLD UNDERLINE (APRERA STYLE) */
+.projwizard-section-line {
+  width: 65px;
+  height: 4px;
+  background: #008c99;
+  margin: 6px 0 14px;
+}
+
+/* LABELS */
+.projwizard-field-label {
+  font-size: 13px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* INPUTS */
+.projwizard-text-input,
+.projwizard-section-block input[type="text"],
+.projwizard-section-block input[type="date"],
+.projwizard-section-block select {
+  height: 32px;
+  padding: 4px 8px;
+  border: 1px solid #cfcfcf;
+  font-size: 13px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.projwizard-section-block textarea {
+  padding: 8px;
+  border: 1px solid #cfcfcf;
+  font-size: 13px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+  resize: vertical;
+  min-height: 60px;
+}
+
+/* FILE INPUT */
+.projwizard-section-block input[type="file"] {
+  font-size: 11px;
+  padding: 2px;
+  width: 100%;
+}
+
+/* RADIO */
+.projwizard-radio-row {
+  display: flex;
+  gap: 40px;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.projwizard-radio-row label {
+  cursor: pointer;
+}
+
+/* INLINE ROW */
+.projwizard-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* GRID LAYOUT - 4 COLUMNS */
+.projwizard-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 16px;
+  row-gap: 14px;
+}
+
+.projwizard-grid .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.projwizard-grid .field label {
+  font-size: 13px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.projwizard-grid .field label span {
+  color: red;
+}
+
+/* 3 COLUMN GRID */
+.projwizard-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+  row-gap: 14px;
+}
+
+.projwizard-grid-3 .field {
+  display: flex;
+  flex-direction: column;
+}
+
+.projwizard-grid-3 .field label {
+  font-size: 13px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.projwizard-grid-3 .field label span {
+  color: red;
+}
+
+/* BUTTON */
+.projwizard-btn {
+  background: #0c84e4;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.projwizard-btn:hover {
+  background: #096ab5;
+}
+
+/* ADD BUTTON */
+.projwizard-add-btn {
+  background: #0c84e4;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 2px;
+  float: right;
+  margin-top: 15px;
+}
+
+.projwizard-add-btn:hover {
+  background: #096ab5;
+}
+
+/* DELETE BUTTON */
+.projwizard-delete-btn {
+  background: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.projwizard-delete-btn:hover {
+  background: #096ab5;
+}
+
+/* REQUIRED ASTERISK */
+.projwizard-required {
+  color: red;
+}
+
+/* APRERA YES/NO ROW */
+.aprera-section {
+  /* Optional: add specific styles for aprera sections */
+}
+
+.aprera-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.aprera-label {
+  font-weight: 600;
+}
+
+.aprera-label span {
+  color: red;
+}
+
+.aprera-radio {
+  display: flex;
+  gap: 22px;
+  font-weight: 600;
+}
+
+.aprera-radio label {
+  cursor: pointer;
+}
+
+/* NOTE TEXT */
+.aprera-note {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.aprera-note-red {
+  font-size: 13px;
+  color: #d9534f;
+  line-height: 1.5;
+  margin: 15px 0;
+  font-weight: 500;
+}
+
+/* INSTRUCTIONS SCREEN */
+.projwizard-instruction-heading {
+  color: #008c99;
+  font-size: 16px;
+  margin: 20px 18px 10px;
+  text-decoration: underline;
+}
+
+.projwizard-instruction-list {
+  margin: 0 18px 20px 40px;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.projwizard-instruction-list li {
+  margin-bottom: 8px;
+}
+
+.projwizard-link {
+  color: #0c84e4;
+  text-decoration: none;
+}
+
+.projwizard-link:hover {
+  text-decoration: underline;
+}
+
+/* APPLICATION TYPE SECTION */
+.projwizard-application-type-section {
+  margin: 30px 18px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.projwizard-app-type-label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.projwizard-radio-group {
+  display: flex;
+  gap: 30px;
+}
+
+.projwizard-radio-group label {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* SUBMIT BUTTON CONTAINER */
+.projwizard-submit-button-container {
+  text-align: right;
+  margin: 20px 18px;
+}
+
+.projwizard-submit-btn {
+  background: #0c84e4;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.projwizard-submit-btn:hover {
+  background: #096ab5;
+}
+
+/* DOCUMENT TABLE */
+.projwizard-doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.projwizard-doc-table thead {
+  background: #5a6c7d;
+  color: white;
+}
+
+.projwizard-doc-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.projwizard-doc-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 13px;
+}
+
+.projwizard-doc-table tbody tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* SAVE BUTTON AT BOTTOM */
+.projwizard-save-container {
+  text-align: right;
+  margin-top: 30px;
+}
+
+.projwizard-save-btn {
+  background: #0c84e4;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-weight: 500;
+}
+
+.projwizard-save-btn:hover {
+  background: #096ab5;
+}
+
+/* CONDITIONAL SECTIONS */
+.projwizard-conditional-section {
+  margin-top: 20px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}

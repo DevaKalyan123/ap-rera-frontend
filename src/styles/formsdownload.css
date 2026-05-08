@@ -1,0 +1,83 @@
+/* Wrapper */
+.forms-wrapper {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px  50px;                 /* gap remove */
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* YOU ARE HERE – Blue bar (attached to white/table) */
+.breadcrumb {
+  background: #0b84e3;
+  color: #ffffff;
+  padding: 10px 20px;         /* left & right space */
+  font-size: 14px;
+  margin: 0;                  /* gap remove */
+  border-radius: 0;           /* rounded corners remove */
+}
+
+.breadcrumb span {
+  color: #ffffff;
+}
+
+/* Heading */
+h2 {
+  margin: 12px 15px;
+  padding-bottom: 6px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Table */
+.forms-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: px;
+}
+
+.forms-table th {
+  background: #3c5a6e;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+}
+
+.forms-table td {
+  padding: 8px;
+  border: 1px solid #dcdcdc;
+}
+
+.forms-table td[rowspan] {
+  vertical-align: middle;
+  border-right: 1px solid #cfcfcf;
+}
+
+/* Category column */
+.category {
+  background: #4f7894;
+  color: #ffffff;
+  font-weight: bold;
+  width: 170px;
+  text-align: center;
+}
+
+/* Form code */
+.code {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  width: 90px;
+}
+
+/* Download icon cell */
+.icon {
+  text-align: center;
+}
+
+/* Download icon */
+.fa-download {
+  color: #0066ff;
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,206 @@
+/* =========================
+   APRERA OFFICIAL PDF LOOK
+   ========================= */
+
+/* ---------- GLOBAL ---------- */
+.pdf-content {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+/* ---------- HEADER ---------- */
+.pdf-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0066cc;
+  letter-spacing: 0.2px;
+}
+
+.pdf-subtitle {
+  font-size: 14px;
+  color: #444;
+  margin-top: 6px;
+}
+
+/* ---------- SECTION HEADINGS ---------- */
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: none;
+  padding: 0;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 3px;
+  background: #007b8f;
+  margin-top: 4px;
+}
+
+.subsection-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000;
+  margin: 18px 0 6px 0;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 4px;
+}
+
+/* ---------- TABLES ---------- */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11.5px;
+}
+
+.data-table th,
+.data-table td {
+  border: 1px solid #cfcfcf;
+  padding: 4px 6px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.data-table th {
+  font-weight: 700;
+  background: #ffffff;
+}
+
+.label-cell {
+  font-weight: 700;
+  text-align: left;
+  background: #ffffff;
+}
+
+.value-cell {
+  text-align: left;
+}
+
+/* Smaller tables (associate tables) */
+.small-text {
+  font-size: 11px;
+}
+
+.small-text th,
+.small-text td {
+  padding: 4px;
+}
+
+/* ---------- APPLICATION INFO BOX ---------- */
+.application-info {
+  background: #f3f8ff;
+  border-radius: 4px;
+  padding: 12px;
+}
+
+.info-table td {
+  padding: 4px 6px;
+}
+
+/* ---------- BADGES (Building Type) ---------- */
+.badge {
+  font-size: 11px;
+  padding: 5px 12px;
+  border-radius: 14px;
+}
+
+/* ---------- NOT ADDED TEXT ---------- */
+.not-added,
+.not-added-text {
+  font-size: 11.5px;
+  color: #000;
+  margin: 6px 0 14px 0;
+}
+
+/* ---------- DECLARATION ---------- */
+.declaration-box {
+  border: 1.5px solid #0066cc;
+  padding: 12px;
+  font-size: 12px;
+}
+
+.declaration-text {
+  font-size: 12px;
+}
+
+.declaration-notes li {
+  font-size: 11.5px;
+}
+
+/* ---------- FOOTER ---------- */
+.pdf-footer {
+  font-size: 10.5px;
+  color: #444;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* =========================
+   PRINT / A4 SETTINGS
+   ========================= */
+
+@media print {
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+  }
+
+  * {
+    box-shadow: none !important;
+    background: #ffffff !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .pdf-content {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+
+  table {
+    page-break-inside: auto;
+  }
+
+  tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+  }
+
+  @page {
+    size: A4;
+    margin: 18mm 14mm 18mm 14mm;
+  }
+}
+@media print {
+  .page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  .pdf-page-footer {
+    text-align: right;
+    font-size: 11px;
+    margin-top: 6px;
+    color: #333;
+  }
+}
+

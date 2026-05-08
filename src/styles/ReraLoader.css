@@ -1,0 +1,62 @@
+/* ================================
+   FULL SCREEN OVERLAY
+================================ */
+.ap-rera-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(190, 190, 190, 0.75);
+  z-index: 99999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================================
+   LOADER SIZE (MATCHES AP RERA)
+================================ */
+.ap-rera-loader {
+  position: relative;
+  width: 230px;   /* 🔥 exact visual size */
+  height: 230px;
+}
+
+/* ================================
+   ROTATING OUTER ARC (THIN)
+================================ */
+.ap-rera-spinner {
+  position: absolute;
+  inset: 26px;
+  border-radius: 150%;
+
+  border: 25px solid #e6eef5;        /* light ring */
+  border-top-color: #6fb4e8;         /* light blue arc */
+  border-right-color: #6fb4e8;
+
+  animation: ap-rera-spin 1.8s linear infinite;
+}
+
+/* ================================
+   INNER WHITE CIRCLE
+================================ */
+.ap-rera-center {
+  position: absolute;
+  inset: 50px;                       /* 🔥 exact gap */
+  background: #ffffff;
+  border-radius: 150%;
+  border: 2px solid #9fc9ea;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================================
+   LOGO AUTO FIT (KEY FIX)
+================================ */
+.ap-rera-center img {
+  width: 450%;                        /* 🔥 fills circle like real */
+  height: 100%;
+  object-fit: contain;
+}

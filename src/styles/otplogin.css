@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PAGE BG */
+.otplogin-page-bg {
+  background: #f1f1f1;
+  padding: 25px 0 8px;
+}
+
+/* OUTER FRAME */
+.otplogin-outer-frame {
+  max-width: 1150px;
+  margin: auto;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  min-height: calc(100vh - 150px);
+}
+
+/* ================= BREADCRUMB ================= */
+
+.otplogin-breadcrumb-bar {
+  background: #2f80c1;
+  padding: 14px 20px;
+}
+
+.otplogin-breadcrumb-inner {
+  font-size: 14px;
+  color: #fff;
+}
+
+.otplogin-bc-link {
+  color: #ffeb3b;
+  border-bottom: 1px solid #ffeb3b;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+.otplogin-bc-text {
+  color: #ffffff;
+}
+
+.otplogin-bc-active {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* ================= FORM ================= */
+
+.otplogin-otp-container {
+  padding: 50px 40px 60px;
+}
+
+.otplogin-form-group {
+  width: 420px;
+  margin: 0 auto 30px;
+}
+
+.otplogin-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.otplogin-form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #cfcfcf;
+}
+
+.otplogin-pan-row {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.otplogin-otp-btn {
+  background: #0b5ed7;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.otplogin-otp-btn:hover {
+  background: #084298;
+}
+
+.otplogin-required {
+  color: red;
+}
+
+.otplogin-error {
+  color: red;
+  text-align: center;
+}
+
+.otplogin-success {
+  color: green;
+  text-align: center;
+}
+
+/* ================= POPUP ================= */
+
+.otplogin-popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.otplogin-popup-box {
+  background: #fff;
+  padding: 25px 35px;
+  border-radius: 6px;
+  text-align: center;
+  width: 300px;
+}
+
+.otplogin-popup-box button {
+  background: #0b5ed7;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.projectreg-heading{
+  font-size: 21px;
+  padding: 10px 20px;
+  font-weight: 400;
+  color: #000000;
+}

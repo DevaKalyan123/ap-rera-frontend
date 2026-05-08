@@ -1,0 +1,89 @@
+/* Base Sidebar */
+.scrutiny-sidebar {
+  height: 100vh;
+  background-color: #1e293b;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0; /* ✅ IMPORTANT */
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+/* Open Sidebar */
+.scrutiny-sidebar-open {
+  width: 220px;
+}
+
+/* Closed Sidebar */
+.scrutiny-sidebar-closed {
+  width: 60px;
+}
+
+/* Title */
+.scrutiny-sidebar-title {
+  text-align: center;
+  padding: 15px;
+  font-size: 18px;
+  border-bottom: 1px solid #334155;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+/* Hide title when closed */
+.scrutiny-sidebar-closed .scrutiny-sidebar-title {
+  opacity: 0;
+}
+
+/* Buttons */
+.scrutiny-sidebar button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: none;
+  color: white;
+  text-align: left;
+  cursor: pointer;
+  border-bottom: 1px solid #334155;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.scrutiny-sidebar button:hover {
+  background-color: #334155;
+}
+
+/* Hide button text when closed */
+.scrutiny-sidebar-closed button {
+  text-align: center;
+  font-size: 0; /* hide text */
+}
+
+/* Optional: show icon placeholder */
+.admin-sidebar-closed button::before {
+  content: "•"; /* you can replace with icons later */
+  font-size: 18px;
+}
+
+.sidebar-toggle {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  border-bottom: 1px solid #334155;
+}
+
+.sidebar-toggle:hover {
+  background-color: #334155;
+}
+
+.scrutiny-sidebar-closed button {
+  font-size: 0;
+  position: relative;
+}
+
+/* Show icon placeholder */
+.scrutiny-sidebar-closed button::before {
+  content: "•";   /* you can replace with icons later */
+  font-size: 180px;
+}

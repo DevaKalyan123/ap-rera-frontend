@@ -1,0 +1,339 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+/* Container */
+.uploaddoc-container {
+  width: 85%;
+  margin: 20px auto;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+/* Breadcrumb */
+.uploaddoc-breadcrumb {
+  background: #1489f3;
+  color: #ffffff;
+  padding: 8px 20px;
+  font-size: 15px;
+}
+
+.uploaddoc-breadcrumb-home {
+  color: yellow;
+  text-decoration: underline;
+}
+
+/* Title */
+.uploaddoc-title {
+  padding: 15px 20px 5px;
+  font-size: 20px;
+}
+
+.uploaddoc-title-line {
+  width: 60px;
+  height: 3px;
+  background: #1489f3;
+  margin-left: 20px;
+}
+
+/* Stepper */
+.uploaddoc-stepper {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  margin: 15px;
+}
+
+.uploaddoc-step {
+  text-align: center;
+  width: 12%;
+  font-size: 13px;
+}
+
+.uploaddoc-step-circle {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 2px solid #cccccc;
+  line-height: 30px;
+  margin: 0 auto 6px;
+}
+
+.uploaddoc-step-done,
+.uploaddoc-step-active {
+  background: #4caf50;
+  color: #ffffff;
+  border-color: #4caf50;
+}
+
+.uploaddoc-step-label {
+  display: block;
+}
+
+/* Table */
+.uploaddoc-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.uploaddoc-th {
+  background: #42586d;
+  color: #ffffff;
+  padding: 10px;
+  border: 3px solid #d38b2c;
+  text-align: left;
+  font-weight: 600;
+}
+
+.uploaddoc-td {
+  padding: 10px;
+  border: 3px solid #d38b2c;
+  font-size: 17px;
+}
+
+.uploaddoc-doc-note {
+  color: red;
+}
+/* ================= Submitted By ================= */
+.uploaddoc-submitted-by {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 25px 15px 10px;
+  font-size: 14px;
+}
+
+.uploaddoc-submitted-label {
+  font-weight: bold;
+}
+
+.uploaddoc-radio {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* ================= Section Title ================= */
+.uploaddoc-section-title {
+  color: #007bff;
+  font-size: 20px;
+  margin: 20px 15px 6px;
+}
+
+.uploaddoc-section-underline {
+  width: 60px;
+  height: 3px;
+  background: #007bff;
+  margin: 0 15px 15px;
+}
+
+/* ================= Form Grid ================= */
+.uploaddoc-form-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 14px;
+  padding: 0 15px;
+}
+
+.uploaddoc-form-grid label {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.uploaddoc-form-grid input,
+.uploaddoc-form-grid textarea {
+  width: 380px;
+  height: 42px;
+  padding: 6px 10px;
+  font-size: 13px;
+  background-color: #f5f5f5;
+  border: 1px solid #c9c9c9;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.uploaddoc-form-grid textarea {
+  height: 50px;
+  resize: none;
+}
+
+.uploaddoc-form-grid input:focus,
+.uploaddoc-form-grid textarea:focus {
+  outline: none;
+  background-color: #ffffff;
+  border-color: #66afe9;
+  box-shadow: 0 0 6px rgba(102, 175, 233, 0.6);
+}
+
+/* ================= Helpers ================= */
+.uploaddoc-full-width {
+  grid-column: span 2;
+}
+
+.uploaddoc-required {
+  color: red;
+  margin-left: 2px;
+  width: 200px;
+}
+/* .uploaddoc-required span{
+    width: 1500px;
+} */
+
+.uploaddoc-note {
+  color: red;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px;
+}
+/* ================= Declaration Section ================= */
+
+/* ================= Declaration (FIRST IMAGE STYLE) ================= */
+
+.uploaddoc-declaration {
+  display: flex;
+  align-items: center;          /* ✅ vertical alignment */
+  gap: 6px;
+  font-size: 15px;
+  margin: 20px 15px 30px;
+  line-height: 1.6;
+}
+
+.uploaddoc-declaration input[type="checkbox"] {
+  margin-top: 0;                /* ✅ keep checkbox centered */
+}
+
+/* Inline text + input container */
+.uploaddoc-declaration span {
+  display: inline-flex;
+  align-items: center;          /* ✅ aligns I/We, input, text */
+  flex-wrap: wrap;              /* ✅ wraps nicely on small screens */
+}
+
+/* I/We input box */
+.uploaddoc-inline-input {
+  width: 140px;                 /* ✅ same as screenshot */
+  height: 28px;                 /* ✅ matches text height */
+  margin: 0 6px;
+  padding: 3px 6px;
+
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: #ffffff;
+  color: #333;
+
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+
+  vertical-align: middle;       /* ✅ key fix */
+  box-sizing: border-box;
+}
+
+/* Focus effect (govt style) */
+.uploaddoc-inline-input:focus {
+  outline: none;
+  border-color: #66afe9;
+  box-shadow: 0 0 5px rgba(102, 175, 233, 0.6);
+}
+
+/* ================= Note List (Proper spacing) ================= */
+
+.uploaddoc-note-list {
+  margin: 20px 15px 10px;
+}
+
+.uploaddoc-note-list div {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  margin-bottom: 18px;   /* ✅ SPACE BETWEEN TWO LINES */
+  font-size: 15px;
+  line-height: 1.6;      /* ✅ MULTI-LINE READABILITY */
+}
+
+.uploaddoc-note-list input[type="checkbox"] {
+  margin-top: 4px;       /* aligns checkbox with text */
+}
+
+/* ================= Save Button (Right aligned) ================= */
+
+.uploaddoc-save-wrapper {
+  display: flex;
+  justify-content: flex-end;   /* ✅ RIGHT SIDE */
+  margin: 25px 20px 20px;      /* ✅ SPACE ABOVE BUTTON */
+}
+
+.uploaddoc-save-btn {
+  padding: 6px 18px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-color: #0d6efd;
+  color: #ffffff;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.uploaddoc-save-btn:hover {
+  background-color: #0b5ed7;
+}
+/* Popup box */
+.uploaddoc-popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border: 3px solid #ff0000;
+  padding: 14px 18px;
+  width: 560px;
+  max-width: 90%;
+  z-index: 1000;
+  border-radius: 4px;
+  box-shadow: none; /* match screenshot */
+}
+
+/* Popup text */
+.uploaddoc-popup p {
+  margin: 0;
+  font-size: 13px;        /* EXACT size like screenshot */
+  font-weight: 600;       /* slightly bold */
+  color: #000000;         /* black text */
+  line-height: 1.4;
+}
+
+/* Close button */
+.uploaddoc-popup-close {
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 3px solid red;
+  background: #fff;
+  color: red;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 18px;
+  text-align: center;
+}
+/* Background dim overlay */
+.uploaddoc-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4); /* grey background */
+  z-index: 999;
+}

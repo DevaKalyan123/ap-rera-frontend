@@ -1,0 +1,142 @@
+body {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ✅ changed from .rti-page to .rti */
+.rti {
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  
+}
+
+/* Breadcrumb full width like official site */
+.breadcrumb {
+  background: #1683e5;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 14px;
+
+  /* 🔥 IMPORTANT PART */
+  margin: -20px -20px 20px -20px; /* top right bottom left */
+}
+
+
+.breadcrumb span {
+  color: yellow;
+}
+
+.rti-title {
+  font-size: 26px;
+  margin-top: 20px;
+}
+
+.title-underline {
+  width: 60px;
+  height: 3px;
+  background: #1683e5;
+  margin: 10px 0;
+}
+
+.rti-desc {
+  line-height: 1.6;
+}
+
+.accordion {
+  margin-top: 20px;
+}
+
+.acc-header {
+  background: #d9d9d9;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+}
+
+
+.acc-item.open .acc-header {
+  background: #3d3b3b;
+  color: #fff;
+}
+
+.acc-body {
+  background: #f9f9f9;
+  padding: 15px;
+  border-left: 3px solid #4aa3df;
+}
+
+.soon {
+  color: red;
+  font-weight: bold;
+}
+
+.acc-item {
+  margin-bottom: 12px;     /* gap between boxes */
+}
+
+.acc-header:hover {
+  background: #3d3b3b;   /* dark grey */
+  color: #fff;
+}
+
+.cpio-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.cpio-table th {
+  background: #3f556b;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.cpio-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  vertical-align: top;
+}
+
+.cpio-table tbody tr:nth-child(even) {
+  background: #f5f5f5;
+}
+.notice-box {
+  background: #f7f7f7;
+  padding: 15px 20px;
+  border-left: 3px solid #2bb1e7; /* blue vertical line */
+}
+
+.notice-text {
+  color: red;
+  font-weight: bold;
+}
+.acc-body p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.rti-title {
+  font-size: 26px;
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+
+.rti-blue-line {
+  width: 60px;          /* small line */
+  height: 3px;
+  background: #0b5ed7;  /* blue color */
+  margin-bottom: 15px; /* space after line */
+}
+
+.rti-content {
+  padding: 35px 20px 20px 20px;
+  /* top right bottom left */
+}
+.rti-maincontaint{
+  margin: 10px 30px;
+}

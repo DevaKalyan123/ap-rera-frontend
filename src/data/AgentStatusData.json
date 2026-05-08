@@ -1,0 +1,3034 @@
+{
+  "AgentStatusReort ": [
+    {
+      "Sl.No": "1",
+      "Application No": "10118122234",
+      "Agent Name": "INDIABULLS INVESTMENT ADVISORS LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "03/02/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "6/2/2018 8:06 PM"
+    },
+    {
+      "Sl.No": "2",
+      "Application No": "120318000000",
+      "Agent Name": "YAKKANTI VENKATESWARA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/03/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/4/2018 06:50 PM"
+    },
+    {
+      "Sl.No": "3",
+      "Application No": "170218000000",
+      "Agent Name": "SAI PRIYANKA HOUSING PROJECTS PVT LTD",
+      "Agent Type": "Organization",
+      "Date of Submission": "02/04/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/4/2018 06:39 PM"
+    },
+    {
+      "Sl.No": "4",
+      "Application No": "270218000000",
+      "Agent Name": "MOHAMMED SAJEED",
+      "Agent Type": "Individual",
+      "Date of Submission": "02/04/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/4/2018 06:25 PM"
+    },
+    {
+      "Sl.No": "5",
+      "Application No": "90418182412",
+      "Agent Name": "SRIRAM VUPPALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/04/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/5/2018 02:37 PM"
+    },
+    {
+      "Sl.No": "6",
+      "Application No": "10518100308",
+      "Agent Name": "SQUARE YARDS CONSULTING PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "01/05/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "14/5/2023 02:41 PM"
+    },
+    {
+      "Sl.No": "7",
+      "Application No": "210318000000",
+      "Agent Name": "AVENUE REALTY",
+      "Agent Type": "Organization",
+      "Date of Submission": "04/05/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/5/2018 04:28 PM"
+    },
+    {
+      "Sl.No": "8",
+      "Application No": "80218150119",
+      "Agent Name": "HAPPYHOMESS CONSULTANCY PVT LTD",
+      "Agent Type": "Organization",
+      "Date of Submission": "07/05/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/5/2018 04:34 PM"
+    },
+    {
+      "Sl.No": "9",
+      "Application No": "160418000000",
+      "Agent Name": "JALASUTRAM MOHAN RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/05/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/5/2018 04:38 PM"
+    },
+    {
+      "Sl.No": "10",
+      "Application No": "220318000000",
+      "Agent Name": "DAVID RAJU REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/05/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/5/2018 04:39 PM"
+    },
+    {
+      "Sl.No": "11",
+      "Application No": "190518000000",
+      "Agent Name": "SOLE VENKATA KOTESWARA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/05/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/2/2024 06:10 PM"
+    },
+    {
+      "Sl.No": "12",
+      "Application No": "220218000000",
+      "Agent Name": "REGROB INFRASTRUCTURE PVT LTD",
+      "Agent Type": "Organization",
+      "Date of Submission": "28/05/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/6/2018 06:12 PM"
+    },
+    {
+      "Sl.No": "13",
+      "Application No": "90618233630",
+      "Agent Name": "SUGUNAN HARISH BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/06/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/6/2018 06:12 PM"
+    },
+    {
+      "Sl.No": "14",
+      "Application No": "130618000000",
+      "Agent Name": "PUVVADA PATTABI CHOUDARI",
+      "Agent Type": "Individual",
+      "Date of Submission": "15/06/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/6/2018 06:13 PM"
+    },
+    {
+      "Sl.No": "15",
+      "Application No": "230618000000",
+      "Agent Name": "NALLAMALA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "23/06/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/7/2018 05:10 PM"
+    },
+    {
+      "Sl.No": "16",
+      "Application No": "290618000000",
+      "Agent Name": "KUPPALA VENKATARAMANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/06/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/7/2018 05:11 PM"
+    },
+    {
+      "Sl.No": "17",
+      "Application No": "290618000000",
+      "Agent Name": "M V NAGARAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/06/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/7/2018 05:12 PM"
+    },
+    {
+      "Sl.No": "18",
+      "Application No": "100718000000",
+      "Agent Name": "GANDHAM SYAM BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "10/07/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/8/2018 05:52 PM"
+    },
+    {
+      "Sl.No": "19",
+      "Application No": "230718000000",
+      "Agent Name": "TULLURI VENKATA SESHA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/07/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/8/2018 05:56 PM"
+    },
+    {
+      "Sl.No": "20",
+      "Application No": "50918115107",
+      "Agent Name": "KNIGHT FRANK INDIA PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "05/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/12/2023 12:12 PM"
+    },
+    {
+      "Sl.No": "21",
+      "Application No": "50918172405",
+      "Agent Name": "MBN SATYANARAYANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/9/2018 4:20 PM"
+    },
+    {
+      "Sl.No": "22",
+      "Application No": "70918121135",
+      "Agent Name": "GOKA.SUNITHA",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/9/2018 4:21 PM"
+    },
+    {
+      "Sl.No": "23",
+      "Application No": "70918191446",
+      "Agent Name": "CHINTALAPUDI.ARAVINDA DEVI",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/9/2018 4:22 PM"
+    },
+    {
+      "Sl.No": "24",
+      "Application No": "70918193444",
+      "Agent Name": "CHINTALAPUDI.MADHUSUDHANA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/9/2018 4:23 PM"
+    },
+    {
+      "Sl.No": "25",
+      "Application No": "80918164144",
+      "Agent Name": "CH KARUNA",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/9/2018 04:46 PM"
+    },
+    {
+      "Sl.No": "26",
+      "Application No": "90918125947",
+      "Agent Name": "KILADI CHANDRAKALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/9/2018 04:48 PM"
+    },
+    {
+      "Sl.No": "27",
+      "Application No": "60918130842",
+      "Agent Name": "KARRI UMAKANTH",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/9/2018 04:49 PM"
+    },
+    {
+      "Sl.No": "28",
+      "Application No": "80918162307",
+      "Agent Name": "PETTA PRAMEELA",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/09/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "24/10/2018 11:57 AM"
+    },
+    {
+      "Sl.No": "29",
+      "Application No": "11018212437",
+      "Agent Name": "VENKATA RAO SANAPALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/10/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "24/10/2018 11:58 AM"
+    },
+    {
+      "Sl.No": "30",
+      "Application No": "31018131438",
+      "Agent Name": "ADDEPALLI RAJENDRA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/10/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "24/10/2018 11:59 AM"
+    },
+    {
+      "Sl.No": "31",
+      "Application No": "81118104926",
+      "Agent Name": "NIRMALA GUNDU",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/11/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/11/2018 06:30 PM"
+    },
+    {
+      "Sl.No": "32",
+      "Application No": "11118173546",
+      "Agent Name": "VALLURI SIREESH BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/11/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/11/2018 06:31 PM"
+    },
+    {
+      "Sl.No": "33",
+      "Application No": "11118170128",
+      "Agent Name": "KARINI VENKATA VARA SATYA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/11/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/11/2018 06:32 PM"
+    },
+    {
+      "Sl.No": "34",
+      "Application No": "101118000000",
+      "Agent Name": "SUNITHA POTTI",
+      "Agent Type": "Individual",
+      "Date of Submission": "10/11/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/11/2018 06:32 PM"
+    },
+    {
+      "Sl.No": "35",
+      "Application No": "101118000000",
+      "Agent Name": "SRINIVASA RAO BALLA",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/11/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/11/2018 10:53 AM"
+    },
+    {
+      "Sl.No": "36",
+      "Application No": "201118000000",
+      "Agent Name": "VADDEBOINA VENKATA NARAYANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/11/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/11/2018 10:55 AM"
+    },
+    {
+      "Sl.No": "37",
+      "Application No": "211118000000",
+      "Agent Name": "VENKATESWARA RAO KONGARA",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/11/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/11/2018 10:58 AM"
+    },
+    {
+      "Sl.No": "38",
+      "Application No": "141218000000",
+      "Agent Name": "VEERA NAGESWARA RAO NUTHALAPATI",
+      "Agent Type": "Individual",
+      "Date of Submission": "14/12/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "20/12/2018 08:40 PM"
+    },
+    {
+      "Sl.No": "39",
+      "Application No": "201218000000",
+      "Agent Name": "PANEM ARUN AND MUNNANGI MANVITHA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "26/12/2018",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "1/1/2019 2:17 PM"
+    },
+    {
+      "Sl.No": "40",
+      "Application No": "311218000000",
+      "Agent Name": "PERURI SUNITHA",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/01/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/1/2019 1:41 PM"
+    },
+    {
+      "Sl.No": "41",
+      "Application No": "91118102730",
+      "Agent Name": "MOHAMMAD NASRULLAH",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/01/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/1/2019 1:42 PM"
+    },
+    {
+      "Sl.No": "42",
+      "Application No": "210219000000",
+      "Agent Name": "SREE KRISHNA SEELAM",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/02/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/3/2019 1:58 PM"
+    },
+    {
+      "Sl.No": "43",
+      "Application No": "210219000000",
+      "Agent Name": "AVENIR REALTY LLP",
+      "Agent Type": "Organization",
+      "Date of Submission": "28/02/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "19/3/2019 02:29 PM"
+    },
+    {
+      "Sl.No": "44",
+      "Application No": "140319000000",
+      "Agent Name": "SITES BAZAAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "15/03/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/3/2019 09:56 AM"
+    },
+    {
+      "Sl.No": "45",
+      "Application No": "190319000000",
+      "Agent Name": "LATHA MENON MADATHIL",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/03/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/3/2019 09:56 AM"
+    },
+    {
+      "Sl.No": "46",
+      "Application No": "110219000000",
+      "Agent Name": "CUSHMAN AND WAKEFIELD INDIA PVT LTD",
+      "Agent Type": "Organization",
+      "Date of Submission": "19/03/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/1/2025 09:57 AM"
+    },
+    {
+      "Sl.No": "47",
+      "Application No": "210319000000",
+      "Agent Name": "T.SRIDHAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/03/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/3/2019 12:47 PM"
+    },
+    {
+      "Sl.No": "48",
+      "Application No": "190219000000",
+      "Agent Name": "CBRE SOUTH ASIA PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "22/03/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/1/2025 12:48 PM"
+    },
+    {
+      "Sl.No": "49",
+      "Application No": "60519222013",
+      "Agent Name": "CHARANETRA SPACES PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "06/05/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/5/2019 10:23 AM"
+    },
+    {
+      "Sl.No": "50",
+      "Application No": "160219000000",
+      "Agent Name": "ICONICA PROJECTS",
+      "Agent Type": "Organization",
+      "Date of Submission": "09/05/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/5/2019 06:58 PM"
+    },
+    {
+      "Sl.No": "51",
+      "Application No": "90519144332",
+      "Agent Name": "SUVARNAKUTEER DEVELOPERS PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "09/05/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/5/2019 06:59 PM"
+    },
+    {
+      "Sl.No": "52",
+      "Application No": "170519000000",
+      "Agent Name": "SUN REALTY",
+      "Agent Type": "Organization",
+      "Date of Submission": "17/05/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/5/2019 07:00 PM"
+    },
+    {
+      "Sl.No": "53",
+      "Application No": "100319000000",
+      "Agent Name": "KTR PLANNERS AND DEVELOPERS",
+      "Agent Type": "Organization",
+      "Date of Submission": "21/05/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/5/2019 07:00 PM"
+    },
+    {
+      "Sl.No": "54",
+      "Application No": "280519000000",
+      "Agent Name": "PROPNEST MARKETING SERVICES",
+      "Agent Type": "Individual",
+      "Date of Submission": "28/05/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "31/5/2019 03:18 PM"
+    },
+    {
+      "Sl.No": "55",
+      "Application No": "10319173155",
+      "Agent Name": "AVIGHNA LAND DEVELOPERS AND BUILDERS",
+      "Agent Type": "Organization",
+      "Date of Submission": "31/05/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/6/2019 03:51 PM"
+    },
+    {
+      "Sl.No": "56",
+      "Application No": "50619174410",
+      "Agent Name": "P SOMA SEKHAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "06/06/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/6/2019 03:51 PM"
+    },
+    {
+      "Sl.No": "57",
+      "Application No": "130619000000",
+      "Agent Name": "SATHI MADHAVA RAMA KRISHNA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/06/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/6/2019 10:50 AM"
+    },
+    {
+      "Sl.No": "58",
+      "Application No": "140619000000",
+      "Agent Name": "C.HARI NARAYANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "14/06/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/6/2019 12:24 PM"
+    },
+    {
+      "Sl.No": "59",
+      "Application No": "10619123309",
+      "Agent Name": "KOLA SURESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "18/06/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/7/2019 11:20 AM"
+    },
+    {
+      "Sl.No": "60",
+      "Application No": "220719000000",
+      "Agent Name": "CHALLA UMA VENKATA GANESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "23/07/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/8/2019 2:01 PM"
+    },
+    {
+      "Sl.No": "61",
+      "Application No": "230719000000",
+      "Agent Name": "PENTA MAHESWARA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/07/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/8/2019 2:01 PM"
+    },
+    {
+      "Sl.No": "62",
+      "Application No": "230719000000",
+      "Agent Name": "KOTA SIVUNNAIDU",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/07/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/8/2019 2:02 PM"
+    },
+    {
+      "Sl.No": "63",
+      "Application No": "230719000000",
+      "Agent Name": "BHORA HARIKUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/07/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/8/2019 2:02 PM"
+    },
+    {
+      "Sl.No": "64",
+      "Application No": "280719000000",
+      "Agent Name": "LORDS INFRA BROKING SERVICES PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "28/07/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/8/2019 2:03 PM"
+    },
+    {
+      "Sl.No": "65",
+      "Application No": "280719000000",
+      "Agent Name": "DOGGA NARAYANA MURTHY",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/07/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/8/2019 2:03 PM"
+    },
+    {
+      "Sl.No": "66",
+      "Application No": "300719000000",
+      "Agent Name": "VEMULAPALLI VENKATESWARLU",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/07/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/8/2019 2:04 PM"
+    },
+    {
+      "Sl.No": "67",
+      "Application No": "70819141927",
+      "Agent Name": "NEEDSCUE SERVICES LLP",
+      "Agent Type": "Organization",
+      "Date of Submission": "07/08/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "17/8/2019 10:14 PM"
+    },
+    {
+      "Sl.No": "68",
+      "Application No": "240619000000",
+      "Agent Name": "MAHANTHI SALAMKAYALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/08/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "17/8/2019 10:14 PM"
+    },
+    {
+      "Sl.No": "69",
+      "Application No": "90819174520",
+      "Agent Name": "CHINTHAMANI ASHOK KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/08/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/9/2019 10:33 AM"
+    },
+    {
+      "Sl.No": "70",
+      "Application No": "230719000000",
+      "Agent Name": "DUMPA VENKATA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/08/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/9/2019 10:33 AM"
+    },
+    {
+      "Sl.No": "71",
+      "Application No": "30919114753",
+      "Agent Name": "IPPALA GANAPATHI REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "06/09/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/9/2019 03:20 PM"
+    },
+    {
+      "Sl.No": "72",
+      "Application No": "30919190517",
+      "Agent Name": "BALAVARMA KAMINENI",
+      "Agent Type": "Individual",
+      "Date of Submission": "06/09/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/9/2019 03:21 PM"
+    },
+    {
+      "Sl.No": "73",
+      "Application No": "50919123649",
+      "Agent Name": "BOPPANA SATYANARAYANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/09/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/9/2019 03:22 PM"
+    },
+    {
+      "Sl.No": "74",
+      "Application No": "30919214243",
+      "Agent Name": "CHILAKALA RAMAKRISHNA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/09/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/9/2019 03:22 PM"
+    },
+    {
+      "Sl.No": "75",
+      "Application No": "60919005140",
+      "Agent Name": "BOBBA NARASIMHA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/09/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/9/2019 03:23 PM"
+    },
+    {
+      "Sl.No": "76",
+      "Application No": "200919000000",
+      "Agent Name": "RAVI KUMAR VANAMALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/09/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/10/2019 9:55 AM"
+    },
+    {
+      "Sl.No": "77",
+      "Application No": "260919000000",
+      "Agent Name": "MEDASETTI RAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "27/09/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/10/2019 9:56 AM"
+    },
+    {
+      "Sl.No": "78",
+      "Application No": "71019121743",
+      "Agent Name": "SANDEPUDI KANTHA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/10/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "24/10/2019 04:56 PM"
+    },
+    {
+      "Sl.No": "79",
+      "Application No": "181019000000",
+      "Agent Name": "DUDDI LAKSHMI PATHI",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/10/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/11/2019 7:59 AM"
+    },
+    {
+      "Sl.No": "80",
+      "Application No": "41119140734",
+      "Agent Name": "KRISHNA KUMARI BODDEPALLI",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2019 02:32 PM"
+    },
+    {
+      "Sl.No": "81",
+      "Application No": "230719000000",
+      "Agent Name": "APPARAO GOCHIPATA",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2019 02:33 PM"
+    },
+    {
+      "Sl.No": "82",
+      "Application No": "71119131429",
+      "Agent Name": "REDDI SANTOSH KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2019 02:33 PM"
+    },
+    {
+      "Sl.No": "83",
+      "Application No": "71119170520",
+      "Agent Name": "YECHURI KOTESWARA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2019 02:34 PM"
+    },
+    {
+      "Sl.No": "84",
+      "Application No": "151119000000",
+      "Agent Name": "GOLLAPALLI SRINIVASARO",
+      "Agent Type": "Individual",
+      "Date of Submission": "15/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/12/2019 1:04 PM"
+    },
+    {
+      "Sl.No": "85",
+      "Application No": "161119000000",
+      "Agent Name": "VENKATA SANKAR JOGA RAO SOMAYAJULA",
+      "Agent Type": "Individual",
+      "Date of Submission": "16/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/12/2019 1:05 PM"
+    },
+    {
+      "Sl.No": "86",
+      "Application No": "191119000000",
+      "Agent Name": "GOUR VISHNU TEJ DANTU",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/12/2019 1:05 PM"
+    },
+    {
+      "Sl.No": "87",
+      "Application No": "301119000000",
+      "Agent Name": "SANTHOSH KUMAR BARNALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/11/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/12/2019 1:06 PM"
+    },
+    {
+      "Sl.No": "88",
+      "Application No": "71219174621",
+      "Agent Name": "DHEEKONDA SRINIVASARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/12/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "20/12/2019 02:55 PM"
+    },
+    {
+      "Sl.No": "89",
+      "Application No": "261019000000",
+      "Agent Name": "YARRAMSETTY KRISHNA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/12/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "20/12/2019 02:56 PM"
+    },
+    {
+      "Sl.No": "90",
+      "Application No": "261019000000",
+      "Agent Name": "YARRAMSETTY MADHUSUDHANA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/12/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "20/12/2019 02:57 PM"
+    },
+    {
+      "Sl.No": "91",
+      "Application No": "51219114512",
+      "Agent Name": "KAPIL REALTY CONSULTANTS PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "19/12/2019",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/1/2025 10:10 AM"
+    },
+    {
+      "Sl.No": "92",
+      "Application No": "20120120901",
+      "Agent Name": "KOMATI SRIDHAR BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "02/01/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/1/2020 02:01 PM"
+    },
+    {
+      "Sl.No": "93",
+      "Application No": "20120140416",
+      "Agent Name": "TRILOCHANI ESTATES PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "02/01/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/1/2020 02:01 PM"
+    },
+    {
+      "Sl.No": "94",
+      "Application No": "60120161501",
+      "Agent Name": "KADIMISETTY RAMANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/01/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "27/1/2020 01:04 PM"
+    },
+    {
+      "Sl.No": "95",
+      "Application No": "110120000000",
+      "Agent Name": "AKKURADA TATARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "11/01/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "27/1/2020 01:05 PM"
+    },
+    {
+      "Sl.No": "96",
+      "Application No": "40220141603",
+      "Agent Name": "CREDAI",
+      "Agent Type": "Organization",
+      "Date of Submission": "04/02/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/2/2020 12:40 PM"
+    },
+    {
+      "Sl.No": "97",
+      "Application No": "70220104853",
+      "Agent Name": "SAKHARAMAHANTY VENKATANARASINGA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/02/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/2/2020 12:41 PM"
+    },
+    {
+      "Sl.No": "98",
+      "Application No": "210220000000",
+      "Agent Name": "TALAPATI.CHENNARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/02/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/3/2020 5:07 PM"
+    },
+    {
+      "Sl.No": "99",
+      "Application No": "290220000000",
+      "Agent Name": "SUDHIR KUMAR NANABALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/02/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/3/2020 1:11 PM"
+    },
+    {
+      "Sl.No": "100",
+      "Application No": "40320183125",
+      "Agent Name": "Y JAGADEESWARI",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/03/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "28/3/2020 01:55 PM"
+    },
+    {
+      "Sl.No": "101",
+      "Application No": "110620000000",
+      "Agent Name": "VANGARA SRINIVASA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "11/06/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "3/7/2020 7:39 PM"
+    },
+    {
+      "Sl.No": "102",
+      "Application No": "10720111000",
+      "Agent Name": "SRINIVAS PANDA",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/07/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/7/2020 3:39 PM"
+    },
+    {
+      "Sl.No": "103",
+      "Application No": "210620000000",
+      "Agent Name": "LAGISETTY PROPERTIES",
+      "Agent Type": "Organization",
+      "Date of Submission": "06/07/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "20/7/2020 10:59 AM"
+    },
+    {
+      "Sl.No": "104",
+      "Application No": "290720000000",
+      "Agent Name": "NANDA HOUSING PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "29/07/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "6/8/2020 5:13 PM"
+    },
+    {
+      "Sl.No": "105",
+      "Application No": "10920131001",
+      "Agent Name": "SRIKAKULAPU RAJESWARI DEVI",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/09/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/9/2020 01:47 PM"
+    },
+    {
+      "Sl.No": "106",
+      "Application No": "220920000000",
+      "Agent Name": "G C GLOBAL CONSORTIUM",
+      "Agent Type": "Organization",
+      "Date of Submission": "22/09/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/10/2020 10:17 AM"
+    },
+    {
+      "Sl.No": "107",
+      "Application No": "220920000000",
+      "Agent Name": "TUNGALA SRINIVASA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "22/09/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/10/2020 10:17 AM"
+    },
+    {
+      "Sl.No": "108",
+      "Application No": "81020114550",
+      "Agent Name": "KVM KRISHNAMACHARYULU",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "22/10/2020 11:13 AM"
+    },
+    {
+      "Sl.No": "109",
+      "Application No": "101020000000",
+      "Agent Name": "SANAPALA POLI NAIDU",
+      "Agent Type": "Individual",
+      "Date of Submission": "10/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "22/10/2020 11:13 AM"
+    },
+    {
+      "Sl.No": "110",
+      "Application No": "161020000000",
+      "Agent Name": "POCHAMREDDY SUDARSANA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "16/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "22/10/2020 11:14 AM"
+    },
+    {
+      "Sl.No": "111",
+      "Application No": "151020000000",
+      "Agent Name": "SANGADA LAKSHMI SREENIVASU",
+      "Agent Type": "Individual",
+      "Date of Submission": "16/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "27/10/2020 06:09 PM"
+    },
+    {
+      "Sl.No": "112",
+      "Application No": "211020000000",
+      "Agent Name": "MANJALA KIRAN KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/11/2020 05:31 PM"
+    },
+    {
+      "Sl.No": "113",
+      "Application No": "241020000000",
+      "Agent Name": "K H VIJAY KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2020 09:25 AM"
+    },
+    {
+      "Sl.No": "114",
+      "Application No": "281020000000",
+      "Agent Name": "GUDLA TATA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "28/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2020 09:26 AM"
+    },
+    {
+      "Sl.No": "115",
+      "Application No": "291020000000",
+      "Agent Name": "PATNANA LAKSHMANA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2020 09:26 AM"
+    },
+    {
+      "Sl.No": "116",
+      "Application No": "291020000000",
+      "Agent Name": "REDDY SATYAVATHI",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2020 09:27 AM"
+    },
+    {
+      "Sl.No": "117",
+      "Application No": "311020000000",
+      "Agent Name": "PAILA SATYAVATHI",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "28/11/2020 03:18 PM"
+    },
+    {
+      "Sl.No": "118",
+      "Application No": "161020000000",
+      "Agent Name": "VASUDEVA RAO CHINTAGUNTI",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "28/11/2020 03:18 PM"
+    },
+    {
+      "Sl.No": "119",
+      "Application No": "311020000000",
+      "Agent Name": "MAJJARI VENKATA SHIVAJI",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/10/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "28/11/2020 03:19 PM"
+    },
+    {
+      "Sl.No": "120",
+      "Application No": "211020000000",
+      "Agent Name": "RUPASRI CHEEPULLA",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/11/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "28/11/2020 03:19 PM"
+    },
+    {
+      "Sl.No": "121",
+      "Application No": "211120000000",
+      "Agent Name": "UPPALAPATI KURMA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/11/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/12/2020 6:28 PM"
+    },
+    {
+      "Sl.No": "122",
+      "Application No": "241120000000",
+      "Agent Name": "BADIGANTI TIRUPATI RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "25/11/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/12/2020 6:29 PM"
+    },
+    {
+      "Sl.No": "123",
+      "Application No": "261120000000",
+      "Agent Name": "BHEEMARASETTY SUSANTHI",
+      "Agent Type": "Individual",
+      "Date of Submission": "26/11/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/12/2020 6:30 PM"
+    },
+    {
+      "Sl.No": "124",
+      "Application No": "101220000000",
+      "Agent Name": "GOPIREDDY ANIL KUMAR REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "11/12/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/12/2020 11:26 AM"
+    },
+    {
+      "Sl.No": "125",
+      "Application No": "111219000000",
+      "Agent Name": "DYNAMIK PROPERTY MANAGEMENT SERVICES",
+      "Agent Type": "Organization",
+      "Date of Submission": "15/12/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/1/2021 12:50 PM"
+    },
+    {
+      "Sl.No": "126",
+      "Application No": "191220000000",
+      "Agent Name": "AKULA VENKATESWARA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/12/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/1/2021 12:51 PM"
+    },
+    {
+      "Sl.No": "127",
+      "Application No": "191220000000",
+      "Agent Name": "TUMMI DHARMA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/12/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/1/2021 12:51 PM"
+    },
+    {
+      "Sl.No": "128",
+      "Application No": "211220000000",
+      "Agent Name": "JV REALTY REPRESENTED BY MADETI LALITHA",
+      "Agent Type": "Individual",
+      "Date of Submission": "22/12/2020",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/1/2021 12:52 PM"
+    },
+    {
+      "Sl.No": "129",
+      "Application No": "230719000000",
+      "Agent Name": "GRANDHI DURGA SANKARARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/01/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/1/2021 4:33 PM"
+    },
+    {
+      "Sl.No": "130",
+      "Application No": "281220000000",
+      "Agent Name": "PEELKANA SARVESWARA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/01/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/1/2021 4:33 PM"
+    },
+    {
+      "Sl.No": "131",
+      "Application No": "60121143122",
+      "Agent Name": "CHERI SRIDHAR BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/01/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "22/1/2021 08:48 PM"
+    },
+    {
+      "Sl.No": "132",
+      "Application No": "310121000000",
+      "Agent Name": "MOHAMMED NADEEM",
+      "Agent Type": "Individual",
+      "Date of Submission": "02/02/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/3/2021 08:39 AM"
+    },
+    {
+      "Sl.No": "133",
+      "Application No": "20221161320",
+      "Agent Name": "DREAM SHELTERS INFOMATICS",
+      "Agent Type": "Organization",
+      "Date of Submission": "03/02/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/3/2021 08:40 AM"
+    },
+    {
+      "Sl.No": "134",
+      "Application No": "180221000000",
+      "Agent Name": "NUTHALAPATI TIRUPATAMMA",
+      "Agent Type": "Individual",
+      "Date of Submission": "18/02/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/3/2021 08:40 AM"
+    },
+    {
+      "Sl.No": "135",
+      "Application No": "230719000000",
+      "Agent Name": "POTHALA DURGA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/02/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/3/2021 08:40 AM"
+    },
+    {
+      "Sl.No": "136",
+      "Application No": "200221000000",
+      "Agent Name": "KAPIL GROUP MARKETING SERVICES PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "22/02/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/3/2021 08:41 AM"
+    },
+    {
+      "Sl.No": "137",
+      "Application No": "120221000000",
+      "Agent Name": "SIRISHA BALUSU",
+      "Agent Type": "Individual",
+      "Date of Submission": "06/03/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "1/4/2021 7:34 AM"
+    },
+    {
+      "Sl.No": "138",
+      "Application No": "90321163707",
+      "Agent Name": "ANAROCK PROPERTY CONSULTANTS PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "15/03/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "1/4/2021 7:34 AM"
+    },
+    {
+      "Sl.No": "139",
+      "Application No": "240321000000",
+      "Agent Name": "PEDDIREDDI SATYA KISHORE",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/03/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/4/2021 8:10 AM"
+    },
+    {
+      "Sl.No": "140",
+      "Application No": "230321000000",
+      "Agent Name": "VISHNU VARDHAN MAREEDU",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/03/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/6/2021 04:45 PM"
+    },
+    {
+      "Sl.No": "141",
+      "Application No": "30421144747",
+      "Agent Name": "GORANTLA VISWAJEETH",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/04/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "20/4/2021 08:35 AM"
+    },
+    {
+      "Sl.No": "142",
+      "Application No": "300421000000",
+      "Agent Name": "ALLURI V S N RAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "17/05/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/6/2021 04:46 PM"
+    },
+    {
+      "Sl.No": "143",
+      "Application No": "310521000000",
+      "Agent Name": "KAMALAKARA CHOWDARY DEVARAPALLI",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/05/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "1/7/2021 7:33 PM"
+    },
+    {
+      "Sl.No": "144",
+      "Application No": "110621000000",
+      "Agent Name": "ATCHA DEVIKA",
+      "Agent Type": "Individual",
+      "Date of Submission": "11/06/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "1/7/2021 7:33 PM"
+    },
+    {
+      "Sl.No": "145",
+      "Application No": "20721110709",
+      "Agent Name": "AMEYAA INFRA CONSULTANTS",
+      "Agent Type": "Organization",
+      "Date of Submission": "02/07/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/7/2021 08:32 PM"
+    },
+    {
+      "Sl.No": "146",
+      "Application No": "280721000000",
+      "Agent Name": "RANJIT PROPERTIES AND DEVELOPERS",
+      "Agent Type": "Organization",
+      "Date of Submission": "30/07/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2021 10:09 PM"
+    },
+    {
+      "Sl.No": "147",
+      "Application No": "300721000000",
+      "Agent Name": "BIKKINA GANA SATYA SAI RAJESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/07/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2021 10:09 PM"
+    },
+    {
+      "Sl.No": "148",
+      "Application No": "250721000000",
+      "Agent Name": "KAPURAM SHIVANJANEYA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/08/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2021 10:10 PM"
+    },
+    {
+      "Sl.No": "149",
+      "Application No": "120821000000",
+      "Agent Name": "MUKKU TIRUPATHAIAH",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/08/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2021 10:10 PM"
+    },
+    {
+      "Sl.No": "150",
+      "Application No": "201121000000",
+      "Agent Name": "GANDHAVARAPU HARIBABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/11/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/3/2022 4:42 PM"
+    },
+    {
+      "Sl.No": "151",
+      "Application No": "231121000000",
+      "Agent Name": "SRIRAMA PAWANDHEER SANAM",
+      "Agent Type": "Individual",
+      "Date of Submission": "23/11/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/3/2022 4:41 PM"
+    },
+    {
+      "Sl.No": "152",
+      "Application No": "11221212148",
+      "Agent Name": "SADIQ JAFFAR SYED",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/12/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/3/2022 4:40 PM"
+    },
+    {
+      "Sl.No": "153",
+      "Application No": "231021000000",
+      "Agent Name": "OMMI SANDHYA RANI",
+      "Agent Type": "Individual",
+      "Date of Submission": "16/12/2021",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/3/2022 4:40 PM"
+    },
+    {
+      "Sl.No": "154",
+      "Application No": "301221000000",
+      "Agent Name": "PURNIMAH MOOKAMBIKA THOTA",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/01/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/1/2022 5:15 PM"
+    },
+    {
+      "Sl.No": "155",
+      "Application No": "100222000000",
+      "Agent Name": "SHREE ABHAYA MARUTHI CONSTRUCTIONS",
+      "Agent Type": "Organization",
+      "Date of Submission": "10/02/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/3/2022 12:39 PM"
+    },
+    {
+      "Sl.No": "156",
+      "Application No": "150222000000",
+      "Agent Name": "HANUREDDY REALTY INDIA PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "15/02/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/4/2022 07:04 PM"
+    },
+    {
+      "Sl.No": "157",
+      "Application No": "80322113402",
+      "Agent Name": "KOTA NAGENDRABHUPATHINAIDU",
+      "Agent Type": "Individual",
+      "Date of Submission": "09/03/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/4/2022 07:03 PM"
+    },
+    {
+      "Sl.No": "158",
+      "Application No": "300322000000",
+      "Agent Name": "INVESTORS CLINIC INFRATECH PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "08/04/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:25 PM"
+    },
+    {
+      "Sl.No": "159",
+      "Application No": "130422000000",
+      "Agent Name": "MOHAMMAD FAHIM MUDASSAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "14/04/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:24 PM"
+    },
+    {
+      "Sl.No": "160",
+      "Application No": "120522000000",
+      "Agent Name": "POGUNUL SARALA KALYAN",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/05/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:24 PM"
+    },
+    {
+      "Sl.No": "161",
+      "Application No": "160522000000",
+      "Agent Name": "KODETI SUBBARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "16/05/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:23 PM"
+    },
+    {
+      "Sl.No": "162",
+      "Application No": "10722185442",
+      "Agent Name": "V VENKATA RAMANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/07/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:22 PM"
+    },
+    {
+      "Sl.No": "163",
+      "Application No": "230722000000",
+      "Agent Name": "PREM SAHU",
+      "Agent Type": "Individual",
+      "Date of Submission": "23/07/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:21 PM"
+    },
+    {
+      "Sl.No": "164",
+      "Application No": "290622000000",
+      "Agent Name": "AEGIS OVERSEAS EDUCATION SERVICES",
+      "Agent Type": "Organization",
+      "Date of Submission": "16/08/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:20 PM"
+    },
+    {
+      "Sl.No": "165",
+      "Application No": "280722000000",
+      "Agent Name": "SBICAP SECURITIES LTD",
+      "Agent Type": "Organization",
+      "Date of Submission": "18/08/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:19 PM"
+    },
+    {
+      "Sl.No": "166",
+      "Application No": "200822000000",
+      "Agent Name": "KHYRUPPALA NAGARAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/08/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:18 PM"
+    },
+    {
+      "Sl.No": "167",
+      "Application No": "70922200430",
+      "Agent Name": "M VENKATA NARASIMHULU",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/09/2022",
+      "Status": "Fwd to Agent(Shortfall)",
+      "CountDownTime": "0",
+      "Received Date": "23/11/2022 03:01 PM"
+    },
+    {
+      "Sl.No": "168",
+      "Application No": "291121000000",
+      "Agent Name": "BRICK TWO BRICK CONSULTING PRIVATE IMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "08/09/2022",
+      "Status": "Fwd to Agent(Shortfall)",
+      "CountDownTime": "0",
+      "Received Date": "23/11/2022 03:01 PM"
+    },
+    {
+      "Sl.No": "169",
+      "Application No": "20922120128",
+      "Agent Name": "SRI SAI VEERANJANEYA REALESTATE CONSULTANTS",
+      "Agent Type": "Organization",
+      "Date of Submission": "17/09/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:18 PM"
+    },
+    {
+      "Sl.No": "170",
+      "Application No": "101022000000",
+      "Agent Name": "CHITTULURU SRIKANTH",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/10/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "3/1/2023 12:51 PM"
+    },
+    {
+      "Sl.No": "171",
+      "Application No": "190822000000",
+      "Agent Name": "VALUE ESTATE PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "03/12/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:16 PM"
+    },
+    {
+      "Sl.No": "172",
+      "Application No": "51222224040",
+      "Agent Name": "LAKAMSANI PADMASREE",
+      "Agent Type": "Individual",
+      "Date of Submission": "11/12/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:15 PM"
+    },
+    {
+      "Sl.No": "173",
+      "Application No": "271222000000",
+      "Agent Name": "RAVINDRA RAJANALA",
+      "Agent Type": "Individual",
+      "Date of Submission": "28/12/2022",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:15 PM"
+    },
+    {
+      "Sl.No": "174",
+      "Application No": "311222000000",
+      "Agent Name": "PATTI NARESH KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/01/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 08:14 PM"
+    },
+    {
+      "Sl.No": "175",
+      "Application No": "30123182501",
+      "Agent Name": "MENAKA MEKA",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/01/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 07:49 PM"
+    },
+    {
+      "Sl.No": "176",
+      "Application No": "190123000000",
+      "Agent Name": "SAMBASIVA RAO KOLAPALLI",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/01/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/2/2023 07:48 PM"
+    },
+    {
+      "Sl.No": "177",
+      "Application No": "100223000000",
+      "Agent Name": "PALIPALLI RAVI KISHORE",
+      "Agent Type": "Individual",
+      "Date of Submission": "10/02/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/7/2023 4:39 PM"
+    },
+    {
+      "Sl.No": "178",
+      "Application No": "140223000000",
+      "Agent Name": "DANDA CHINNA SREENIVASULU",
+      "Agent Type": "Individual",
+      "Date of Submission": "22/02/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/7/2023 4:38 PM"
+    },
+    {
+      "Sl.No": "179",
+      "Application No": "70323133616",
+      "Agent Name": "AVULA SRI CHANDRA SERKHAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/03/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/7/2023 4:37 PM"
+    },
+    {
+      "Sl.No": "180",
+      "Application No": "80323130552",
+      "Agent Name": "V VENKATESWARARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/03/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/7/2023 4:36 PM"
+    },
+    {
+      "Sl.No": "181",
+      "Application No": "150423000000",
+      "Agent Name": "THOTA PRAKASH BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "15/04/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/7/2023 4:35 PM"
+    },
+    {
+      "Sl.No": "182",
+      "Application No": "120423000000",
+      "Agent Name": "Y S KIRAN KUMAR REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/04/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/7/2023 4:34 PM"
+    },
+    {
+      "Sl.No": "183",
+      "Application No": "50523171441",
+      "Agent Name": "SYED HUSSAIN",
+      "Agent Type": "Individual",
+      "Date of Submission": "06/05/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/7/2023 4:33 PM"
+    },
+    {
+      "Sl.No": "184",
+      "Application No": "160523000000",
+      "Agent Name": "N VASU",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/05/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/9/2023 10:05 AM"
+    },
+    {
+      "Sl.No": "185",
+      "Application No": "100623000000",
+      "Agent Name": "K SUBRAMANYAM",
+      "Agent Type": "Individual",
+      "Date of Submission": "10/06/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/9/2023 10:04 AM"
+    },
+    {
+      "Sl.No": "186",
+      "Application No": "160623000000",
+      "Agent Name": "PENUBOLU RAVINDRA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "16/06/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/9/2023 10:02 AM"
+    },
+    {
+      "Sl.No": "187",
+      "Application No": "290723000000",
+      "Agent Name": "R.JAGANNADHA.",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/08/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/9/2023 10:01 AM"
+    },
+    {
+      "Sl.No": "188",
+      "Application No": "100423000000",
+      "Agent Name": "NAGESWARA RAO GORLE",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/08/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/9/2023 10:01 AM"
+    },
+    {
+      "Sl.No": "189",
+      "Application No": "50723081516",
+      "Agent Name": "ANNAVARAPU SURESH BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "14/08/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "13/9/2023 10:00 AM"
+    },
+    {
+      "Sl.No": "190",
+      "Application No": "50723135643",
+      "Agent Name": "VURIMI SRINIVAS",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/09/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "27/9/2023 05:35 PM"
+    },
+    {
+      "Sl.No": "191",
+      "Application No": "201023000000",
+      "Agent Name": "UPPARI KARTHIK RAM",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/10/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/1/2024 11:01 AM"
+    },
+    {
+      "Sl.No": "192",
+      "Application No": "300923000000",
+      "Agent Name": "JAFAR SHATHIK HEDAYATHULLA",
+      "Agent Type": "Individual",
+      "Date of Submission": "25/10/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/1/2024 11:00 AM"
+    },
+    {
+      "Sl.No": "193",
+      "Application No": "271023000000",
+      "Agent Name": "KARRI VENKATA SANTOSHAPPARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/11/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/1/2024 11:00 AM"
+    },
+    {
+      "Sl.No": "194",
+      "Application No": "291123000000",
+      "Agent Name": "PASUPULETI SIVA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/11/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/1/2024 10:59 AM"
+    },
+    {
+      "Sl.No": "195",
+      "Application No": "11223102609",
+      "Agent Name": "BALINA MAHALAKSHMI",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/12/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/1/2024 10:59 AM"
+    },
+    {
+      "Sl.No": "196",
+      "Application No": "180823000000",
+      "Agent Name": "YENNI NAGARAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "02/12/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/4/2024 9:15 AM"
+    },
+    {
+      "Sl.No": "197",
+      "Application No": "310823000000",
+      "Agent Name": "WEOWN SERVICES PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "15/12/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/1/2024 10:58 AM"
+    },
+    {
+      "Sl.No": "198",
+      "Application No": "281223000000",
+      "Agent Name": "ANIMELA VIJAYA NARASIMHULU",
+      "Agent Type": "Individual",
+      "Date of Submission": "28/12/2023",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/1/2024 10:57 AM"
+    },
+    {
+      "Sl.No": "199",
+      "Application No": "181223000000",
+      "Agent Name": "ADAPA LAKSHMANA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/01/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/4/2024 9:14 AM"
+    },
+    {
+      "Sl.No": "200",
+      "Application No": "110224000000",
+      "Agent Name": "KOMMINENI NARENDRA",
+      "Agent Type": "Individual",
+      "Date of Submission": "15/02/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/4/2024 9:13 AM"
+    },
+    {
+      "Sl.No": "201",
+      "Application No": "260224000000",
+      "Agent Name": "BALLA RAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "27/02/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/4/2024 9:12 AM"
+    },
+    {
+      "Sl.No": "202",
+      "Application No": "30324112955",
+      "Agent Name": "MUNAGAPATI VASUDEVA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/03/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/4/2024 9:11 AM"
+    },
+    {
+      "Sl.No": "203",
+      "Application No": "130424000000",
+      "Agent Name": "C SRINIVASA KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/04/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:12 AM"
+    },
+    {
+      "Sl.No": "204",
+      "Application No": "260424000000",
+      "Agent Name": "IMANDI VINAY KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "26/04/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:16 AM"
+    },
+    {
+      "Sl.No": "205",
+      "Application No": "190424000000",
+      "Agent Name": "GADHAMSETTY PRATAP",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/05/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:18 AM"
+    },
+    {
+      "Sl.No": "206",
+      "Application No": "290424000000",
+      "Agent Name": "CHEJARLA VENU",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/05/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:21 AM"
+    },
+    {
+      "Sl.No": "207",
+      "Application No": "160524000000",
+      "Agent Name": "K DHARMA ACHARI",
+      "Agent Type": "Individual",
+      "Date of Submission": "17/05/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:22 AM"
+    },
+    {
+      "Sl.No": "208",
+      "Application No": "290624000000",
+      "Agent Name": "SHAIK KHASIM SAHEB",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/07/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:23 AM"
+    },
+    {
+      "Sl.No": "209",
+      "Application No": "20724000606",
+      "Agent Name": "HANEESH VENKATA SAI SIGIRISETTY",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/07/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:24 AM"
+    },
+    {
+      "Sl.No": "210",
+      "Application No": "80724205438",
+      "Agent Name": "AVULA VAMSI KRISHNA",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/07/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:08 AM"
+    },
+    {
+      "Sl.No": "211",
+      "Application No": "240724000000",
+      "Agent Name": "KAMESWARA RAO JAGABATHULA",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/07/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:25 AM"
+    },
+    {
+      "Sl.No": "212",
+      "Application No": "300724000000",
+      "Agent Name": "ADHIKARAPU CHINA SAI BABA",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/07/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:26 AM"
+    },
+    {
+      "Sl.No": "213",
+      "Application No": "130824000000",
+      "Agent Name": "DARAPANENI CHANDRASEKHAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/08/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:27 AM"
+    },
+    {
+      "Sl.No": "214",
+      "Application No": "200824000000",
+      "Agent Name": "V BALA DURGA",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/08/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:28 AM"
+    },
+    {
+      "Sl.No": "215",
+      "Application No": "30924104632",
+      "Agent Name": "GUNDAPANENI RAJENDRA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/09/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:29 AM"
+    },
+    {
+      "Sl.No": "216",
+      "Application No": "60924154731",
+      "Agent Name": "GRANDHI SRINIVASA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/09/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:30 AM"
+    },
+    {
+      "Sl.No": "217",
+      "Application No": "120924000000",
+      "Agent Name": "PEELA HARI KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/09/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:31 AM"
+    },
+    {
+      "Sl.No": "218",
+      "Application No": "170924000000",
+      "Agent Name": "MADDU SASHI KUMAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "17/09/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/10/2024 07:32 AM"
+    },
+    {
+      "Sl.No": "219",
+      "Application No": "200924000000",
+      "Agent Name": "GRANDHI SIREESHA",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/09/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:14 AM"
+    },
+    {
+      "Sl.No": "220",
+      "Application No": "21024211542",
+      "Agent Name": "MANDAVA GOPICHAND",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/10/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/10/2024 01:09 PM"
+    },
+    {
+      "Sl.No": "221",
+      "Application No": "60924123511",
+      "Agent Name": "BARKULA PARAMESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "18/10/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:16 AM"
+    },
+    {
+      "Sl.No": "222",
+      "Application No": "280824000000",
+      "Agent Name": "PUJARI VASUBABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "18/10/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:29 AM"
+    },
+    {
+      "Sl.No": "223",
+      "Application No": "260924000000",
+      "Agent Name": "POTTA JYOTHI KUMARI",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/10/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:32 AM"
+    },
+    {
+      "Sl.No": "224",
+      "Application No": "241024000000",
+      "Agent Name": "SRAVAN DUSANAPUDI",
+      "Agent Type": "Individual",
+      "Date of Submission": "25/10/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:42 AM"
+    },
+    {
+      "Sl.No": "225",
+      "Application No": "170724000000",
+      "Agent Name": "KOVVURI MADHUSUDHANARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "18/11/2024",
+      "Status": "Fwd to Agent(Shortfall)",
+      "CountDownTime": "0",
+      "Received Date": "3/12/2024 4:53 AM"
+    },
+    {
+      "Sl.No": "226",
+      "Application No": "31224174703",
+      "Agent Name": "NARESH VEERANKI",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/12/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:43 AM"
+    },
+    {
+      "Sl.No": "227",
+      "Application No": "31224182037",
+      "Agent Name": "NEKKALAPU RAMAKRISHNA",
+      "Agent Type": "Individual",
+      "Date of Submission": "03/12/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "10/12/2024 11:47 AM"
+    },
+    {
+      "Sl.No": "228",
+      "Application No": "191224000000",
+      "Agent Name": "MANIKINDI RAMALINGAM NAIDU",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/12/2024",
+      "Status": "Fwd to Agent(Shortfall)",
+      "CountDownTime": "0",
+      "Received Date": "21/12/2024 10:43 AM"
+    },
+    {
+      "Sl.No": "229",
+      "Application No": "121224000000",
+      "Agent Name": "MOHAMMED AKBAR ALI KHAN",
+      "Agent Type": "Individual",
+      "Date of Submission": "26/12/2024",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/2/2025 11:19 AM"
+    },
+    {
+      "Sl.No": "230",
+      "Application No": "10125203532",
+      "Agent Name": "SRIRAM KUMAR ALLURI",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/01/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/2/2025 11:20 AM"
+    },
+    {
+      "Sl.No": "231",
+      "Application No": "261124000000",
+      "Agent Name": "SRIKAKULAM MAAHENDRA ANANDH UDAI",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/01/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/2/2025 11:24 AM"
+    },
+    {
+      "Sl.No": "232",
+      "Application No": "270125000000",
+      "Agent Name": "JANAKIRAO RELLA",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/01/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/2/2025 11:24 AM"
+    },
+    {
+      "Sl.No": "233",
+      "Application No": "240125000000",
+      "Agent Name": "MURTHUZA ALI KHAN MOHAMMED",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/02/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "12/3/2025 1:13 PM"
+    },
+    {
+      "Sl.No": "234",
+      "Application No": "120325000000",
+      "Agent Name": "TIRUMANAPALLI VIJAYA RAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/03/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "27/3/2025 02:40 PM"
+    },
+    {
+      "Sl.No": "235",
+      "Application No": "50425120652",
+      "Agent Name": "PYLA VASU",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/04/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "9/4/2025 5:39 PM"
+    },
+    {
+      "Sl.No": "236",
+      "Application No": "230425000000",
+      "Agent Name": "MOKAM VENKATA SUBBAIAH",
+      "Agent Type": "Individual",
+      "Date of Submission": "23/04/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/4/2025 06:17 PM"
+    },
+    {
+      "Sl.No": "237",
+      "Application No": "250425000000",
+      "Agent Name": "SAHASHRA CONSULTANCY AND SERVICES",
+      "Agent Type": "Organization",
+      "Date of Submission": "26/04/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/5/2025 2:09 PM"
+    },
+    {
+      "Sl.No": "238",
+      "Application No": "10525152147",
+      "Agent Name": "PILLA GANESH SIVA SATYA RAM PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/05/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/5/2025 2:10 PM"
+    },
+    {
+      "Sl.No": "239",
+      "Application No": "101224000000",
+      "Agent Name": "NEDUNURI P SUDHAKAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/05/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/5/2025 04:41 PM"
+    },
+    {
+      "Sl.No": "240",
+      "Application No": "130525000000",
+      "Agent Name": "ALIJINGI TIRUPATI RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/05/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/5/2025 04:42 PM"
+    },
+    {
+      "Sl.No": "241",
+      "Application No": "140425000000",
+      "Agent Name": "EYEINFRABUILDTECH PRIVATELIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "14/05/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/5/2025 04:43 PM"
+    },
+    {
+      "Sl.No": "242",
+      "Application No": "271224000000",
+      "Agent Name": "PHFL HOME LOANS AND SERVICES LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "23/06/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "4/7/2025 5:13 PM"
+    },
+    {
+      "Sl.No": "243",
+      "Application No": "240625000000",
+      "Agent Name": "DEVALARAJU SUBBU SURESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "25/06/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/6/2025 02:24 PM"
+    },
+    {
+      "Sl.No": "244",
+      "Application No": "190324000000",
+      "Agent Name": "YARAGALLA VENKATESWARA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "27/06/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "4/7/2025 5:14 PM"
+    },
+    {
+      "Sl.No": "245",
+      "Application No": "170218000000",
+      "Agent Name": "PERUMALLA BRAHMAIAH",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/07/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/7/2025 04:48 PM"
+    },
+    {
+      "Sl.No": "246",
+      "Application No": "190722000000",
+      "Agent Name": "GOWDS AND HAROON SIR VENTURES",
+      "Agent Type": "Organization",
+      "Date of Submission": "09/07/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "15/7/2025 04:49 PM"
+    },
+    {
+      "Sl.No": "247",
+      "Application No": "160425000000",
+      "Agent Name": "MANASUM SENIOR LIVING",
+      "Agent Type": "Organization",
+      "Date of Submission": "26/07/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "6/8/2025 7:33 PM"
+    },
+    {
+      "Sl.No": "248",
+      "Application No": "310725000000",
+      "Agent Name": "MERUGU KUMAR BABU",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/07/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "6/8/2025 7:35 PM"
+    },
+    {
+      "Sl.No": "249",
+      "Application No": "121224000000",
+      "Agent Name": "RAMESHKUMAR BONAM",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/08/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "6/8/2025 7:36 PM"
+    },
+    {
+      "Sl.No": "250",
+      "Application No": "10625093840",
+      "Agent Name": "SIVAIAH PALLAPROLU",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/08/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "6/8/2025 7:37 PM"
+    },
+    {
+      "Sl.No": "251",
+      "Application No": "140825000000",
+      "Agent Name": "MODALAVALASA MURALIDHAR",
+      "Agent Type": "Individual",
+      "Date of Submission": "14/08/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/8/2025 03:19 PM"
+    },
+    {
+      "Sl.No": "252",
+      "Application No": "280725000000",
+      "Agent Name": "TEKUMALLA VENKATA NAGA MALLIKA",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/08/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/8/2025 07:11 PM"
+    },
+    {
+      "Sl.No": "253",
+      "Application No": "290825000000",
+      "Agent Name": "SANJEEV KUMAR NAGOTI",
+      "Agent Type": "Individual",
+      "Date of Submission": "29/08/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/9/2025 3:38 PM"
+    },
+    {
+      "Sl.No": "254",
+      "Application No": "10925183741",
+      "Agent Name": "KRILLAM HOSPITALITY AND WELLNESS RESORTS PVT LTD",
+      "Agent Type": "Organization",
+      "Date of Submission": "01/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/9/2025 3:40 PM"
+    },
+    {
+      "Sl.No": "255",
+      "Application No": "20925093337",
+      "Agent Name": "DUDDU DHEERAJ",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "19/9/2025 05:19 PM"
+    },
+    {
+      "Sl.No": "256",
+      "Application No": "60925123815",
+      "Agent Name": "CHERUVU VENKATA SUBRAMANYA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "06/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "19/9/2025 05:25 PM"
+    },
+    {
+      "Sl.No": "257",
+      "Application No": "60925115103",
+      "Agent Name": "ABDUL SUBHAN AFROSE",
+      "Agent Type": "Individual",
+      "Date of Submission": "06/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "19/9/2025 05:26 PM"
+    },
+    {
+      "Sl.No": "258",
+      "Application No": "70925093952",
+      "Agent Name": "MEESALA KONDALARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "19/9/2025 05:27 PM"
+    },
+    {
+      "Sl.No": "259",
+      "Application No": "41124113246",
+      "Agent Name": "MADHU BABU MALLEBOYINA",
+      "Agent Type": "Individual",
+      "Date of Submission": "10/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "19/9/2025 05:28 PM"
+    },
+    {
+      "Sl.No": "260",
+      "Application No": "10925165956",
+      "Agent Name": "MANNEM PRASADA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "11/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2025 10:48 AM"
+    },
+    {
+      "Sl.No": "261",
+      "Application No": "120925000000",
+      "Agent Name": "CHANDOLU VENKATESWARLU",
+      "Agent Type": "Individual",
+      "Date of Submission": "12/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2025 10:49 AM"
+    },
+    {
+      "Sl.No": "262",
+      "Application No": "50925142614",
+      "Agent Name": "KADITALA VANDANAMMA",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2025 10:50 AM"
+    },
+    {
+      "Sl.No": "263",
+      "Application No": "170925000000",
+      "Agent Name": "BOBBA APPARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "17/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/9/2025 10:51 AM"
+    },
+    {
+      "Sl.No": "264",
+      "Application No": "100925000000",
+      "Agent Name": "ANIL BHUVAN AKULA",
+      "Agent Type": "Individual",
+      "Date of Submission": "18/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/9/2025 03:07 PM"
+    },
+    {
+      "Sl.No": "265",
+      "Application No": "190925000000",
+      "Agent Name": "SHAIK MASTANVALI SAHEB",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/9/2025 03:07 PM"
+    },
+    {
+      "Sl.No": "266",
+      "Application No": "190925000000",
+      "Agent Name": "KOTI REDDY GOVARDANA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/9/2025 03:08 PM"
+    },
+    {
+      "Sl.No": "267",
+      "Application No": "190925000000",
+      "Agent Name": "SOORISETTY VENKATA SIVA NAGENDRAM",
+      "Agent Type": "Individual",
+      "Date of Submission": "19/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/9/2025 03:09 PM"
+    },
+    {
+      "Sl.No": "268",
+      "Application No": "190925000000",
+      "Agent Name": "SARATH BABU GOKANAKONDA",
+      "Agent Type": "Individual",
+      "Date of Submission": "20/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/9/2025 03:11 PM"
+    },
+    {
+      "Sl.No": "269",
+      "Application No": "200925000000",
+      "Agent Name": "SHAIK MASTAN VALI",
+      "Agent Type": "Individual",
+      "Date of Submission": "24/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "29/9/2025 03:12 PM"
+    },
+    {
+      "Sl.No": "270",
+      "Application No": "260925000000",
+      "Agent Name": "AMBAVARAM VENKATASUBBA REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "27/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/10/2025 12:06 PM"
+    },
+    {
+      "Sl.No": "271",
+      "Application No": "300825000000",
+      "Agent Name": "VIJAYA KUMAR MATHURTHI",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/09/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "7/10/2025 12:07 PM"
+    },
+    {
+      "Sl.No": "272",
+      "Application No": "60925182549",
+      "Agent Name": "RAJA KOTTANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/10/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "17/10/2025 05:19 PM"
+    },
+    {
+      "Sl.No": "273",
+      "Application No": "81025111716",
+      "Agent Name": "VATTIKUTI RAMAKRISHNA",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/10/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/10/2025 12:52 PM"
+    },
+    {
+      "Sl.No": "274",
+      "Application No": "81025120955",
+      "Agent Name": "EBG REALTY PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "08/10/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/10/2025 12:53 PM"
+    },
+    {
+      "Sl.No": "275",
+      "Application No": "101025000000",
+      "Agent Name": "PENUMARTHI SURESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "13/10/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "21/10/2025 04:53 PM"
+    },
+    {
+      "Sl.No": "276",
+      "Application No": "311025000000",
+      "Agent Name": "RATNA PROMOTERS AND DEVELOPERS",
+      "Agent Type": "Organization",
+      "Date of Submission": "31/10/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/11/2025 1:27 PM"
+    },
+    {
+      "Sl.No": "277",
+      "Application No": "260925000000",
+      "Agent Name": "CHIRLA JAGANMOHAN REDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/10/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/11/2025 1:28 PM"
+    },
+    {
+      "Sl.No": "278",
+      "Application No": "10925144848",
+      "Agent Name": "GUDLA VARAPRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/11/2025",
+      "Status": "Fwd to Agent(Shortfall)",
+      "CountDownTime": "0",
+      "Received Date": "6/11/2025 3:29 PM"
+    },
+    {
+      "Sl.No": "279",
+      "Application No": "220724000000",
+      "Agent Name": "VENKATA RAMANA RUKANANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "05/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "6/11/2025 5:25 PM"
+    },
+    {
+      "Sl.No": "280",
+      "Application No": "51125155212",
+      "Agent Name": "RAJA ROY TOWNSHIPS",
+      "Agent Type": "Organization",
+      "Date of Submission": "06/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/11/2025 5:31 PM"
+    },
+    {
+      "Sl.No": "281",
+      "Application No": "71125125622",
+      "Agent Name": "GOVINDU RAJESH BHUKTA",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/11/2025 5:32 PM"
+    },
+    {
+      "Sl.No": "282",
+      "Application No": "61125121003",
+      "Agent Name": "GOLIYA RESHMA",
+      "Agent Type": "Individual",
+      "Date of Submission": "07/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "11/11/2025 5:33 PM"
+    },
+    {
+      "Sl.No": "283",
+      "Application No": "50824073701",
+      "Agent Name": "VADDE NAGESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "10/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "17/11/2025 11:09 AM"
+    },
+    {
+      "Sl.No": "284",
+      "Application No": "151125000000",
+      "Agent Name": "ALLAMSETTI APPALARAJU",
+      "Agent Type": "Individual",
+      "Date of Submission": "17/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/11/2025 03:30 PM"
+    },
+    {
+      "Sl.No": "285",
+      "Application No": "151125000000",
+      "Agent Name": "ALLAMSETTI RADHA",
+      "Agent Type": "Individual",
+      "Date of Submission": "17/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "18/11/2025 03:32 PM"
+    },
+    {
+      "Sl.No": "286",
+      "Application No": "151125000000",
+      "Agent Name": "KATHARI N V V RAMA SATYANARAYANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "18/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "20/11/2025 04:50 PM"
+    },
+    {
+      "Sl.No": "287",
+      "Application No": "280123000000",
+      "Agent Name": "AGATHAMUDI KAVEESH",
+      "Agent Type": "Individual",
+      "Date of Submission": "21/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "25/11/2025 10:46 AM"
+    },
+    {
+      "Sl.No": "288",
+      "Application No": "240925000000",
+      "Agent Name": "PRASAD MUSINANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "25/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2025 10:34 AM"
+    },
+    {
+      "Sl.No": "289",
+      "Application No": "251125000000",
+      "Agent Name": "TALLA KONDALA RAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "25/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "26/11/2025 10:36 AM"
+    },
+    {
+      "Sl.No": "290",
+      "Application No": "271125000000",
+      "Agent Name": "KANAKA KUMAR CHAND KOLAVENNU",
+      "Agent Type": "Individual",
+      "Date of Submission": "28/11/2025",
+      "Status": "Fwd to Agent(Shortfall)",
+      "CountDownTime": "0",
+      "Received Date": "2/12/2025 11:22 AM"
+    },
+    {
+      "Sl.No": "291",
+      "Application No": "241125000000",
+      "Agent Name": "MUNUKUTLA SATYA SARADA GOWRI",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/11/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "2/12/2025 12:30 PM"
+    },
+    {
+      "Sl.No": "292",
+      "Application No": "11225195115",
+      "Agent Name": "SURESHBABU GOLLA",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/12/2025",
+      "Status": "Fwd to Agent(Shortfall)",
+      "CountDownTime": "0",
+      "Received Date": "19/12/2025 12:42 PM"
+    },
+    {
+      "Sl.No": "293",
+      "Application No": "21225165000",
+      "Agent Name": "ROOF ENCLAVES REALTY PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "02/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "8/12/2025 3:23 PM"
+    },
+    {
+      "Sl.No": "294",
+      "Application No": "220125000000",
+      "Agent Name": "EDAMA THIRUPATHAIAH",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/12/2025 10:58 AM"
+    },
+    {
+      "Sl.No": "295",
+      "Application No": "211125000000",
+      "Agent Name": "ALAPATI MOHAN VENKATA RAMANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "04/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/12/2025 11:00 AM"
+    },
+    {
+      "Sl.No": "296",
+      "Application No": "151125000000",
+      "Agent Name": "NANDIVADA LAKSHMANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "08/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "16/12/2025 10:48 AM"
+    },
+    {
+      "Sl.No": "297",
+      "Application No": "130925000000",
+      "Agent Name": "CETTUR AMEER",
+      "Agent Type": "Individual",
+      "Date of Submission": "22/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "23/12/2025 04:52 PM"
+    },
+    {
+      "Sl.No": "298",
+      "Application No": "261225000000",
+      "Agent Name": "SHRAVAN KUMAR MITTIREDDY",
+      "Agent Type": "Individual",
+      "Date of Submission": "26/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "30/12/2025 03:48 PM"
+    },
+    {
+      "Sl.No": "299",
+      "Application No": "301225000000",
+      "Agent Name": "SIDDINENI SIVA PRASAD",
+      "Agent Type": "Individual",
+      "Date of Submission": "30/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "2/1/2026 3:22 PM"
+    },
+    {
+      "Sl.No": "300",
+      "Application No": "231225000000",
+      "Agent Name": "SALAPURI SIVANAGESWARAO",
+      "Agent Type": "Individual",
+      "Date of Submission": "31/12/2025",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "2/1/2026 3:24 PM"
+    },
+    {
+      "Sl.No": "301",
+      "Application No": "10126192021",
+      "Agent Name": "YALAGALA LAKSHMI NARAYANA",
+      "Agent Type": "Individual",
+      "Date of Submission": "01/01/2026",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/1/2026 10:38 AM"
+    },
+    {
+      "Sl.No": "302",
+      "Application No": "10126220016",
+      "Agent Name": "SMARTERA PROPERTIES BAZAR CONSULTANTS PVT. LTD",
+      "Agent Type": "Organization",
+      "Date of Submission": "01/01/2026",
+      "Status": "Approved",
+      "CountDownTime": "",
+      "Received Date": "5/1/2026 11:23 AM"
+    },
+    {
+      "Sl.No": "303",
+      "Application No": "60126181547",
+      "Agent Name": "TAILORMADE PROPERTIES PRIVATE LIMITED",
+      "Agent Type": "Organization",
+      "Date of Submission": "06/01/2026",
+      "Status": "Fwd to Director",
+      "CountDownTime": "26 d:7 h:48 m:57 s",
+      "Received Date": "8/1/2026 12:02 PM"
+    }
+  ]
+}

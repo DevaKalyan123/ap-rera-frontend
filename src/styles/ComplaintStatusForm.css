@@ -1,0 +1,136 @@
+/* Main Container */
+.complaint-status {
+  width: 500px;
+  margin: 60px auto;
+  padding: 25px;
+  background: #f5f7fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+.complaint-status__title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Form */
+.complaint-status__form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* 🔥 Row Layout (MAIN IMPORTANT) */
+.complaint-status__group--row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Label */
+.complaint-status__label {
+  width: 160px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Input + Select */
+.complaint-status__input {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Input focus */
+.complaint-status__input:focus {
+  border-color: #007bff;
+}
+
+/* CAPTCHA Wrapper (column inside row) */
+.complaint-status__captcha-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 8px;
+}
+
+/* CAPTCHA Row */
+.complaint-status__captcha-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* CAPTCHA Text */
+.complaint-status__captcha-text {
+  background: #222;
+  color: #fff;
+  padding: 8px 15px;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Refresh Button */
+.complaint-status__refresh-btn {
+  padding: 6px 10px;
+  border: none;
+  background: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complaint-status__refresh-btn:hover {
+  background: #ccc;
+}
+
+/* Submit Button */
+.complaint-status__submit-btn {
+  margin-top: 10px;
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.complaint-status__submit-btn:hover {
+  background: #0056b3;
+}
+
+/* Error Message */
+.complaint-status__error {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* 🔥 Responsive (Mobile View) */
+@media (max-width: 600px) {
+  .complaint-status {
+    width: 90%;
+  }
+
+  .complaint-status__group--row {
+    flex-direction: column;  /* 👈 mobile stack */
+    align-items: flex-start;
+  }
+
+  .complaint-status__label {
+    width: 100%;
+  }
+
+  .complaint-status__input {
+    width: 100%;
+  }
+}

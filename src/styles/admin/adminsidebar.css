@@ -1,0 +1,175 @@
+.admin-sidebar {
+  width: 240px;
+  height: 100vh;
+  background: linear-gradient(180deg, #1E293B, #0F172A);
+  color: #fff;
+  padding: 20px 15px;
+  position: fixed;
+  transition: all 0.3s ease;
+}
+
+.admin-sidebar-closed {
+  width: 70px;
+}
+
+.admin-sidebar-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+/* Sidebar Buttons */
+.admin-sidebar button {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border: none;
+  background: transparent;
+  color: #cbd5f5;
+  text-align: left;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.admin-sidebar button:hover {
+  background: #3B82F6;
+  color: #fff;
+  transform: translateX(5px);
+}
+
+/* Active Click Effect */
+.admin-sidebar button:active {
+  transform: scale(0.97);
+}
+
+/* Notification Badge */
+.admin-sidebar span {
+  background: #EF4444 !important;
+  box-shadow: 0 0 8px rgba(239, 68, 68, 0.6);
+}
+
+
+
+
+
+
+.admin-top-header {
+  height: 70px;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Left section */
+.admin-header-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.admin-header-left h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0F172A;
+}
+
+/* Logo */
+.admin-header-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+/* Hamburger */
+.admin-hamburger {
+  font-size: 22px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-hamburger:hover {
+  transform: rotate(90deg);
+}
+
+.admin-profile-wrapper {
+  position: relative;
+}
+
+/* Small Profile Image */
+.admin-profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #3B82F6;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-profile-img:hover {
+  transform: scale(1.1);
+}
+
+/* Profile Dropdown */
+.admin-profile-card {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 260px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Profile Top */
+.admin-profile-top {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.admin-profile-large {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.admin-profile-top h3 {
+  margin: 5px 0;
+  font-size: 16px;
+  color: #0F172A;
+}
+
+.admin-profile-top p {
+  font-size: 13px;
+  color: #64748B;
+}
+
+/* Logout Button */
+.admin-logout-btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #EF4444;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-logout-btn:hover {
+  background: #dc2626;
+}

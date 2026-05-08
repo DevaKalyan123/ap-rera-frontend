@@ -1,0 +1,59 @@
+.rating-box {
+  flex: 1;
+}
+
+/* Question */
+.rating-question {
+  background: #03a9f4;
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.rating-question span {
+  color: red;
+}
+
+.rating-note {
+  font-size: 13px;
+  margin: 6px 0;
+}
+
+/* Stars */
+.rating-stars {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.rating-stars i {
+  margin-right: 6px;
+  color: #ccc;
+  transition: 0.2s;
+}
+
+.rating-stars i.active {
+  color: #ff9800;
+}
+
+.rating-stars i:hover {
+  transform: scale(1.2);
+}
+
+/* Emoji */
+.rating-emoji {
+  font-size: 36px;
+  margin-top: 8px;
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

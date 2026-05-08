@@ -1,0 +1,107 @@
+.cidc-aprera-page-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.cidc-border{
+  border: 1px solid #ddd;
+}
+.cidc-container{
+  padding: 10px 20px;
+}
+.cidc-aprera-breadcrumb {
+  background: #1580d4;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.cidc-aprera-main-title {
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: unbold;
+}
+
+.cidc-aprera-section-title {
+  color: #0b7a8f;
+  font-size: 20px;
+  border-bottom: 3px solid #0b7a8f;
+  display: inline-block;
+  margin: 5px 0 15px;
+}
+
+.cidc-aprera-vendor-db {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.cidc-aprera-vendor-db .cidc-aprera-vendor-blink {
+  color: red;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+  animation: blinkText 1s infinite;
+}
+
+@keyframes blinkText {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.cidc-aprera-doc-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.cidc-aprera-doc-table th {
+  background: #425a70;
+  color: white;
+  padding: 12px;
+}
+
+.cidc-aprera-doc-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.cidc-aprera-doc-table td:last-child {
+  text-align: center;
+  font-size: 20px;
+}
+
+.cidc-aprera-contact-box {
+  margin-top: 15px;
+  line-height: 1.8;
+}
+
+.cidc-aprera-contact-title {
+  color: #0056b3;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.cidc-aprera-contact-title2 {
+  color: #0056b3;
+  font-size: 16px;
+}
+
+.cidc-aprera-page-container a {
+  color: #0b67c2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.cidc-aprera-page-container p {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.2px;
+  text-indent: 40px;
+  margin-bottom: 14px;
+}
+
+.cidc-aprera-contact-box p {
+  line-height: 0.7;
+}

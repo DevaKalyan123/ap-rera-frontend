@@ -1,0 +1,99 @@
+/* ===== COMMON STEPPER ===== */
+
+.common-stepper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0 30px;
+  padding: 30px 25px 20px;
+  border: 1px solid #d9d9d9;
+  background: #f5f5f5;
+  position: relative;
+}
+
+.common-step {
+  text-align: center;
+  flex: 1;
+  position: relative;
+  color: #000;
+  font-weight: normal;
+}
+
+/* ── DEFAULT CONNECTOR LINE (grey) ── */
+.common-step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 17px;
+  left: 50%;
+  width: 100%;
+  height: 2px;
+  background: #cfcfcf;
+  z-index: 0;
+}
+
+/* ── GREEN CONNECTOR LINE for completed steps ── */
+.common-step.completed:not(:last-child)::after {
+  background: #28a745;
+}
+
+/* ── CIRCLE ── */
+.common-step .circle {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin: 0 auto 8px;
+  line-height: 32px;
+  background: #fff;
+  color: #555;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+/* ── COMPLETED step (behind current page) → GREEN ── */
+.common-step.completed .circle {
+  background: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+.common-step.completed > span {
+  color: #28a745;
+  font-weight: 600;
+}
+
+/* ── ACTIVE step (current page) → BLUE ── */
+.common-step.active .circle {
+  background: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.common-step.active > span {
+  color: #007bff;
+  font-weight: 700;
+}
+
+/* ── VISITED step (been here before, but currently on an earlier page) → GREEN outline ── */
+.common-step.visited .circle {
+  background: #fff;
+  color: #28a745;
+  border-color: #28a745;
+}
+
+.common-step.visited > span {
+  color: #28a745;
+  font-weight: 600;
+}
+
+/* ── FUTURE steps (not yet reached) → muted ── */
+.common-step:not(.completed):not(.active):not(.visited) .circle {
+  background: #fff;
+  border-color: #ccc;
+  color: #aaa;
+}
+
+.common-step:not(.completed):not(.active):not(.visited) > span {
+  color: #aaa;
+}

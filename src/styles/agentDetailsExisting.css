@@ -1,0 +1,149 @@
+/* ===== PAGE LAYOUT ===== */
+.agentexisting-registration-page {
+  background: #f5f5f5;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.agentexisting-outer-box {
+  width: 85%;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #dcdcdc;
+}
+
+/* ===== BREADCRUMB ===== */
+.agentexisting-breadcrumb-box {
+  background: #1e88e5;
+  color: #ffffff;
+  padding: 8px 15px;
+  font-size: 14px;
+}
+
+.agentexisting-crumb-link {
+  color: #ffeb3b;
+  margin: 0 5px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* ===== TITLE ===== */
+.agentexisting-page-title {
+  font-size: 22px;
+  font-weight: normal;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.agentexisting-page-title::after {
+  content: "";
+  position: absolute;
+  left: 20px;
+  bottom: 5px;
+  width: 60px;
+  height: 3px;
+  background: #1e88e5;
+}
+
+/* ===== STEPPER ===== */
+.agentexisting-stepper-box {
+  position: relative;
+  margin: 15px 20px 25px;
+  padding: 20px;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.agentexisting-stepper-line {
+  position: absolute;
+  top: 36px;
+  left: 60px;
+  right: 60px;
+  height: 2px;
+  background: #d0d0d0;
+  z-index: 0;
+}
+
+.agentexisting-stepper-item {
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+
+.agentexisting-stepper-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #c0c0c0;
+  background: #ffffff;
+  color: #777;
+  margin: 0 auto;
+  line-height: 26px;
+  font-size: 13px;
+}
+
+.agentexisting-stepper-circle.active {
+  background: #4caf50;
+  border-color: #4caf50;
+  color: #ffffff;
+}
+
+.agentexisting-stepper-text {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #000;
+}
+
+/* ===== FORM BOX ===== */
+.agentexisting-form-box {
+  padding: 30px 20px 40px;
+  align-items: center;
+
+}
+
+.agentexisting-pan-wrapper {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.agentexisting-pan-input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.agentexisting-pan-input-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.agentexisting-required {
+  color: red;
+}
+
+.agentexisting-pan-input-group input {
+  width: 260px;
+  padding: 7px 8px;
+  border: 1px solid #cfcfcf;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* ===== BUTTON ===== */
+.agentexisting-btn-primary {
+  background: #1e88e5;
+  color: #ffffff;
+  border: none;
+  padding: 7px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.agentexisting-btn-primary:hover {
+  background: #1565c0;
+}

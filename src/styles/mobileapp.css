@@ -1,0 +1,49 @@
+.ma-container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px 40px;
+  background: #f2f2f2;
+  box-sizing: border-box;
+}
+
+/* Blue heading – aligned like second image */
+.ma-breadcrumb {
+  background: #0b87e3;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 500;
+
+  /* ✅ FIX */
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+
+  border-radius: 4px;
+}
+
+/* Image / table box */
+.ma-box {
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Image full fit */
+.ma-box img {
+  max-width: 100%;
+  padding: 10px 20px;
+  display: block;
+}
+
+/* Breadcrumb links */
+.ma-breadcrumb a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+.ma-breadcrumb .ma-active {
+  font-weight: 600;
+}

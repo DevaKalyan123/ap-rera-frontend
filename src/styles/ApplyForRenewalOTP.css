@@ -1,0 +1,77 @@
+.applyForRenewalOTPContainer{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#f4f6f9;
+}
+
+.applyForRenewalOTPBox{
+background:white;
+padding:30px;
+width:400px;
+border-radius:6px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.applyForRenewalOTPTitle{
+text-align:center;
+margin-bottom:20px;
+color:#003366;
+}
+
+.applyForRenewalOTPField{
+display:flex;
+flex-direction:column;
+margin-bottom:15px;
+}
+
+.applyForRenewalOTPField label{
+font-weight:600;
+margin-bottom:5px;
+}
+
+.applyForRenewalOTPField input{
+padding:8px;
+border:1px solid #ccc;
+border-radius:4px;
+}
+
+.applyForRenewalOTPSendBtn{
+width:100%;
+padding:10px;
+background:#0b5ed7;
+color:white;
+border:none;
+border-radius:4px;
+cursor:pointer;
+margin-top:10px;
+}
+
+.applyForRenewalOTPVerifyBox{
+margin-top:20px;
+display:flex;
+flex-direction:column;
+}
+
+.applyForRenewalOTPVerifyBox input{
+padding:8px;
+border:1px solid #ccc;
+border-radius:4px;
+margin-bottom:10px;
+}
+
+.applyForRenewalOTPVerifyBtn{
+padding:10px;
+background:#198754;
+color:white;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+
+.applyForRenewalOTPMessage{
+margin-top:10px;
+color:red;
+text-align:center;
+}

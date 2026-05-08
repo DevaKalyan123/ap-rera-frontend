@@ -1,0 +1,252 @@
+/* ===== PAGE WRAPPER ===== */
+.ud-wrapper {
+  background: #ffffff;
+  padding: 20px;
+  background-color: rgb(241, 235, 235);
+}
+
+.ud-main {
+  width: 82%;
+  margin: 16px auto;
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+}
+
+/* ===== BREADCRUMB ===== */
+.ud-breadcrumb {
+  background: #1087e6;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+.ud-link {
+  color: #ffeb3b;
+  text-decoration: underline;
+  margin: 0 4px;
+}
+
+.ud-current {
+  font-weight: 600;
+}
+
+/* ===== CONTENT ===== */
+.ud-content {
+  padding: 20px;
+}
+
+/* ===== TITLE ===== */
+
+
+.ud-title {
+  font-size: 22px;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  font-weight: normal;
+  position: relative;
+}
+.ud-title::after {
+    content: "";
+    bottom: -8px;
+    width: 50px;
+    height: 4px;
+    left: -6px;
+    background-color: #1e90ff;
+    margin-left: 20px;
+    position: absolute;
+}
+
+/* STEPPER */
+.ud-stepper {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.ud-step {
+  text-align: center;
+  width: 100%;
+}
+
+.ud-stepper-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin: auto;
+  line-height: 26px;
+  color: #999;
+}
+
+.ud-circle.active {
+  background: green;
+  color: #fff;
+  border-color: green;
+}
+/* =========================
+   STEPPER WITH BIGGER BOX
+========================= */
+
+.ud-stepper {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  /* 🔥 INCREASE BOX SIZE */
+  padding: 35px 35px 35px;
+  margin: 30px 0 40px;
+
+  border: 1px solid #ddd;
+  background: #ffffff;
+}
+
+/* 🔹 HORIZONTAL CONNECTING LINE */
+.ud-stepper::before {
+  content: "";
+  position: absolute;
+
+  /* 🔥 MOVE LINE TO CENTER */
+  top: 52px;
+  left: 60px;
+  right: 60px;
+
+  height: 2px;
+  background: #cfcfcf;
+  z-index: 0;
+}
+
+/* EACH STEP */
+.ud-step {
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+
+/* STEP CIRCLE */
+.ud-stepper-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 2px solid #bdbdbd;
+  background: #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: auto;
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* ACTIVE STEP */
+.ud-stepper-circle.active {
+  background: #17a65b;
+  border-color: #17a65b;
+  color: #ffffff;
+}
+
+/* STEP LABEL */
+.ud-step span {
+  display: block;
+  margin-top: 12px; /* 🔥 more space below circle */
+  font-size: 14px;
+  color: #000;
+}
+
+/* ===== SECTION ===== */
+.ud-section-title {
+  color: #1087e6;
+  border-bottom: 2px solid #1087e6;
+  display: inline-block;
+  margin: 20px 0 10px;
+}
+
+.ud-note {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* ===== TABLE ===== */
+.ud-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ud-table th {
+  background: #2f4f4f;
+  color: #fff;
+  padding: 10px;
+}
+
+.ud-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* ===== DECLARATION ===== */
+.ud-declaration {
+  display: block;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+/* ===== BUTTON ===== */
+.ud-btn-row {
+  text-align: right;
+}
+
+.ud-btn {
+  background: #1087e6;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+/* ===== MODAL ===== */
+.ud-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ud-modal {
+  background: #fff;
+  padding: 25px;
+  width: 420px;
+  position: relative;
+  text-align: center;
+}
+
+.ud-modal-close {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ud-modal-ok {
+  margin-top: 15px;
+  background: #1087e6;
+  color: #fff;
+  border: none;
+  padding: 6px 22px;
+  cursor: pointer;
+}
+.applicant-back-btn{
+  background-color: #1087e6;
+  color: white;
+  border: 3px solid #1087e6;
+  padding: 3px;
+}

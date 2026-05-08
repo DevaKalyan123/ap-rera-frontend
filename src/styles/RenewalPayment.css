@@ -1,0 +1,113 @@
+/* Page Wrapper */
+.payment-page-wrapper{
+  width:90%;
+  margin:20px auto;
+  background:white;
+  border:1px solid #ccc;
+  box-sizing:border-box;
+}
+
+.renewal-payments-breadcrumb-bar{
+  background:#2c73b3;
+  color:white;
+  padding:10px 20px;
+  font-size:14px;
+
+  position:relative;
+  right:0%;         /* 🔥 move to left */
+  width:110%;       /* 🔥 cover full width */
+}
+
+.renewal-payments-breadcrumb-link{
+  color:#ffeb3b;
+  text-decoration:underline;
+  margin:0 5px;
+}
+
+/* Stepper */
+.stepper-wrapper{
+  border:1px solid #ddd;
+  background:#fafafa;
+  margin:20px 0;
+  padding:10px 0;
+  border-radius:6px;
+}
+
+/* Container */
+.payment-container{
+  padding:25px;
+  width:100%;
+  box-sizing:border-box;
+}
+
+/* Title */
+.payment-title{
+  margin-bottom:25px;
+  color:#2c3e50;
+  font-size:24px;
+  font-weight:600;
+  text-align:center;  
+}
+
+/* Card */
+.payment-card{
+  border:1px solid #ddd;
+  border-radius:6px;
+  padding:30px;
+  background:#fafafa;
+  width:100%;
+  max-width:500px;
+  margin:auto;
+  text-align:center;
+}
+
+/* Fee section */
+.payment-card h3{
+  color:#0a58ca;
+  margin-bottom:10px;
+}
+
+.amount{
+  font-size:28px;
+  font-weight:bold;
+  color:#0d6efd;
+  margin-bottom:20px;
+}
+
+/* Select */
+.payment-card select{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+  margin-bottom:20px;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+
+/* Button */
+.pay-btn{
+  background:#0d6efd;
+  color:white;
+  padding:12px 25px;
+  border:none;
+  border-radius:4px;
+  cursor:pointer;
+  font-size:15px;
+  width:100%;
+}
+
+.pay-btn:hover{
+  background:#0b5ed7;
+}
+
+.payment-container {
+  position: relative; /* important */
+  min-height: 400px;  /* gives space for bottom positioning */
+}
+
+/* bottom-left position */
+.back-btn-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
