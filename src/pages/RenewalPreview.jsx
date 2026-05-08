@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getPreview } from "../api/renewalApi";
 import RenewalStepper from "../components/RenewalStepper";
-import "../styles/renewalPreview.css";
+import "../styles/renewalpreview.css";
 
 function RenewalPreview() {
 

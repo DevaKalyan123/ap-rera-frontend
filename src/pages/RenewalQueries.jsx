@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getQueries } from "../api/renewalApi";
 import RenewalStepper from "../components/RenewalStepper";
-import "../styles/renewalQueries.css";
+import "../styles/renewalqueries.css";
 
 function RenewalQueries() {
 

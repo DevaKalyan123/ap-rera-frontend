@@ -254,28 +254,34 @@ const AgentDetailsOther = () => {
 
 
   // ===== FILE STATES =====
-  const [files, setFiles] = useState({
-    regCert: null,
-    regCertUrl: null,        // ✅ ADD THIS
+ // ===== FILE STATES =====
+const [files, setFiles] = useState({
+  regCert: null,
+  regCertUrl: null,
 
-    panDoc: null,
-    panDocUrl: null,         // ✅ ADD THIS
+  panDoc: null,
+  panDocUrl: null,
 
-    gstDoc: null,
-    gstDocUrl: null,         // ✅ ADD THIS
-    legalDocUrl: null,
-    addressProof: null,
-    addressProofUrl: null,   // ✅ ADD THIS
-    authPhotoUrl: null,
-    boardResolutionUrl: null,
-    authPhoto: null,
-    boardResolution: null,
-    partnershipDeed: null,
-    memorandumDoc: null,
-    selfAffidavitUrl: null,
-    boardResolutionUrl: null
+  gstDoc: null,
+  gstDocUrl: null,
 
-  });
+  legalDocUrl: null,
+
+  addressProof: null,
+  addressProofUrl: null,
+
+  authPhoto: null,
+  authPhotoUrl: null,
+
+  boardResolution: null,
+  boardResolutionUrl: null,
+
+  partnershipDeed: null,
+  memorandumDoc: null,
+  trustDeed: null,
+
+  selfAffidavitUrl: null,
+});
 
   const [directors, setDirectors] = useState([]);
 
