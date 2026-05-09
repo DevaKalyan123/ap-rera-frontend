@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useParams, useNavigate, useLocation } from "react-router-dom";
 
-import "../../styles/admin/admincomplaintdetail.css";
+import "../../styles/admin/AdminComplaintDetail.css";
 const DOC_BASE_URL = "http://localhost:8080/api/complint/document/";
 
 const Field = ({ label, value, mono }) => (
