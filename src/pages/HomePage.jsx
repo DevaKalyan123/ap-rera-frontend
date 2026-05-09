@@ -96,7 +96,7 @@ function Navbar() {
               <span className="separator">|</span>
 
               <span>
-                Quarterly Updates Jan–Mar 2026 before 21/04/2026
+                Quarterly Updates Jan–Mar-2026 before 21/04/2026
                 <span className="homenavbar-new-badge">NEW</span>
               </span>
 
@@ -208,7 +208,7 @@ function Hero() {
                 src="https://www.imageshine.in/uploads/gallery/PNG-Images-of-Nara-Chandrababu-Naidu.png"
                 alt="Sri N. Chandrababu Naidu"
               />
-              <h4>Sri N. Chandrababu Naidu</h4>
+              <h4>Sri Nara.Chandrababu Naidu</h4>
               <p>Hon’ble Chief Minister of Andhra Pradesh</p> 
             </div>
 
