@@ -33,7 +33,7 @@ import {
   FaBuilding,
   FaUserTie,
   FaFileAlt,
-  FaStamp,
+  FaStamp, 
 } from "react-icons/fa";
 
 
@@ -73,83 +73,58 @@ import {
    ✅ NAVBAR COMPONENT
 =========================== */
 function Navbar() {
-  const navigate = useNavigate();
-
-
- 
+  const [paused, setPaused] = useState(false);
 
   return (
     <header className="homenavbar-new-navbar">
-
       <div className="homenavbar-new-notice-wrapper">
-
         <div className="homenavbar-new-notice-board">
 
-           {/* 🔔 ICON */}
-          <div
-            className="homenavbar-new-icon-box"
-              // ✅ CLICK TO TOGGLE
-            style={{ cursor: "pointer" }}
-          >
-            🔔
-          </div>
-
-          {/* VERTICAL LINE */}
+          <div className="homenavbar-new-icon-box">🔔</div>
           <div className="homenavbar-new-divider"></div>
 
-          {/* LIST */}
-          <ul className="homenavbar-new-list">
+          <button className="ticker-btn">◀</button>
 
-            <li>
-              <a
-                href="/assets/pdfs/Circular-P-18.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                One Time Opportunity with 50% Concession on Late Fee for Un-registered Projects.
+          <div className="homenavbar-new-ticker">
+            <div className={`ticker-track ${paused ? "paused" : ""}`}>
+
+              <span>
+                One Time Opportunity with 50% Concession on Late Fee
                 <span className="homenavbar-new-badge">NEW</span>
-              </a>
-            </li>
+              </span>
 
-            <li>
-              Quarterly Updates: All the Promoters have to submit the Quarterly Update of January 2026 - March 2026 on or before 21/04/2026 without fail.
-              <span className="homenavbar-new-badge">NEW</span>
-            </li>
+              <span className="separator">|</span>
 
-            <li>
-              Promoters intending to obtain a project extension are advised to appear before the Authority at the office of APRERA on working days.
-              <span className="homenavbar-new-badge">NEW</span>
-            </li>
+              <span>
+                Quarterly Updates Jan–Mar 2026 before 21/04/2026
+                <span className="homenavbar-new-badge">NEW</span>
+              </span>
 
-            <li>
-              All promoters are hereby informed that the Project Extension Module has been enabled online.
-              <span className="homenavbar-new-badge">NEW</span>
-            </li>
+              <span className="separator">|</span>
 
-            <li>
-              Promoters are requested to display the APRERA Registration Certificate / ID at the respective project site.
-              <span className="homenavbar-new-badge">NEW</span>
-            </li>
+              <span>
+                Display APRERA Registration Certificate at site
+                <span className="homenavbar-new-badge">NEW</span>
+              </span>
 
-            <li
-              onClick={() => navigate("/promotregistration")}
-              style={{ cursor: "pointer" }}
-            >
-              All the promoters are instructed to register themselves in the AP RERA web portal.
-              <span className="homenavbar-new-badge">NEW</span>
-            </li>
+            </div>
+          </div>
 
-          </ul>
+          {/* ✅ THIS IS YOUR MISSING LOGIC */}
+          <button
+            className="ticker-btn"
+            onClick={() => setPaused(!paused)}
+          >
+            {paused ? "▶" : "⏸"}
+          </button>
+
+          <button className="ticker-btn">▶</button>
 
         </div>
-
       </div>
-
     </header>
   );
 }
-
-
 /* ===========================
    ✅ HERO COMPONENT
 =========================== */
@@ -195,11 +170,11 @@ function Hero() {
           {/* LEFT CONTENT */}
           <div className="ap-home-about-left">
            
-         <h2 style={{ fontSize: "32px", fontWeight: "700" }}>
-          About AP RERA
+         <h2 style={{ fontSize: "32px", fontWeight: "700" }} className="aboutrera">
+          ABOUT AP RERA
           </h2>
 
-            <p style={{ fontSize: "18px", fontWeight: "500" }}>
+            <p style={{ fontSize: "16px", fontWeight: "500" }}>
               The Real Estate (Regulation & Development) Act, 2016 has been established on 25th March,
               2016 and considered as one of the landmark legislations passed by the Government of India.
               Its objective is to reform the real estate sector in India, encouraging greater transparency,
@@ -208,13 +183,13 @@ function Hero() {
               sector.
             </p>
 
-           <p style={{ fontSize: "18px", fontWeight: "400" }}>
+           <p style={{ fontSize: "16px", fontWeight: "400" }}>
               All sections of the Real Estate (Regulation & Development) Act, 2016 came into force
               with effect from 1st May, 2017. The Andhra Pradesh Real Estate (Regulation & Development)
               Rules, 2017 was approved by Government of Andhra Pradesh and notified on March 27, 2017.
             </p>
 
-            <p style={{ fontSize: "18px", fontWeight: "400" }}>
+            <p style={{ fontSize: "16px", fontWeight: "400" }}>
               For Buildings where the area of land proposed to be developed does not exceed five hundred
               square meters or the number of apartments proposed to be developed does not exceed eight
               inclusive of all phases.
@@ -353,7 +328,7 @@ function Hero() {
 function Services() {
   const navigate = useNavigate();
 
-  const registrationLinks = [
+const registrationLinks = [
   {
     title:
       "Documents to be submitted while applying for project on agent registration",
@@ -433,7 +408,7 @@ function Services() {
   return (
   <section className="homequick-links-overlap">
     <div className="homequick-services-card">
-      <h2 className="homequick-main-title">Services</h2>
+      <h2 className="homequick-main-title">SERVICES</h2>
 
      <div className="homequick-registration-grid">
   {registrationLinks.map((link, index) => {
