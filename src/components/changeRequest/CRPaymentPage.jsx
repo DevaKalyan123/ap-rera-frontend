@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/Crpaymentpage.css";
+import "../../styles/CRPaymentPage.css";
 
 // ─── CHANGE REQUEST PAYMENT PAGE ─────────────────────────────────────────────
 // Props:
