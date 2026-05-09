@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
-import "../styles/ProjectDetails.css";
+import "../styles/ProjectDetailsNew.css";
 
 import ProjectWizard from "../components/ProjectWizard";
 import ProjectRegistrationSection from "../components/ExistingProjectRegistrationSection";
