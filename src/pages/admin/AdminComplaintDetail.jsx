@@ -95,7 +95,7 @@ const DocViewerModal = ({ filename, label, onClose }) => {
           ) : (
             <div className="AdminComplaintDetail-docviewer-nopreview">
               <span className="AdminComplaintDetail-docviewer-nopreview-icon">📎</span>
-              <p>Preview not available for this file type. Use Download or Open Tab to view.</p>
+              <p>Preview is not available for this file type. Use Download or Open Tab to view.</p>
               <button className="AdminComplaintDetail-btn-primary" onClick={handleDownload}>⬇ Download File</button>
             </div>
           )}
