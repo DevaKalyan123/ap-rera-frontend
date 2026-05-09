@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { apiGet, apiPut, BASE_URL } from "../../api/api";
 import AdminSidebar from "../../components/admin/AdminSidebar";
 import TopHeader from "../../components/admin/TopHeader";
-import "../../styles/admin/adminChangeRequest.css";
+import "../../styles/admin/AdminChangeRequest.css";
 
 // ─── SECTION LABEL MAP ────────────────────────────────────────────────────────
 const SECTION_LABELS = {
