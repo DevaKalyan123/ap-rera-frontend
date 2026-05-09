@@ -1,3 +1,5 @@
+import "./../../styles/admin/AdminChangeRequestDetails.css";
+
 export default function AdminchangerRequestDetail() {
-  return <div>Temp File</div>;
+  return <div>Temporary Fix</div>;
 }
