@@ -1,30 +1,29 @@
 // src/api/api.js
 
-
 const isProduction = import.meta.env.MODE === "production";
 
 /**
  * Backend Base URL
- * - Dev: DevTunnel backend (8080)
- * - Prod: real domain
  */
-export const DEV_BACKEND_URL = "https://ap-rera-backend.onrender.com";
+export const DEV_BACKEND_URL =
+  import.meta.env.VITE_API_URL || "http://localhost:5000";
 
-//const DEV_BACKEND_URL = "http://localhost:8080";
-
-const PROD_BACKEND_URL = "https://ap-rera-backend.onrender.com";
+const PROD_BACKEND_URL =
+  import.meta.env.VITE_API_URL || "https://ap-rera-backend.onrender.com";
 
 export const BASE_URL = isProduction
   ? PROD_BACKEND_URL
   : DEV_BACKEND_URL;
 
 // ================================
-// 🔁 API FETCH WRAPPER
+// API FETCH WRAPPER
 // ================================
 export async function apiFetch(path, options = {}) {
   const url = path.startsWith("http")
     ? path
     : `${BASE_URL}${path.startsWith("/") ? path : `/${path}`}`;
+
+  console.log("API URL:", url);
 
   const isFormData = options.body instanceof FormData;
 
@@ -39,12 +38,8 @@ export async function apiFetch(path, options = {}) {
 
   const raw = await res.text();
 
-  // Detect tunnel HTML error
-  if (raw.startsWith("<!DOCTYPE html>")) {
-    throw new Error("Backend not reachable or DevTunnel expired");
-  }
-
   let data;
+
   try {
     data = raw ? JSON.parse(raw) : null;
   } catch {
@@ -54,7 +49,7 @@ export async function apiFetch(path, options = {}) {
   if (!res.ok) {
     throw new Error(
       (data && (data.error || data.message)) ||
-      `HTTP ${res.status}`
+        `HTTP ${res.status}`
     );
   }
 
@@ -62,7 +57,7 @@ export async function apiFetch(path, options = {}) {
 }
 
 // ================================
-// API HELPERS
+// COMMON METHODS
 // ================================
 export const apiGet = (url) =>
   apiFetch(url, { method: "GET" });
@@ -70,59 +65,66 @@ export const apiGet = (url) =>
 export const apiPost = (url, body) =>
   apiFetch(url, {
     method: "POST",
-    body: body instanceof FormData ? body : JSON.stringify(body),
+    body: body instanceof FormData
+      ? body
+      : JSON.stringify(body),
   });
 
 export const apiPut = (url, body) =>
   apiFetch(url, {
     method: "PUT",
-    body: body instanceof FormData ? body : JSON.stringify(body),
+    body: body instanceof FormData
+      ? body
+      : JSON.stringify(body),
   });
 
 export const apiDelete = (url) =>
   apiFetch(url, { method: "DELETE" });
 
 // ================================
-// SPECIFIC API ENDPOINTS FOR NEW USER REGISTRATION
+// API ENDPOINTS
 // ================================
 
-// Get all states
-export const getStates = () => apiGet("/api/states");
+// STATES
+export const getStates = () =>
+  apiGet("/api/states");
 
-// Get districts by state ID
+// DISTRICTS
 export const getDistricts = (stateId) => {
   if (!stateId) return Promise.resolve([]);
   return apiGet(`/api/districts/${stateId}`);
 };
 
-// Get mandals by district ID
+// MANDALS
 export const getMandals = (districtId) => {
   if (!districtId) return Promise.resolve([]);
   return apiGet(`/api/mandals/${districtId}`);
 };
 
-// Get villages by mandal ID
+// VILLAGES
 export const getVillages = (mandalId) => {
   if (!mandalId) return Promise.resolve([]);
   return apiGet(`/api/villages/${mandalId}`);
 };
 
-// Submit new promoter registration
+// PROMOTER REGISTRATION
 export const submitPromoterRegistration = (formData) => {
   return apiPost("/api/promoter/registration", formData);
 };
 
-// Optional: Check if PAN already exists
+// CHECK PAN
 export const checkPanExists = (panNumber) => {
   return apiGet(`/api/check-pan/${panNumber}`);
 };
 
+// PROJECT BY PAN
 export const getProjectByPan = (panNumber) => {
-  return apiGet(`/api/project/basic-details-by-pan?pan=${panNumber}`);
+  return apiGet(
+    `/api/project/basic-details-by-pan?pan=${panNumber}`
+  );
 };
 
-// Submit Change Request (FormData)
+// CHANGE REQUEST
 export const submitChangeRequest = (formData) => {
   return apiPost("/api/change-request", formData);
 };
-
