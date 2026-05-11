@@ -20,7 +20,7 @@ function RenewalPreview() {
   }, [renewalId]);
 
   if (!data) {
-    return <p className="loading">Loading Application Preview...</p>;
+    return <p className="loading">Loading Application preview.....</p>;
   }
 
   const expiryDate = new Date(data.expiry_date);
