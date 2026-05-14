@@ -1,95 +1,97 @@
-// src/pages/admin/AdminLogin.jsx
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+
 import "../../styles/admin/adminLogin.css";
+
 import TopHeader from "../../components/admin/TopHeader";
+
 import { apiPost } from "../../api/api";
+
 import { useAdmin } from "../../context/AdminContext";
 
 const AdminLogin = () => {
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+
   const [otp, setOtp] = useState("");
+
   const [step, setStep] = useState("login");
+
   const [loading, setLoading] = useState(false);
+
   const [error, setError] = useState("");
 
   const navigate = useNavigate();
+
   const { saveAdmin } = useAdmin();
 
   // =========================================
   // LOGIN
   // =========================================
+
   const handleLogin = async (e) => {
 
     e.preventDefault();
 
     setError("");
+
     setLoading(true);
 
     try {
 
-      const response = await fetch(
-        "https://ap-rera-backend.onrender.com/api/admin/login",
+      const data = await apiPost(
+        "/api/admin/login",
         {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            username,
-            password,
-          }),
+          username,
+          password,
         }
       );
 
-      const data = await response.json();
-
       console.log("LOGIN RESPONSE:", data);
 
-      // SUCCESS
-      if (response.ok) {
+      // SAVE USERNAME
+      localStorage.setItem(
+        "otp_username",
+        username
+      );
 
-        // Save username for OTP verify
-        localStorage.setItem("otp_username", username);
-
-        // Open OTP screen
-        setStep("otp");
-
-      } else {
-
-        setError(data.error || "Invalid username or password");
-
-      }
+      // OPEN OTP PAGE
+      setStep("otp");
 
     } catch (error) {
 
       console.log(error);
 
-      setError("Server error");
+      setError(
+        error?.response?.data?.error ||
+        "Invalid username or password"
+      );
 
     } finally {
 
       setLoading(false);
 
     }
+
   };
 
   // =========================================
   // VERIFY OTP
   // =========================================
+
   const handleVerifyOtp = async (e) => {
 
     e.preventDefault();
 
     setError("");
+
     setLoading(true);
 
     try {
 
-      const savedUsername = localStorage.getItem("otp_username");
+      const savedUsername =
+        localStorage.getItem("otp_username");
 
       const data = await apiPost(
         "/api/admin/verify-otp",
@@ -99,38 +101,52 @@ const AdminLogin = () => {
         }
       );
 
-      console.log("OTP VERIFY RESPONSE:", data);
+      console.log(
+        "OTP VERIFY RESPONSE:",
+        data
+      );
 
-      // Save Admin
+      // SAVE ADMIN
       saveAdmin(data.admin);
 
-      // Remove temp username
-      localStorage.removeItem("otp_username");
+      // REMOVE TEMP USERNAME
+      localStorage.removeItem(
+        "otp_username"
+      );
 
-      // Navigate Dashboard
-      navigate("/admin-dashboard", {
-        replace: true,
-      });
+      // NAVIGATE DASHBOARD
+      navigate(
+        "/admin-dashboard",
+        {
+          replace: true,
+        }
+      );
 
     } catch (error) {
 
       console.log(error);
 
-      setError("Invalid or expired OTP. Please try again.");
+      setError(
+        error?.response?.data?.error ||
+        "Invalid or expired OTP"
+      );
 
     } finally {
 
       setLoading(false);
 
     }
+
   };
 
   // =========================================
   // RESEND OTP
   // =========================================
+
   const handleResendOtp = async () => {
 
     setError("");
+
     setLoading(true);
 
     try {
@@ -145,19 +161,24 @@ const AdminLogin = () => {
 
       setOtp("");
 
-      alert("OTP resent successfully");
+      alert(
+        "OTP resent successfully"
+      );
 
     } catch (error) {
 
       console.log(error);
 
-      setError("Failed to resend OTP");
+      setError(
+        "Failed to resend OTP"
+      );
 
     } finally {
 
       setLoading(false);
 
     }
+
   };
 
   return (
@@ -168,22 +189,28 @@ const AdminLogin = () => {
 
         <div
           className={`admin-login-box ${
-            step === "otp" ? "otp-active" : ""
+            step === "otp"
+              ? "otp-active"
+              : ""
           }`}
         >
 
           {/* LOGO */}
+
           <div className="admin-login-logo">
 
             <div className="logo-circle">
+
               <span className="logo-icon">
                 &#9679;
               </span>
+
             </div>
 
           </div>
 
           {/* TITLE */}
+
           <h2 className="admin-login-title">
 
             {step === "login"
@@ -193,6 +220,7 @@ const AdminLogin = () => {
           </h2>
 
           {/* SUBTITLE */}
+
           <p className="admin-login-subtitle">
 
             {step === "login"
@@ -202,6 +230,7 @@ const AdminLogin = () => {
           </p>
 
           {/* ERROR */}
+
           {error && (
 
             <div className="admin-error-msg">
@@ -228,9 +257,12 @@ const AdminLogin = () => {
             >
 
               {/* USERNAME */}
+
               <div className="admin-form-group">
 
-                <label>Username</label>
+                <label>
+                  Username
+                </label>
 
                 <div className="input-wrapper">
 
@@ -243,7 +275,9 @@ const AdminLogin = () => {
                     placeholder="Enter your username"
                     value={username}
                     onChange={(e) =>
-                      setUsername(e.target.value)
+                      setUsername(
+                        e.target.value
+                      )
                     }
                     required
                   />
@@ -253,9 +287,12 @@ const AdminLogin = () => {
               </div>
 
               {/* PASSWORD */}
+
               <div className="admin-form-group">
 
-                <label>Password</label>
+                <label>
+                  Password
+                </label>
 
                 <div className="input-wrapper">
 
@@ -268,7 +305,9 @@ const AdminLogin = () => {
                     placeholder="Enter your password"
                     value={password}
                     onChange={(e) =>
-                      setPassword(e.target.value)
+                      setPassword(
+                        e.target.value
+                      )
                     }
                     required
                   />
@@ -277,7 +316,8 @@ const AdminLogin = () => {
 
               </div>
 
-              {/* LOGIN BUTTON */}
+              {/* BUTTON */}
+
               <button
                 className="admin-login-btn"
                 type="submit"
@@ -315,7 +355,6 @@ const AdminLogin = () => {
               className="admin-form slide-in"
             >
 
-              {/* OTP INFO */}
               <div className="otp-info-banner">
 
                 <span className="otp-icon-big">
@@ -323,15 +362,19 @@ const AdminLogin = () => {
                 </span>
 
                 <span>
-                  OTP sent successfully to your registered email
+                  OTP sent successfully
+                  to your registered email
                 </span>
 
               </div>
 
-              {/* OTP INPUT */}
+              {/* OTP */}
+
               <div className="admin-form-group">
 
-                <label>Enter OTP</label>
+                <label>
+                  Enter OTP
+                </label>
 
                 <div className="input-wrapper">
 
@@ -364,11 +407,13 @@ const AdminLogin = () => {
               </div>
 
               {/* VERIFY BUTTON */}
+
               <button
                 className="admin-login-btn"
                 type="submit"
                 disabled={
-                  loading || otp.length !== 6
+                  loading ||
+                  otp.length !== 6
                 }
               >
 
@@ -388,7 +433,8 @@ const AdminLogin = () => {
 
               </button>
 
-              {/* OTP FOOTER */}
+              {/* FOOTER */}
+
               <div className="otp-footer">
 
                 <span>
@@ -414,7 +460,9 @@ const AdminLogin = () => {
                   onClick={() => {
 
                     setStep("login");
+
                     setOtp("");
+
                     setError("");
 
                   }}
@@ -428,7 +476,8 @@ const AdminLogin = () => {
 
           )}
 
-          {/* STEP INDICATORS */}
+          {/* STEPS */}
+
           <div className="step-indicators">
 
             <span
@@ -456,6 +505,7 @@ const AdminLogin = () => {
       </div>
     </>
   );
+
 };
 
 export default AdminLogin;
