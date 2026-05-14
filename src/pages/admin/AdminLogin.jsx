@@ -7,6 +7,7 @@ import TopHeader from "../../components/admin/TopHeader";
 import { apiPost } from "../../api/api";
 import { useAdmin } from "../../context/AdminContext";
 
+
 const AdminLogin = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -19,18 +20,51 @@ const AdminLogin = () => {
   const { saveAdmin } = useAdmin();
 
   const handleLogin = async (e) => {
+
     e.preventDefault();
-    setError("");
-    setLoading(true);
+
     try {
-      await apiPost("/api/admin/login", { username, password });
-      setStep("otp");
-    } catch {
-      setError("Invalid username or password. Please try again.");
-    } finally {
-      setLoading(false);
+
+        const response = await fetch(
+            "https://ap-rera-backend.onrender.com/api/admin/login",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    username,
+                    password,
+                }),
+            }
+        );
+
+        const data = await response.json();
+
+        console.log("LOGIN RESPONSE:", data);
+
+        // SUCCESS
+        if (response.ok) {
+
+            localStorage.setItem("otp_username", username);
+
+            // OTP PAGE
+            navigate("/verify-otp");
+
+        } else {
+
+            setError(data.error || "Login failed");
+
+        }
+
+    } catch (error) {
+
+        console.log(error);
+
+        setError("Server error");
+
     }
-  };
+};
 
   const handleVerifyOtp = async (e) => {
     e.preventDefault();
