@@ -4,4 +4,36 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
+html, body {
+  overflow-x: hidden !important;
+  width: 100% !important;
+}
 
+*{
+  max-width:100%;
+  box-sizing:border-box;
+}
+
+@media (max-width:768px){
+
+  body{
+    overflow-x:hidden !important;
+  }
+
+  div{
+    max-width:100% !important;
+  }
+
+  button{
+    width:auto !important;
+  }
+
+  select{
+    width:auto !important;
+  }
+
+  nav{
+    overflow-x:auto !important;
+  }
+
+}
