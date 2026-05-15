@@ -2370,3 +2370,181 @@ background: linear-gradient(
 .aboutrera{
   color: #5C3317;
 }
+/* =========================================
+   FINAL MOBILE RESPONSIVE FIX
+========================================= */
+
+@media screen and (max-width: 768px) {
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* MAIN WRAPPERS */
+  .homepassport-hero,
+  .ap-home-about-section,
+  .homepublic-notice-section,
+  .quick-links-section,
+  .home-new-dashboard-wrapper,
+  .home-new-feedback-wrapper {
+    width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  /* HERO */
+  .homepassport-hero {
+    min-height: auto !important;
+    padding: 20px 10px !important;
+  }
+
+  /* LEADERS */
+  .homepassport-leaders,
+  .home-new-leaders {
+    flex-direction: column !important;
+    gap: 25px !important;
+    align-items: center !important;
+  }
+
+  .homepassport-card,
+  .home-new-leader-card {
+    width: 100% !important;
+    max-width: 280px !important;
+  }
+
+  .homepassport-card img,
+  .home-new-leader-card img {
+    width: 140px !important;
+    height: 140px !important;
+  }
+
+  /* ABOUT */
+  .ap-home-about-container {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 25px !important;
+  }
+
+  .ap-home-about-right {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 20px !important;
+  }
+
+  .ap-home-side-leader {
+    flex-direction: column !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .ap-home-side-leader img {
+    margin-right: 0 !important;
+    margin-bottom: 10px !important;
+  }
+
+  .ap-home-vertical-line {
+    display: none !important;
+  }
+
+  /* QUICK LINKS */
+  .homequick-links-overlap {
+    margin-top: 0 !important;
+    padding: 10px !important;
+  }
+
+  .homequick-services-card,
+  .home-services-card,
+  .quick-links-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 20px 12px !important;
+  }
+
+  .quick-links-row {
+    flex-direction: column !important;
+  }
+
+  /* REGISTRATION GRID */
+  .homequick-registration-grid,
+  .homeregistration-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 12px !important;
+  }
+
+  /* SERVICES GRID */
+  .homeservices-services-grid,
+  .home-new-services,
+  .home-new-expertise-grid,
+  .home-new-learning-grid,
+  .homepublic-notice-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  /* DASHBOARD */
+  .home-new-dashboard-wrapper,
+  .home-new-contact-row,
+  .home-new-philosophy-box {
+    flex-direction: column !important;
+  }
+
+  /* FORM */
+  .home-new-grid-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* NAVBAR */
+  .nav-list {
+    overflow-x: auto !important;
+    justify-content: flex-start !important;
+    padding: 0 10px !important;
+    white-space: nowrap !important;
+  }
+
+  .nav-list > li {
+    font-size: 12px !important;
+    padding: 10px 8px !important;
+  }
+
+  .top-header {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px;
+  }
+
+  .top-header-right {
+    position: static !important;
+    transform: none !important;
+  }
+
+  /* FOOTER */
+  .home-new-footer-policy,
+  .home-new-footer-bottom {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  /* TITLES */
+  .homemain-title,
+  .homeservices-section-title,
+  .homepublic-notice-title,
+  .aboutrera {
+    font-size: 22px !important;
+    text-align: center !important;
+  }
+
+  /* IMAGES */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+}
