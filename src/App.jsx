@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter } from 'react-router-dom'
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Layout from "./layouts/layout";
 
@@ -270,7 +270,7 @@ function App() {
     }, 800);
   }, []);
   return (
-    <BrowserRouter>
+      <HashRouter>
       <AgentFormProvider>
         {/* ✅ Popup should be OUTSIDE Routes */}
         {showPopup && <AnnouncementPopup onClose={() => setShowPopup(false)} />}
@@ -625,7 +625,7 @@ function App() {
           </Routes>
           <Chatbot />
         </Layout></AgentFormProvider>
-    </BrowserRouter>
+     </HashRouter>
   );
 }
 
