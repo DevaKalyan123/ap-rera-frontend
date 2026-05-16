@@ -1,13 +1,13 @@
-import { HashRouter } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import Layout from "./layouts/layout";
 
 import DbBase from "./pages/DbBase";
 
-// pages
-// import Home from "./pages/home";
+{/* pages */}
+{/*import Home from "./pages/home";*/}
 import About from "./pages/About";
-// import Aprea from "./pages/Aprea";
+{/* import Aprea from "./pages/Aprea";*/}
 import Notifications from "./pages/Notification";
 import Registration from "./pages/Registration";
 import Reports from "./pages/Reports";
@@ -99,8 +99,8 @@ import PRExistingtable from "./pages/PRExistingtable";
 import ExistingDevelopmentDetails from "./pages/ExistingDevelopmentDetails";
 import UploadDocumentsWithApi from "./pages/UploadDocumentsWithApi";
 import ExistingProjectDetails from "./pages/ExistingProjectDetails";
-// import AgentDetails from "./pages/AgentDetails"; 
-// import AgentUploadDocuments from "./pages/AgentUploadDocuments";
+{/* import AgentDetails from "./pages/AgentDetails"; */}
+{/* import AgentUploadDocuments from "./pages/AgentUploadDocuments";*/}
 import PreviewOther from "./pages/agentpreviewother";
 import AgentPaymentpage from "./pages/Agentpayment";
 import AgentUploadDocumentOtherthan from "./pages/AgentUploadDocumentOtherthan";
@@ -151,11 +151,11 @@ import AgentChangeRequestPayment from "./pages/AgentChangeRequestPayment";
 import PromoterOtpLogin from "./pages/PromoterOtpLogin.jsx";
 import Changerequest from "./pages/Changerequest.jsx";
 import ChangeRequestProcess from "./pages/ChangeRequestProcess.jsx";
-// import AdminChangeRequestDetail from "./pages/admin/AdminChangeRequestDetail.jsx";
+{/* import AdminChangeRequestDetail from "./pages/admin/AdminChangeRequestDetail.jsx";*/}
 import AdminComplaintDetail from "./pages/admin/AdminComplaintDetail.jsx";
 import ComplaintStatusForm from "./pages/ComplaintStatusForm.jsx";
 import ComplaintDetails from "./pages/complaintDetails.jsx";
-// import AdminComplaintDetails from "./pages/admin/admincomplaintsdetails.jsx";
+{/* import AdminComplaintDetails from "./pages/admin/admincomplaintsdetails.jsx";*/}
 import AdminComplaintsDetailss from "./pages/admin/admincomplaintsdetails.jsx";
 import AdminProjectDetails from "./pages/admin/AdminProjectDetails";
 import ProtectedRoute from "./components/admin/ProtectedRoute";
@@ -186,7 +186,7 @@ import AdminChangeRequestList from "./pages/admin/Adminchangerequestlist.jsx";
 import UnregisterList from "./pages/scrutiny/Unregisterlist .jsx";
 import UnregistrationProjectDetails from "./pages/scrutiny/Unregistrationprojectdetails.jsx";
 
-//// new imports for mis reports
+{/*new imports for mis reports*/}
 import MisReports from './pages/MisReports';
 import R1_1_Report from './pages/R1_1_Report';
 import AgentStatusReport from './pages/AgentStatusReport';
@@ -263,7 +263,7 @@ import FPMSLayout from "./pages/scrutiny/FPMSLayout.jsx";
 function App() {
   const [showPopup, setShowPopup] = useState(false);
 
-  // ✅ Show popup automatically on first load
+  {/* ✅ Show popup automatically on first load*/}
   useEffect(() => {
     setTimeout(() => {
       setShowPopup(true);
@@ -403,7 +403,7 @@ function App() {
             <Route path="/renewal/status" element={<RenewalStatus />} />
 
             <Route path="/renewal/receipt/:renewalId" element={<RenewalReceipt />} />
-            // Admin Dashboard
+            Admin Dashboard
             <Route
               path="/admin-dashboard"
               element={
@@ -412,7 +412,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            // Admin Requests
+             Admin Requests
             <Route
               path="/admin/requests"
               element={
@@ -421,7 +421,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            // Admin Projects
+             Admin Projects
             <Route
               path="/admin/projects"
               element={
@@ -431,7 +431,7 @@ function App() {
               }
             />
             <Route path="/admin/agents" element={<AdminAgents />} />
-            // Admin Complaints
+             Admin Complaints
             <Route
               path="/admin/complaints"
               element={
@@ -440,7 +440,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            // Admin Complaint Detail
+            Admin Complaint Detail
             <Route
               path="/admin/complaint/:id"
               element={
@@ -451,7 +451,7 @@ function App() {
             />
             <Route path="/admin/complaintdetails" element={<AdminComplaintsDetailss />} />
             <Route path="/complaintstatus" element={<ComplaintStatusForm />} />
-            // Admin Renewal Dashboard
+             Admin Renewal Dashboard
             <Route
               path="/admin/renewal"
               element={
@@ -460,7 +460,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            // Admin Renewal List
+             Admin Renewal List
             <Route
               path="/admin/renewals/:status"
               element={
@@ -469,7 +469,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-// Admin Renewal Detail
+Admin Renewal Detail
             <Route
               path="/admin/renewal/:id"
               element={
@@ -484,7 +484,7 @@ function App() {
             <Route path="/renewal/certificate/:renewalId" element={<RenewalNewCertificate />} />
             <Route path="/promoter-otp-login" element={<PromoterOtpLogin />} />
 
-// Admin Change Requests List
+ Admin Change Requests List
             <Route
               path="/admin/change-requests"
               element={
@@ -493,7 +493,7 @@ function App() {
                 </ProtectedRoute>
               }
             />
-            // Admin Change Request Detail
+             Admin Change Request Detail
             <Route
               path="/admin/change-request/:id"
               element={
