@@ -1,6 +1,4 @@
-/* =========================================
-   TOP HEADER
-========================================= */
+/* ===== TOP HEADER ===== */
 .top-header {
   display: flex;
   align-items: center;
@@ -8,14 +6,18 @@
   position: relative;
   padding: 10px 15px;
   background: #ffffff;
+
+  z-index: 99999;
 }
 
+/* Center logo + text */
 .header-center {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
+/* circular logo */
 .header-logo {
   width: 52px;
   height: 52px;
@@ -23,7 +25,8 @@
   object-fit: contain;
   background: #ffffff;
   border: 2px solid #8dc9d8;
-  padding: 0;
+  padding: 0px;
+  text-align: center;
 }
 
 .header-title {
@@ -37,9 +40,10 @@
   margin: 0;
 }
 
-/* =========================================
-   RIGHT SIDE
-========================================= */
+/* =====================================================
+   RIGHT SIDE (SEARCH + LANGUAGE)
+===================================================== */
+
 .top-header-right {
   position: absolute;
   right: 40px;
@@ -50,6 +54,7 @@
   gap: 14px;
 }
 
+/* Search Button */
 .search-btn {
   background: #e91818;
   color: #fff;
@@ -70,9 +75,10 @@
   color: #000;
 }
 
-/* =========================================
+/* =====================================================
    GOOGLE TRANSLATE
-========================================= */
+===================================================== */
+
 #google_translate_element {
   display: flex !important;
   align-items: center !important;
@@ -114,115 +120,158 @@ body {
   top: 0 !important;
 }
 
-/* =========================================
-   MAIN NAVBAR
-========================================= */
+/* =====================================================
+   NAVBAR
+===================================================== */
+
 .main-navbar {
   background: linear-gradient(
     to right,
     #a0d4f1,
     #858484
   );
-  color: #fff;
+
+  color: #FFFFFF;
   padding: 2px;
-  overflow: visible;
+
+  position: relative !important;
+
+  z-index: 99999 !important;
+
+  overflow: visible !important;
 }
+
+/* NAV LIST */
 
 .nav-list {
   list-style: none;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   margin: 0 auto;
+
   padding: 0 40px;
+
   max-width: 1200px;
+
+  overflow: visible !important;
 }
 
 .nav-list > li {
   position: relative;
+
   padding: 10px 9px;
+
   color: #ffffff;
+
   cursor: pointer;
+
   font-size: 13px;
+
   white-space: nowrap;
+
   display: flex;
+
   align-items: center;
+
   transition: color 0.3s ease;
+
+  overflow: visible !important;
 }
 
 .nav-list > li:hover {
   color: #003366;
 }
 
-.homenavbar-new-badge-a {
-  color: red;
-  text-decoration: none;
-}
+/* =====================================================
+   DROPDOWN
+===================================================== */
 
-.homenavbar-new-badge-a:hover {
-  text-decoration: none;
-}
-
-/* =========================================
-   ARROW
-========================================= */
 .arrow {
   display: inline-block;
+
   margin-left: 6px;
+
   width: 0;
   height: 0;
+
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
   border-top: 5px solid #ffffff;
+
   vertical-align: middle;
 }
 
-/* =========================================
-   DROPDOWN MENU
-========================================= */
+/* MAIN DROPDOWN */
+
+.dropdown {
+  position: relative;
+
+  overflow: visible !important;
+}
+
 .dropdown-menu {
   display: none;
+
   position: absolute;
+
   top: 100%;
   left: 0;
+
   background: #ffffff;
+
   min-width: 230px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  z-index: 9999;
-  border-radius: 10px;
-  overflow: hidden;
+
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+
+  z-index: 999999 !important;
+
+  padding: 0;
+
+  list-style: none;
+
+  overflow: visible !important;
 }
+
+/* SHOW DROPDOWN */
 
 .dropdown:hover .dropdown-menu {
   display: block;
 }
 
-.dropdown-menu li {
-  color: #000;
-  padding: 12px 15px;
-  border-bottom: 1px dotted #ccc;
-  font-size: 14px;
-  cursor: pointer;
-  white-space: nowrap;
-}
+/* RIGHT SIDE LOGIN DROPDOWN */
 
-.dropdown-menu li:hover {
-  background: #f0f0f0;
-}
-
-.dropdown-right .dropdown-menu,
-.nav-list > li:last-child .dropdown-menu {
+.dropdown-right .dropdown-menu {
   right: 0;
   left: auto;
 }
 
-/* =========================================
-   SUB DROPDOWN
-========================================= */
-.sub-dropdown,
+/* DROPDOWN ITEMS */
+
+.dropdown-menu li {
+  color: #000;
+
+  padding: 10px 14px;
+
+  border-bottom: 1px dotted #ccc;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  white-space: nowrap;
+}
+
+.dropdown-menu li:hover {
+  background: #f2f2f2;
+}
+
+/* =====================================================
+   CONTACT SUBMENU
+===================================================== */
+
 .contact-submenu {
   position: relative;
 }
@@ -233,63 +282,114 @@ body {
   align-items: center;
 }
 
-.sub-dropdown-menu,
 .contact-submenu-box {
-  display: none;
   position: absolute;
+
   top: 0;
   left: 100%;
+
   background: #fff;
+
   list-style: none;
-  padding: 0;
+
+  padding: 8px 0;
+
   min-width: 180px;
-  z-index: 9999;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+  display: none;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+  z-index: 999999;
 }
 
-.sub-dropdown:hover .sub-dropdown-menu,
 .contact-submenu:hover .contact-submenu-box {
   display: block;
 }
 
-.sub-dropdown-menu li,
 .contact-submenu-box li {
   padding: 10px 16px;
 }
 
-.sub-dropdown-menu li:hover,
 .contact-submenu-box li:hover {
   background: #f2f2f2;
 }
 
-/* =========================================
-   NOTICE SECTION
-========================================= */
+/* =====================================================
+   SUB DROPDOWN
+===================================================== */
+
+.sub-dropdown {
+  position: relative;
+}
+
+.sub-dropdown-menu {
+  display: none;
+
+  position: absolute;
+
+  top: 0;
+  left: 100%;
+
+  background: #fff;
+
+  list-style: none;
+
+  padding: 0;
+
+  min-width: 180px;
+
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+
+  z-index: 999999;
+}
+
+.sub-dropdown:hover .sub-dropdown-menu {
+  display: block;
+}
+
+/* =====================================================
+   NOTICE DROPDOWN
+===================================================== */
+
 .notice-dropdown {
   position: absolute;
+
   top: 45px;
   right: 0;
+
   width: 600px;
+
   max-width: 90vw;
+
   max-height: 350px;
+
   background: #fff;
+
   border: 1px solid #ddd;
+
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-  z-index: 9999;
+
+  z-index: 999999;
+
   padding: 15px;
 }
 
 .notice-scroll-box {
   height: 120px;
+
   overflow: hidden;
 }
 
 .notice-scroll-list {
   list-style: none;
+
   padding: 0;
   margin: 0;
+
   display: flex;
   flex-direction: column;
+
   animation: scrollUp 12s linear infinite;
 }
 
@@ -297,11 +397,13 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
+
   padding: 8px 5px;
 }
 
 .notice-text {
   flex: 1;
+
   color: #000 !important;
 }
 
@@ -309,28 +411,43 @@ body {
   0% {
     transform: translateY(0);
   }
+
   100% {
     transform: translateY(-100%);
   }
 }
 
-/* =========================================
+/* =====================================================
    NEW BADGE
-========================================= */
+===================================================== */
+
 .new-inline {
   min-width: 38px;
+
   height: 18px;
+
   display: inline-flex;
+
   align-items: center;
+
   justify-content: center;
+
   font-size: 9px;
+
   font-weight: bold;
+
   color: #fff;
+
   background: radial-gradient(circle, #ffe600 30%, #ff0000 80%);
+
   border-radius: 50px;
+
   padding: 0 6px;
+
   text-shadow: 0 0 2px #000;
+
   box-shadow: 0 0 4px red;
+
   animation: blinkNew 1s infinite alternate;
 }
 
@@ -346,83 +463,32 @@ body {
   }
 }
 
-/* =========================================
-   MOBILE RESPONSIVE FIX
-========================================= */
-@media only screen and (max-width: 768px) {
+/* =====================================================
+   HOME PAGE DROPDOWN FIX
+===================================================== */
 
-  .main-navbar {
-    overflow: visible !important;
-  }
-
-  .nav-list {
-    justify-content: flex-start !important;
-    overflow-x: auto !important;
-    white-space: nowrap !important;
-    padding: 0 10px !important;
-    gap: 6px !important;
-  }
-
-  .nav-list > li {
-    font-size: 12px !important;
-    padding: 10px 6px !important;
-  }
-
-  .dropdown-menu {
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    width: 88vw !important;
-    max-width: 320px !important;
-    min-width: unset !important;
-    border-radius: 12px !important;
-  }
-
-  .dropdown-menu li {
-    font-size: 14px !important;
-    padding: 12px 16px !important;
-    white-space: normal !important;
-  }
-
-  .sub-dropdown-menu,
-  .contact-submenu-box {
-    position: relative !important;
-    left: 0 !important;
-    top: 0 !important;
-    width: 100% !important;
-    min-width: 100% !important;
-    box-shadow: none !important;
-    border-left: 2px solid #ddd !important;
-  }
-
-  .header-title {
-    font-size: 13px !important;
-    gap: 8px !important;
-  }
-
-  .header-logo {
-    width: 42px !important;
-    height: 42px !important;
-  }
-
-  .top-header-right {
-    right: 8px !important;
-    gap: 6px !important;
-  }
-
-  .search-btn {
-    height: 28px !important;
-    font-size: 11px !important;
-    padding: 0 10px !important;
-  }
-
-  .goog-te-combo {
-    height: 28px !important;
-    font-size: 11px !important;
-  }
+html,
+body,
+#root {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-/* =========================================
-   POPUP / PDF VIEW FIX
-========================================= */
+
+/* VERY IMPORTANT */
+
+.home-container,
+.hero-section,
+.banner-section,
+.about-section,
+.carousel,
+.slider,
+.main-content {
+  overflow: visible !important;
+}
+
+/* =====================================================
+   POPUP / PDF FIX
+===================================================== */
 
 .modal,
 .popup,
@@ -431,11 +497,59 @@ iframe,
 .react-pdf__Page,
 .react-pdf__Document {
   position: relative;
-  z-index: 99999 !important;
+
+  z-index: 999999 !important;
 }
 
-/* Navbar should stay below popup */
-.main-navbar {
-  position: relative !important;
-  z-index: 1 !important;
+/* =====================================================
+   MOBILE VIEW FIX
+===================================================== */
+
+@media screen and (max-width: 768px) {
+
+  .main-navbar {
+    overflow-x: auto;
+
+    overflow-y: hidden;
+
+    white-space: nowrap;
+  }
+
+  .main-navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+
+    flex-wrap: nowrap;
+
+    min-width: max-content;
+
+    justify-content: flex-start;
+
+    padding: 0 10px;
+  }
+
+  .nav-list > li {
+    flex-shrink: 0;
+  }
+
+  .dropdown-menu {
+    min-width: 200px;
+  }
+
+  .notice-dropdown {
+    width: 95vw;
+    right: 0;
+  }
+
+  .header-title {
+    font-size: 13px;
+  }
+
+  .search-btn {
+    font-size: 12px;
+    padding: 0 10px;
+  }
 }
