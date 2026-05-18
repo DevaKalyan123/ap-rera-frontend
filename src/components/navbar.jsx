@@ -20,7 +20,8 @@ const Navbar = ({ setHideNotice }) => {
   if (
     isScrutinyRoute ||
     location.pathname.startsWith("/admin") ||
-    location.pathname === "/admin-login"
+    location.pathname === "/admin-login" ||
+    location.pathname === "/apreatapplication"
   ) {
     return null;
   }
@@ -44,7 +45,7 @@ const Navbar = ({ setHideNotice }) => {
       </div>
 
       {/* Main Navbar */}
-      <nav className="navbar">
+      <nav className="main-navbar">
         <ul className="nav-list">
           <li onClick={() => navigate("/")}>
             HOME
@@ -54,71 +55,93 @@ const Navbar = ({ setHideNotice }) => {
 
           {/* <li>APREAT</li> */}
 
-          {/* REGISTRATION */}
-          <li className="dropdown">
-            REGISTRATION <span className="arrow"></span>
-            <ul className="dropdown-menu">
-              <li onClick={() => navigate("/promotregistration")}>
-                Promoter Registration
-              </li>
-              <li onClick={() => navigate("/guidelinesRegistration")}>
-                Guidelines for Registration
-              </li>
-              <li className="sub-dropdown" onClick={() => navigate("/project-registration")}>
-                Project Registration 
-                
-              </li>
-              {/* PROJECT REGISTRATION */}
-              {/* <li className="sub-dropdown" onClick={() => navigate("/project-registration")}>
-                Project Registration <span className="arrow">▸</span>
-                <ul className="sub-dropdown-menu">
-                  <li>Apply for quarterly update</li>
-                  <li onClick={(e) => {
-        e.stopPropagation();
-        navigate("/otplogin");
-      }}>Apply for project extension</li>
-                  <li>Apply for change request</li>
-                  <li>Closure</li>
-                  <li onClick={(e) => {
-        e.stopPropagation();
-        navigate("/InformProject");
-      }}>
-                    Inform un-registered project details
-                  </li>
-                  <li>List of projects to be registered</li>
-                  <li>Rejected Projects</li>
-                  <li>Revoked Projects</li>
-                
-                </ul>
-              </li>*/}
-               
-    <li className="sub-dropdown" onClick={() => navigate("/agent-registration")}>
-  Agent Registration
+  {/* REGISTRATION */}
+<li
+  className="dropdown"
+  tabIndex="0"
+  onClick={(e) => {
+    if (window.innerWidth <= 768) {
+      e.currentTarget.classList.toggle("mobile-open");
+    }
+  }}
+>
+  REGISTRATION <span className="arrow"></span>
 
-  
+  <ul className="dropdown-menu">
+    <li onClick={() => navigate("/promotregistration")}>
+      Promoter Registration
+    </li>
+
+    <li onClick={() => navigate("/guidelinesRegistration")}>
+      Guidelines for Registration
+    </li>
+
+    <li
+      className="sub-dropdown"
+      tabIndex="0"
+      onClick={(e) => {
+        if (window.innerWidth <= 768) {
+          e.stopPropagation();
+          e.currentTarget.classList.toggle("mobile-open");
+        }
+      }}
+    >
+      <span onClick={() => navigate("/project-registration")}>
+        Project Registration
+      </span>
+    </li>
+
+    <li
+      className="sub-dropdown"
+      tabIndex="0"
+      onClick={(e) => {
+        if (window.innerWidth <= 768) {
+          e.stopPropagation();
+          e.currentTarget.classList.toggle("mobile-open");
+        }
+      }}
+    >
+      <span onClick={() => navigate("/agent-registration")}>
+        Agent Registration
+      </span>
+    </li>
+
+    <li
+      className="sub-dropdown"
+      tabIndex="0"
+      onClick={(e) => {
+        if (window.innerWidth <= 768) {
+          e.stopPropagation();
+          e.currentTarget.classList.toggle("mobile-open");
+        }
+      }}
+    >
+      <span onClick={() => navigate("/complaintRegistration")}>
+        Complaint Registration
+      </span>
+    </li>
+
+    <li onClick={() => navigate("/feecalculater")}>
+      Fee Calculator
+    </li>
+
+    <li onClick={() => navigate("/usermanual")}>
+      User Manuals
+    </li>
+
+    <li onClick={() => navigate("/formsdownload")}>
+      Forms Download
+    </li>
+
+    <li onClick={() => navigate("/videoTutorial")}>
+      Video Tutorials
+    </li>
+
+    <li onClick={() => navigate("/mobileapp")}>
+      Mobile App
+    </li>
+  </ul>
 </li>
-<li className="sub-dropdown" onClick={() => navigate("/complaintRegistration")}>
-  Complaint Registration 
-
- 
-</li> 
-              <li onClick={() => navigate("/feecalculater")}>
-                Fee Calculator
-              </li>
-              <li onClick={() => navigate("/usermanual")}>
-                User Manuals
-              </li>
-              <li onClick={() => navigate("/formsdownload")}>
-                Forms Download
-              </li>
-              <li onClick={() => navigate("/videoTutorial")}>
-                Video Tutorials
-              </li>
-              <li onClick={() => navigate("/mobileapp")}>
-                Mobile App
-              </li>
-            </ul>
-          </li>
           <li className="dropdown">REPORTS <span className="arrow"></span>
             <ul className="dropdown-menu">
 
@@ -225,60 +248,78 @@ const Navbar = ({ setHideNotice }) => {
             </ul>
           </li>
 
-          <li onClick={() => navigate("/apreat")}>APREAT</li>
+          <li onClick={() =>
+    window.open("/apreatapplication", "_blank")
+  }>APREAT</li>
+{/* ABOUT US */}
+<li
+  className="dropdown"
+  tabIndex="0"
+  onClick={(e) => {
+    if (window.innerWidth <= 768) {
+      e.currentTarget.classList.toggle("mobile-open");
+    }
+  }}
+>
+  ABOUT US <span className="arrow"></span>
 
+  <ul className="dropdown-menu">
 
-{/* ABOUT US DROPDOWN */}
-          <li className="dropdown">ABOUT US <span className="arrow"></span>
+    <li onClick={() => navigate("/organogram")}>
+      Organisation Structure
+    </li>
 
-            <ul className="dropdown-menu">
-              {/* <li onClick={() => navigate("/aprera")}>
-                What is APRERA
-              </li> */}
+    <li onClick={() => navigate("/ourservices")}>
+      Our Services
+    </li>
 
-              <li onClick={() => navigate("/organogram")}>
-                Organisation Structure
-              </li>
+    <li onClick={() => navigate("/recruitment")}>
+      Recruitment
+    </li>
 
-              <li onClick={() => navigate("/ourservices")}>
-                Our Services
-              </li>
-              <li onClick={() => navigate("/recruitment")}>Recruitment</li>
+    <li onClick={() => navigate("/rti")}>
+      RTI
+    </li>
 
-              <li onClick={() => navigate("/rti")}>RTI</li>
+    <li onClick={() => navigate("/our-leadership")}>
+      Our Leadership
+    </li>
 
-              <li onClick={() => navigate("/our-leadership")}>
-                Our Leadership
-              </li>
-              <li className="contact-submenu">
-                <span className="contact-title">
-                  Contact Us <span className="right-arrow">▶</span>
-                </span>
+    <li
+      className="contact-submenu"
+      tabIndex="0"
+      onClick={(e) => {
+        if (window.innerWidth <= 768) {
+          e.stopPropagation();
+          e.currentTarget.classList.toggle("mobile-open");
+        }
+      }}
+    >
+      <span className="contact-title">
+        Contact Us <span className="right-arrow">▶</span>
+      </span>
 
-                <ul className="contact-submenu-box">
-                  <li onClick={() => navigate("/contact-us/aprera")}>
-                    APRERA
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <ul className="nav-list">
+      <ul className="contact-submenu-box">
+        <li onClick={() => navigate("/contact-us/aprera")}>
+          APRERA
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
 <li onClick={() => navigate("/dbbase")}>
   <span className="dbbase-menu">
     DB BASE
   </span>
 </li>
-</ul>
-
           <li className="dropdown dropdown-right">LOGIN <span className="arrow"></span>
             <ul className="dropdown-menu">
               <li onClick={() => navigate("/admin-login")}>
                 ADMIN LOGIN
               </li>
-               <li onClick={() => navigate("scrutinity/scrutiny-engineer")}>
+               {/* <li onClick={() => navigate("scrutinity/scrutiny-engineer")}>
       Scrutiny Engineer
-    </li>
+    </li> */}
               <li onClick={() => navigate("/department")}>
                 DEPARTMENT LOGIN
               </li>
@@ -294,7 +335,6 @@ const Navbar = ({ setHideNotice }) => {
   <span onClick={() => setShowNotice(!showNotice)}>
     🔔
   </span>
-  
 
 {showNotice && ( <div className="notice-dropdown">
    <div className="notice-scroll-box"> <ul className="notice-scroll-list">
@@ -327,7 +367,6 @@ const Navbar = ({ setHideNotice }) => {
           All promoters are hereby informed that the Project Extension Module has been enabled online.
         </div>
       </li>
-      
 
       <li>
          <span className="new-inline">NEW</span>
@@ -347,8 +386,6 @@ const Navbar = ({ setHideNotice }) => {
       </li>
 
     </ul>
-
-    
   </div>
 </div>
 )}
@@ -356,11 +393,8 @@ const Navbar = ({ setHideNotice }) => {
 
 
 </li>      </ul>
-
       </nav>
-      
     </>
-    
   );
 };
 
