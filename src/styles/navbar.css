@@ -118,13 +118,10 @@ body {
    MAIN NAVBAR
 ========================================= */
 .main-navbar {
-  background: linear-gradient(
-    to right,
-    #a0d4f1,
-    #858484
-  );
+  background: linear-gradient(to right, #a0d4f1, #858484);
   color: #fff;
   padding: 2px;
+  position: relative;
   overflow: visible;
 }
 
@@ -133,6 +130,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
   margin: 0 auto;
   padding: 0 40px;
   max-width: 1200px;
@@ -147,6 +145,7 @@ body {
   white-space: nowrap;
   display: flex;
   align-items: center;
+  flex-shrink: 0;
   transition: color 0.3s ease;
 }
 
@@ -178,26 +177,26 @@ body {
 }
 
 /* =========================================
-   DROPDOWN MENU
+   DROPDOWN MENU — floats OVER page, never pushes navbar
 ========================================= */
-/* ✅ CORRECT - drops below the nav item */
-/* ✅ FIX — replace with this */
 .dropdown-menu {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
   background: #ffffff;
-  width: 220px;
+  width: 230px;
   list-style: none;
   padding: 0;
   margin: 0;
-  max-height: 60vh;
-  overflow-y: auto;
   z-index: 999999;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  max-height: 60vh;
+  overflow-y: auto;
 }
+
 .dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -276,7 +275,7 @@ body {
   max-height: 350px;
   background: #fff;
   border: 1px solid #ddd;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   z-index: 9999;
   padding: 15px;
 }
@@ -308,12 +307,8 @@ body {
 }
 
 @keyframes scrollUp {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
+  0%   { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
 }
 
 /* =========================================
@@ -337,48 +332,60 @@ body {
 }
 
 @keyframes blinkNew {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 0 4px red;
-  }
-
-  100% {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px yellow;
-  }
+  0%   { transform: scale(1);   box-shadow: 0 0 4px red; }
+  100% { transform: scale(1.1); box-shadow: 0 0 10px yellow; }
 }
 
+/* =========================================
+   MOBILE — single clean block
+========================================= */
 @media only screen and (max-width: 768px) {
 
   .main-navbar {
+    position: relative !important;
     overflow: visible !important;
   }
 
   .nav-list {
-    justify-content: center !important;
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
     overflow-x: auto !important;
-    white-space: nowrap !important;
-    padding: 0 6px !important;
+    padding: 0 8px !important;
     gap: 4px !important;
+    scrollbar-width: none !important;
+    max-width: 100% !important;
   }
 
+  .nav-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* KEY FIX — li stays fixed height, dropdown floats outside */
   .nav-list > li {
+    position: relative !important;
+    flex-shrink: 0 !important;
     font-size: 12px !important;
     padding: 10px 6px !important;
+    align-items: center !important;
+    white-space: nowrap !important;
   }
 
-  /* MOBILE DROPDOWN FIX */
+  /* Dropdown floats OVER the page — does NOT expand navbar */
   .dropdown-menu {
     position: absolute !important;
     top: 100% !important;
-
+    left: 0 !important;
+    transform: none !important;
     width: 230px !important;
     min-width: 230px !important;
     max-width: 230px !important;
-
+    max-height: 55vh !important;
+    overflow-y: auto !important;
+    z-index: 999999 !important;
     border-radius: 10px !important;
-
-    z-index: 99999 !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
   }
 
   .dropdown-menu li {
@@ -389,87 +396,17 @@ body {
 
   .sub-dropdown-menu,
   .contact-submenu-box {
-    left: 100% !important;
-    top: 0 !important;
-    min-width: 180px !important;
-  }
-
-  .header-title {
-    font-size: 13px !important;
-    gap: 8px !important;
-  }
-
-  .header-logo {
-    width: 42px !important;
-    height: 42px !important;
-  }
-
-  .top-header-right {
-    right: 8px !important;
-    gap: 6px !important;
-  }
-
-  .search-btn {
-    height: 28px !important;
-    font-size: 11px !important;
-    padding: 0 10px !important;
-  }
-
-  .goog-te-combo {
-    height: 28px !important;
-    font-size: 11px !important;
-  }
-}
-/* IMPORTANT FIX */
-
-@media only screen and (max-width: 768px) {
-
-  .main-navbar {
-    position: relative;
-    overflow: visible !important;
-  }
-
-  .nav-list {
-    display: flex;
-    justify-content: flex-start;
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 0 8px;
-    gap: 4px;
-    scrollbar-width: none;
-  }
-
-  .nav-list > li {
     position: relative !important;
-    flex-shrink: 0;
-    font-size: 12px;
-    padding: 10px 6px;
-  }
-
-  /* ✓ CORRECT DROPDOWN */
-  .dropdown-menu {
-    position: absolute !important;
-    top: 100% !important;
     left: 0 !important;
-    transform: none !important;
-    width: 220px !important;
-    min-width: 220px !important;
-    max-height: 60vh !important;
-    overflow-y: auto !important;
-    z-index: 999999 !important;
-    border-radius: 10px !important;
-  }
-
-  .sub-dropdown-menu,
-  .contact-submenu-box {
-    left: 100% !important;
     top: 0 !important;
-    min-width: 180px !important;
+    width: 100% !important;
+    min-width: 100% !important;
+    box-shadow: none !important;
   }
 
-  .header-title { font-size: 13px; gap: 8px; }
-  .header-logo { width: 42px; height: 42px; }
-  .top-header-right { right: 8px; gap: 6px; }
-  .search-btn { height: 28px; font-size: 11px; padding: 0 10px; }
-  .goog-te-combo { height: 28px !important; font-size: 11px !important; }
+  .header-title    { font-size: 13px !important; gap: 8px !important; }
+  .header-logo     { width: 42px !important; height: 42px !important; }
+  .top-header-right { right: 8px !important; gap: 6px !important; }
+  .search-btn      { height: 28px !important; font-size: 11px !important; padding: 0 10px !important; }
+  .goog-te-combo   { height: 28px !important; font-size: 11px !important; }
 }
