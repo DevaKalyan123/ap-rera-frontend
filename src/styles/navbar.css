@@ -346,9 +346,6 @@ body {
   }
 }
 
-/* =========================================
-   MOBILE RESPONSIVE FIX
-========================================= */
 @media only screen and (max-width: 768px) {
 
   .main-navbar {
@@ -356,11 +353,11 @@ body {
   }
 
   .nav-list {
-    justify-content: flex-start !important;
+    justify-content: center !important;
     overflow-x: auto !important;
     white-space: nowrap !important;
-    padding: 0 10px !important;
-    gap: 6px !important;
+    padding: 0 6px !important;
+    gap: 4px !important;
   }
 
   .nav-list > li {
@@ -368,30 +365,34 @@ body {
     padding: 10px 6px !important;
   }
 
+  /* MOBILE DROPDOWN FIX */
   .dropdown-menu {
+    position: absolute !important;
+    top: 100% !important;
+
     left: 50% !important;
     transform: translateX(-50%) !important;
-    width: 88vw !important;
-    max-width: 320px !important;
-    min-width: unset !important;
-    border-radius: 12px !important;
+
+    width: 230px !important;
+    min-width: 230px !important;
+    max-width: 230px !important;
+
+    border-radius: 10px !important;
+
+    z-index: 99999 !important;
   }
 
   .dropdown-menu li {
     font-size: 14px !important;
-    padding: 12px 16px !important;
-    white-space: normal !important;
+    padding: 12px 14px !important;
+    white-space: nowrap !important;
   }
 
   .sub-dropdown-menu,
   .contact-submenu-box {
-    position: relative !important;
-    left: 0 !important;
+    left: 100% !important;
     top: 0 !important;
-    width: 100% !important;
-    min-width: 100% !important;
-    box-shadow: none !important;
-    border-left: 2px solid #ddd !important;
+    min-width: 180px !important;
   }
 
   .header-title {
