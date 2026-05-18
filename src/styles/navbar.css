@@ -1,40 +1,10 @@
 /* ===== TOP HEADER ===== */
-/* .top-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 40px;
-  background: #ffffff;
-}
-
-.homepage-logo h2 {
-  margin: 0;
-  color: #0b4da2;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.homepage-logo p {
-  margin: 0;
-  font-size: 12px;
-  color: #555;
-}
-
-.search-btn {
-  background: red;
-  color: #fff;
-  border: none;
-  padding: 10px 16px;
-  cursor: pointer;
-  font-weight: bold;
-} */
  .top-header {
   display: flex;
   align-items: center;
   justify-content: left; /* center content */
   position: relative;
-  padding: 12px 20px;
+  padding: 10px 15px;
   background: #ffffff;
 }
 
@@ -45,21 +15,6 @@
   align-items: left-corner;
   text-align: center;
 }
-.dbbase-menu-item {
-  margin-left: 15px;
-  padding: 8px 14px;
-  border-radius: 4px;
-  cursor: pointer;
-  color: white;
-  font-weight: 600;
-  list-style: none;
-  transition: 0.3s;
-}
-
-.dbbase-menu-item:hover {
-  background-color: #00bcd4;
-  color: white;
-}
 
 /* circular logo */
 .header-logo {
@@ -68,7 +23,7 @@
   border-radius: 50%;        /* ✅ circular */
   object-fit: contain;
   background: #ffffff;
-  border: 2px solid #0b4ea2; /* subtle blue ring */
+  border: 2px solid #8dc9d8; /* subtle blue ring */
   padding: 0px;
   text-align: center;
 }
@@ -77,9 +32,9 @@
   display: flex;          /* ✅ puts logo & text side by side */
   align-items: center;    /* vertical alignment */
   gap: 12px;              /* space between logo and text */
-  font-size: 16px;
-  font-weight: 600;
-  color: #0b4ea2;
+  font-size: 18px;
+  font-weight: bold;
+  color: #0e7b96;
   letter-spacing: 0.5px;
   margin: 0;
 }
@@ -99,9 +54,6 @@
 
 
 /* ===== NAVBAR ===== */
-.navbar {
-  background: hsl(339, 47%, 73%);;
-} */
 
 .nav-list {
   list-style: none;
@@ -119,9 +71,6 @@
   white-space: nowrap;
 }
 
-.nav-list > li:hover {
-  background: #083a78;
-}
 
 .highlight {
   background: red;
@@ -260,7 +209,7 @@
 
 /* Search Button (LEFT) */
 .search-btn {
-  background: red;
+  background: #e91818;
   color: #fff;
   border: none;
   height: 32px;
@@ -275,7 +224,8 @@
 }
 
 .search-btn:hover {
-  background: #c40000;
+  background: white;
+  color: #000;
 }
 
 /* =====================================================
@@ -332,15 +282,25 @@ body {
 /* =====================================================
    NAVBAR
 ===================================================== */
-.navbar {
+/* .navbar {
    width: 100%;
   background: linear-gradient(
     to right,
     #7b001c,
     #ff7590
   );
-}
+} */
 
+.main-navbar {
+  background: linear-gradient(
+    to right,
+    #a0d4f1,
+    #858484
+  );
+  
+  color: #FFFFFF;
+  padding: 2px;
+}
 
 .nav-list {
   list-style: none;
@@ -358,15 +318,23 @@ body {
   padding: 10px 9px;
   color: #ffffff;
   cursor: pointer;
-  font-size: 12px;
+  font-size: 13px;
   white-space: nowrap;
 
   display: flex;        /* ✅ ADD */
   align-items: center;  /* ✅ ADD */
 }
 
-.nav-list > li:hover {
+/* .nav-list > li:hover {
   background:  oklch(71.49% 0.12422 211.24);
+} */
+
+.nav-list > li {
+  transition: color 0.3s ease;
+}
+
+.nav-list > li:hover {
+  color: #003366;
 }
 .homenavbar-new-badge-a{
   color: red;

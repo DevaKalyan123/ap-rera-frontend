@@ -2370,181 +2370,679 @@ background: linear-gradient(
 .aboutrera{
   color: #5C3317;
 }
-/* =========================================
-   FINAL MOBILE RESPONSIVE FIX
-========================================= */
 
-@media screen and (max-width: 768px) {
+/* /* ======================================
+   COMPLETE MOBILE FIXES CSS
+   FOR MOTO G4 (360x640) AND ALL MOBILES
+====================================== */
 
-  html,
-  body,
-  #root {
+/* Import this file in HomePage.css */
+/* @import url('./mobile-fixes.css'); */
+
+/* ====== FIX 1: LOGO AND HEADER ====== */
+@media (max-width: 768px) {
+  /* Top Header - Fix logo display */
+  .top-header {
+    flex-direction: column;
+    padding: 8px 12px;
+    position: relative;
+    background: #ffffff;
+  }
+
+  .header-center {
     width: 100%;
-    overflow-x: hidden !important;
+    margin-bottom: 5px;
   }
 
-  * {
-    box-sizing: border-box;
+  .header-title {
+    display: flex;
+    flex-direction: row !important;  /* Keep horizontal */
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 11px !important;
+    flex-wrap: wrap;
+    text-align: center;
   }
 
-  /* MAIN WRAPPERS */
-  .homepassport-hero,
-  .ap-home-about-section,
-  .homepublic-notice-section,
-  .quick-links-section,
-  .home-new-dashboard-wrapper,
-  .home-new-feedback-wrapper {
-    width: 100% !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+  /* ✅ FIX: Logo visible and circular */
+  .header-logo {
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50% !important;
+    object-fit: contain;
+    border: 2px solid #5C3317;
+    display: inline-block !important;
   }
 
-  /* HERO */
-  .homepassport-hero {
-    min-height: auto !important;
-    padding: 20px 10px !important;
-  }
-
-  /* LEADERS */
-  .homepassport-leaders,
-  .home-new-leaders {
-    flex-direction: column !important;
-    gap: 25px !important;
-    align-items: center !important;
-  }
-
-  .homepassport-card,
-  .home-new-leader-card {
-    width: 100% !important;
-    max-width: 280px !important;
-  }
-
-  .homepassport-card img,
-  .home-new-leader-card img {
-    width: 140px !important;
-    height: 140px !important;
-  }
-
-  /* ABOUT */
-  .ap-home-about-container {
+  /* Search button and translate */
+  .top-header-right {
+    position: static;
+    transform: none;
     display: flex !important;
-    flex-direction: column !important;
-    gap: 25px !important;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+  }
+
+  .search-btn {
+    height: 30px;
+    padding: 0 10px;
+    font-size: 10px;
+    background: #5C3317;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+
+  #google_translate_element {
+    transform: scale(0.9);
+  }
+}
+
+/* ====== FIX 2: SERVICES SECTION ====== */
+@media (max-width: 768px) {
+  .homequick-links-overlap {
+    margin-top: 0px !important;
+    padding: 10px !important;
+  }
+
+  .homequick-services-card {
+    padding: 15px 12px !important;
+    margin: 0 !important;
+    border-radius: 12px;
+  }
+
+  .homequick-main-title {
+    font-size: 18px !important;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  /* ✅ Registration Grid - 2 columns for Moto G4 */
+  .homequick-registration-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    margin-bottom: 20px;
+  }
+
+  .homequick-registration-card {
+    padding: 10px 6px !important;
+    text-align: center;
+    background: #f8f9fb;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .homequick-registration-icon-wrap {
+    width: 40px !important;
+    height: 40px !important;
+    margin: 0 auto 8px !important;
+    border-radius: 10px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .homequick-registration-icon {
+    font-size: 18px !important;
+  }
+
+  .homequick-registration-text {
+    font-size: 10px !important;
+    line-height: 1.3;
+    word-break: break-word;
+  }
+
+  /* Section dividers */
+  .homequick-section-divider {
+    margin: 15px 0 !important;
+  }
+
+  /* Promotors, Agent, Complaint sections */
+  .homeservices-section-title {
+    font-size: 14px !important;
+    margin: 15px 0 10px !important;
+    font-weight: 600;
+  }
+
+  .homeservices-services-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+    margin-bottom: 15px;
+  }
+
+  .homeservices-service-card {
+    padding: 12px 8px !important;
+    text-align: center;
+    background: #f8f9fb;
+    border-radius: 10px;
+  }
+
+  .homeservices-service-icon {
+    font-size: 22px !important;
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .homeservices-service-card p {
+    font-size: 10px !important;
+    margin: 0;
+  }
+
+  .homeservices-underline {
+    display: none;
+  }
+}
+
+/* ====== FIX 3: OUR EXPERTISE SECTION ====== */
+@media (max-width: 768px) {
+  .home-new-expertise {
+    padding: 25px 12px !important;
+    background: #f5f5f5;
+  }
+
+  .home-new-section-title {
+    font-size: 16px !important;
+    padding: 6px 16px !important;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .home-new-title-line {
+    width: 30px;
+    height: 2px;
+    margin: 8px auto;
+  }
+
+  .home-new-section-subtitle {
+    font-size: 11px !important;
+    margin-bottom: 20px !important;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  /* ✅ Expertise Grid - Full width cards */
+  .home-new-expertise-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 15px !important;
+  }
+
+  .home-new-expertise-card {
+    padding: 18px 15px !important;
+    text-align: center;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+
+  .home-new-expertise-icon {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 0 auto 12px !important;
+    background: linear-gradient(to right, #a0d4f1, #858484);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-new-expertise-icon img {
+    width: 25px !important;
+    height: 25px !important;
+  }
+
+  .home-new-expertise-card h3 {
+    font-size: 14px !important;
+    margin: 8px 0;
+    font-weight: 600;
+  }
+
+  .home-new-expertise-card p {
+    font-size: 11px !important;
+    line-height: 1.4;
+    color: #555;
+  }
+}
+
+/* ====== FIX 4: ABOUT AP RERA SECTION ====== */
+@media (max-width: 768px) {
+  .ap-home-about-section {
+    padding: 15px 12px !important;
+  }
+
+  .ap-home-about-container {
+    gap: 20px !important;
+  }
+
+  .ap-home-about-left h2 {
+    font-size: 18px !important;
+    text-align: center;
+  }
+
+  .ap-home-about-left p {
+    font-size: 12px !important;
+    text-align: justify;
   }
 
   .ap-home-about-right {
     display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 20px !important;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .ap-home-cm-card img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  .ap-home-cm-card h4 {
+    font-size: 12px;
+  }
+
+  .ap-home-cm-card p {
+    font-size: 10px;
   }
 
   .ap-home-side-leader {
-    flex-direction: column !important;
-    text-align: center !important;
-    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
   }
 
   .ap-home-side-leader img {
-    margin-right: 0 !important;
-    margin-bottom: 10px !important;
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .ap-home-side-leader h5 {
+    font-size: 11px;
+  }
+
+  .ap-home-side-leader p {
+    font-size: 9px;
   }
 
   .ap-home-vertical-line {
-    display: none !important;
+    display: none;
+  }
+}
+
+/* ====== FIX 5: OUR PHILOSOPHY SECTION ====== */
+@media (max-width: 768px) {
+  .homepublic-notice-section {
+    padding: 25px 12px !important;
   }
 
-  /* QUICK LINKS */
-  .homequick-links-overlap {
-    margin-top: 0 !important;
-    padding: 10px !important;
+  .homepublic-notice-title {
+    font-size: 18px !important;
+    margin-bottom: 20px;
   }
 
-  .homequick-services-card,
-  .home-services-card,
-  .quick-links-container {
-    width: 100% !important;
-    max-width: 100% !important;
+  .homepublic-notice-grid {
+    grid-template-columns: 1fr !important;
+    gap: 15px;
+  }
+
+  .homepublic-notice-card {
+    padding: 15px !important;
+  }
+
+  .homepublic-notice-icon {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .homepublic-notice-icon svg {
+    font-size: 22px !important;
+  }
+
+  .homepublic-notice-text {
+    font-size: 11px !important;
+  }
+
+  .homepublic-philosophy-right h2 {
+    font-size: 16px !important;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .homepublic-arrow-list li {
+    font-size: 11px !important;
+    padding: 8px 10px 8px 25px !important;
+  }
+}
+
+/* ====== FIX 6: DASHBOARD STATS ====== */
+@media (max-width: 768px) {
+  .stats-section {
     padding: 20px 12px !important;
   }
 
-  .quick-links-row {
-    flex-direction: column !important;
+  .stats-title {
+    font-size: 18px !important;
   }
 
-  /* REGISTRATION GRID */
-  .homequick-registration-grid,
-  .homeregistration-grid {
-    grid-template-columns: repeat(2, 1fr) !important;
-    gap: 12px !important;
+  .stats-row {
+    flex-direction: column;
+    gap: 20px;
   }
 
-  /* SERVICES GRID */
-  .homeservices-services-grid,
-  .home-new-services,
-  .home-new-expertise-grid,
-  .home-new-learning-grid,
-  .homepublic-notice-grid {
+  .stats-item {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .stats-icon {
+    font-size: 28px !important;
+  }
+
+  .stats-heading {
+    font-size: 14px !important;
+  }
+
+  .stats-line {
+    font-size: 12px;
+  }
+
+  .stats-divider {
+    display: none;
+  }
+
+  .complaints-grid {
     grid-template-columns: 1fr !important;
-    gap: 16px !important;
-  }
-
-  /* DASHBOARD */
-  .home-new-dashboard-wrapper,
-  .home-new-contact-row,
-  .home-new-philosophy-box {
-    flex-direction: column !important;
-  }
-
-  /* FORM */
-  .home-new-grid-2 {
-    grid-template-columns: 1fr !important;
-  }
-
-  /* NAVBAR */
-  .nav-list {
-    overflow-x: auto !important;
-    justify-content: flex-start !important;
-    padding: 0 10px !important;
-    white-space: nowrap !important;
-  }
-
-  .nav-list > li {
-    font-size: 12px !important;
-    padding: 10px 8px !important;
-  }
-
-  .top-header {
-    flex-direction: column !important;
-    align-items: center !important;
     gap: 10px;
   }
 
-  .top-header-right {
-    position: static !important;
-    transform: none !important;
+  .complaint-title {
+    font-size: 13px;
+  }
+}
+
+/* ====== FIX 7: LEARNING SECTION ====== */
+@media (max-width: 768px) {
+  .home-new-learning {
+    padding: 25px 12px !important;
   }
 
-  /* FOOTER */
-  .home-new-footer-policy,
-  .home-new-footer-bottom {
-    flex-direction: column !important;
-    text-align: center !important;
+  .home-new-learning-grid {
+    grid-template-columns: 1fr !important;
+    gap: 25px;
   }
 
-  /* TITLES */
-  .homemain-title,
-  .homeservices-section-title,
-  .homepublic-notice-title,
-  .aboutrera {
-    font-size: 22px !important;
-    text-align: center !important;
+  .home-new-learning-img {
+    width: 150px !important;
+    height: 150px !important;
   }
 
-  /* IMAGES */
+  .home-new-learning-card h3 {
+    font-size: 13px !important;
+  }
+
+  .home-new-learning-card button {
+    padding: 6px 20px;
+    font-size: 11px;
+  }
+}
+
+/* ====== FIX 8: FEEDBACK SECTION ====== */
+@media (max-width: 768px) {
+  .home-new-feedback-wrapper {
+    padding: 15px 10px !important;
+  }
+
+  .home-new-contact-row {
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .home-new-contact-col {
+    width: 100%;
+  }
+
+  .home-new-reach-card {
+    padding: 10px;
+  }
+
+  .home-new-reach-border {
+    padding: 20px 12px;
+  }
+
+  .home-new-reach-title {
+    font-size: 12px;
+  }
+
+  .home-new-reach-heading {
+    font-size: 14px;
+  }
+
+  .home-new-reach-address,
+  .home-new-reach-helpdesk,
+  .home-new-reach-email {
+    font-size: 11px;
+  }
+
+  .home-new-form-card {
+    padding: 12px !important;
+  }
+
+  .home-new-form-title {
+    font-size: 16px;
+  }
+
+  .home-new-grid-2 {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .home-new-field input,
+  .home-new-field select {
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .home-new-textarea-wrap textarea {
+    min-height: 80px;
+    font-size: 12px;
+  }
+
+  .home-new-submit-btn {
+    padding: 6px 20px;
+    font-size: 12px;
+  }
+}
+
+/* ====== FIX 9: FOOTER ====== */
+@media (max-width: 768px) {
+  .aprera-policy-bar {
+    flex-direction: column;
+    padding: 12px;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .aprera-policy-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+  }
+
+  .aprera-policy-links a {
+    font-size: 9px;
+  }
+
+  .aprera-policy-icons {
+    justify-content: center;
+  }
+
+  .aprera-govt-bar {
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    gap: 8px;
+  }
+
+  .aprera-govt-left,
+  .aprera-govt-center,
+  .aprera-govt-right {
+    font-size: 9px;
+  }
+
+  .home-new-footer-logos {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .home-new-footer-logos img {
+    height: 30px;
+  }
+}
+
+/* ====== FIX 10: GENERAL MOBILE IMPROVEMENTS ====== */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
   img {
-    max-width: 100% !important;
-    height: auto !important;
+    max-width: 100%;
+    height: auto;
   }
 
+  button {
+    min-height: 40px;
+  }
+
+  /* Fix for notice dropdown */
+  .notice-dropdown {
+    width: 95% !important;
+    left: 2.5% !important;
+    right: auto !important;
+    max-height: 300px;
+  }
+
+  .notice-text {
+    font-size: 10px;
+  }
+
+  .new-inline {
+    min-width: 30px;
+    height: 14px;
+    font-size: 7px;
+  }
+}
+
+/* ====== EXTRA SMALL DEVICES (below 360px) ====== */
+@media (max-width: 360px) {
+  .homequick-registration-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .homeservices-services-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .header-title {
+    font-size: 9px !important;
+  }
+
+  .header-logo {
+    width: 28px !important;
+    height: 28px !important;
+  }
+}
+ 
+/* =========================================
+   MOBILE NAVBAR SCROLL + DROPDOWN FIX
+========================================= */
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .main-navbar {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    position: relative;
+    z-index: 9999;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .main-navbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* NAV LIST (horizontal swipe) */
+  .nav-list {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+
+    width: max-content !important;
+    min-width: 100% !important;
+
+    white-space: nowrap !important;
+
+    margin: 0 !important;
+    padding: 0 10px !important;
+
+    justify-content: flex-start !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;
+    scrollbar-width: none;
+  }
+
+  .nav-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* NAV ITEMS */
+  .nav-list > li {
+    flex: 0 0 auto;
+    position: relative;
+    white-space: nowrap;
+  }
+
+  /* DROPDOWNS */
+  .dropdown-menu,
+  .sub-dropdown-menu,
+  .contact-submenu-box {
+    position: static !important;
+    display: none;
+    margin-top: 8px;
+    min-width: 220px;
+    max-width: 85vw;
+    width: max-content;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+    z-index: 999999 !important;
+  }
+
+  .dropdown:hover > .dropdown-menu,
+  .dropdown:active > .dropdown-menu,
+  .dropdown:focus-within > .dropdown-menu,
+  .dropdown.mobile-open > .dropdown-menu,
+  .sub-dropdown:hover > .sub-dropdown-menu,
+  .sub-dropdown:active > .sub-dropdown-menu,
+  .sub-dropdown:focus-within > .sub-dropdown-menu,
+  .sub-dropdown.mobile-open > .sub-dropdown-menu,
+  .contact-submenu:hover > .contact-submenu-box,
+  .contact-submenu:active > .contact-submenu-box,
+  .contact-submenu:focus-within > .contact-submenu-box,
+  .contact-submenu.mobile-open > .contact-submenu-box {
+    display: block !important;
+  }
+
+  .dropdown-menu li,
+  .sub-dropdown-menu li,
+  .contact-submenu-box li {
+    white-space: normal;
+  }
 }
