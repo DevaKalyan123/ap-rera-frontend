@@ -77,6 +77,7 @@
   display: flex !important;
   align-items: center !important;
 }
+
 .goog-te-gadget {
   display: flex !important;
   align-items: center !important;
@@ -86,7 +87,11 @@
   padding: 0 !important;
   font-size: 0 !important;
 }
-.goog-te-gadget select { font-size: 13px !important; }
+
+.goog-te-gadget select {
+  font-size: 13px !important;
+}
+
 .goog-te-combo {
   height: 32px !important;
   line-height: 32px !important;
@@ -95,13 +100,22 @@
   background: #ffffff;
   cursor: pointer;
 }
+
 .goog-logo-link,
-.goog-te-gadget span { display: none !important; }
-.goog-te-banner-frame.skiptranslate { display: none !important; }
-body { top: 0 !important; }
+.goog-te-gadget span {
+  display: none !important;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0 !important;
+}
 
 /* =========================================
-   MAIN NAVBAR — fixed height, never grows
+   MAIN NAVBAR
 ========================================= */
 .main-navbar {
   background: linear-gradient(to right, #a0d4f1, #858484);
@@ -116,14 +130,14 @@ body { top: 0 !important; }
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;        /* NEVER wraps to second row */
+  flex-wrap: nowrap;
   margin: 0 auto;
   padding: 0 40px;
   max-width: 1200px;
 }
 
 .nav-list > li {
-  position: relative;       /* dropdown anchors to THIS li */
+  position: relative;
   padding: 10px 9px;
   color: #ffffff;
   cursor: pointer;
@@ -135,10 +149,18 @@ body { top: 0 !important; }
   transition: color 0.3s ease;
 }
 
-.nav-list > li:hover { color: #003366; }
+.nav-list > li:hover {
+  color: #003366;
+}
 
-.homenavbar-new-badge-a { color: red; text-decoration: none; }
-.homenavbar-new-badge-a:hover { text-decoration: none; }
+.homenavbar-new-badge-a {
+  color: red;
+  text-decoration: none;
+}
+
+.homenavbar-new-badge-a:hover {
+  text-decoration: none;
+}
 
 /* =========================================
    ARROW
@@ -155,15 +177,15 @@ body { top: 0 !important; }
 }
 
 /* =========================================
-   DROPDOWN — floats OVER page, never inside navbar flow
+   DROPDOWN MENU — floats OVER page, never pushes navbar
 ========================================= */
 .dropdown-menu {
   display: none;
-  position: absolute;       /* floats outside normal flow */
-  top: 100%;                /* sits just below the li */
+  position: absolute;
+  top: 100%;
   left: 0;
   background: #ffffff;
-  min-width: 230px;
+  width: 230px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -171,11 +193,13 @@ body { top: 0 !important; }
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
-  max-height: 70vh;
+  max-height: 60vh;
   overflow-y: auto;
 }
 
-.dropdown:hover .dropdown-menu { display: block; }
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
 
 .dropdown-menu li {
   color: #000;
@@ -185,7 +209,10 @@ body { top: 0 !important; }
   cursor: pointer;
   white-space: nowrap;
 }
-.dropdown-menu li:hover { background: #f0f0f0; }
+
+.dropdown-menu li:hover {
+  background: #f0f0f0;
+}
 
 .dropdown-right .dropdown-menu,
 .nav-list > li:last-child .dropdown-menu {
@@ -197,7 +224,9 @@ body { top: 0 !important; }
    SUB DROPDOWN
 ========================================= */
 .sub-dropdown,
-.contact-submenu { position: relative; }
+.contact-submenu {
+  position: relative;
+}
 
 .contact-title {
   display: flex;
@@ -220,12 +249,19 @@ body { top: 0 !important; }
 }
 
 .sub-dropdown:hover .sub-dropdown-menu,
-.contact-submenu:hover .contact-submenu-box { display: block; }
+.contact-submenu:hover .contact-submenu-box {
+  display: block;
+}
 
 .sub-dropdown-menu li,
-.contact-submenu-box li { padding: 10px 16px; }
+.contact-submenu-box li {
+  padding: 10px 16px;
+}
+
 .sub-dropdown-menu li:hover,
-.contact-submenu-box li:hover { background: #f2f2f2; }
+.contact-submenu-box li:hover {
+  background: #f2f2f2;
+}
 
 /* =========================================
    NOTICE SECTION
@@ -265,7 +301,10 @@ body { top: 0 !important; }
   padding: 8px 5px;
 }
 
-.notice-text { flex: 1; color: #000 !important; }
+.notice-text {
+  flex: 1;
+  color: #000 !important;
+}
 
 @keyframes scrollUp {
   0%   { transform: translateY(0); }
@@ -298,74 +337,63 @@ body { top: 0 !important; }
 }
 
 /* =========================================
-   MOBILE — ONE single block only
+   MOBILE — single clean block
 ========================================= */
 @media only screen and (max-width: 768px) {
 
-  .top-header-right { right: 8px !important; gap: 6px !important; }
-  .header-title      { font-size: 13px !important; gap: 8px !important; }
-  .header-logo       { width: 42px !important; height: 42px !important; }
-  .search-btn        { height: 28px !important; font-size: 11px !important; padding: 0 10px !important; }
-  .goog-te-combo     { height: 28px !important; font-size: 11px !important; }
-
-  /* Navbar stays exact same height — never grows */
   .main-navbar {
     position: relative !important;
     overflow: visible !important;
   }
 
-  /* Nav row scrolls horizontally — NEVER wraps */
   .nav-list {
     display: flex !important;
     flex-wrap: nowrap !important;
     justify-content: flex-start !important;
     align-items: center !important;
     overflow-x: auto !important;
-    overflow-y: visible !important;
     padding: 0 8px !important;
-    gap: 2px !important;
+    gap: 4px !important;
     scrollbar-width: none !important;
-    max-width: 100vw !important;
+    max-width: 100% !important;
   }
 
-  .nav-list::-webkit-scrollbar { display: none; }
+  .nav-list::-webkit-scrollbar {
+    display: none;
+  }
 
-  /* Each li stays fixed height — dropdown floats outside */
+  /* KEY FIX — li stays fixed height, dropdown floats outside */
   .nav-list > li {
     position: relative !important;
     flex-shrink: 0 !important;
-    font-size: 11px !important;
-    padding: 10px 5px !important;
+    font-size: 12px !important;
+    padding: 10px 6px !important;
+    align-items: center !important;
     white-space: nowrap !important;
-    overflow: visible !important;
   }
 
-  /* Dropdown floats over page — ZERO effect on navbar height */
+  /* Dropdown floats OVER the page — does NOT expand navbar */
   .dropdown-menu {
-    display: none;
     position: absolute !important;
     top: 100% !important;
     left: 0 !important;
     transform: none !important;
     width: 230px !important;
     min-width: 230px !important;
-    max-width: 90vw !important;
+    max-width: 230px !important;
     max-height: 55vh !important;
     overflow-y: auto !important;
-    overflow-x: hidden !important;
     z-index: 999999 !important;
     border-radius: 10px !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
-    background: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
   }
 
   .dropdown-menu li {
-    font-size: 13px !important;
+    font-size: 14px !important;
     padding: 12px 14px !important;
-    white-space: normal !important;
+    white-space: nowrap !important;
   }
 
-  /* Sub menus stack below on mobile */
   .sub-dropdown-menu,
   .contact-submenu-box {
     position: relative !important;
@@ -375,4 +403,29 @@ body { top: 0 !important; }
     min-width: 100% !important;
     box-shadow: none !important;
   }
+
+  .header-title    { font-size: 13px !important; gap: 8px !important; }
+  .header-logo     { width: 42px !important; height: 42px !important; }
+  .top-header-right { right: 8px !important; gap: 6px !important; }
+  .search-btn      { height: 28px !important; font-size: 11px !important; padding: 0 10px !important; }
+  .goog-te-combo   { height: 28px !important; font-size: 11px !important; }
+}
+/* =========================================
+   POPUP / PDF VIEW FIX
+========================================= */
+
+.modal,
+.popup,
+.pdf-popup,
+iframe,
+.react-pdf__Page,
+.react-pdf__Document {
+  position: relative;
+  z-index: 99999 !important;
+}
+
+/* Navbar should stay below popup */
+.main-navbar {
+  position: relative !important;
+  z-index: 1 !important;
 }

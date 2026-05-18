@@ -14,45 +14,33 @@ const Navbar = ({ setHideNotice }) => {
   const location = useLocation();
   const [showNotice, setShowNotice] = useState(false);
 
-  // ✅ MOBILE DROPDOWN FIX
-  // Only runs on mobile (<=768px). Desktop uses CSS :hover.
+  // ✅ MOBILE DROPDOWN FIX — added here
   useEffect(() => {
-    const isMobile = () => window.innerWidth <= 768;
+    const dropdowns = document.querySelectorAll(".dropdown");
 
-    const handleDropdownClick = function (e) {
-      if (!isMobile()) return; // desktop — let CSS :hover handle it
+    const handleDropdown = function (e) {
       e.stopPropagation();
-
       const menu = this.querySelector(".dropdown-menu");
       if (!menu) return;
-
       const isOpen = menu.style.display === "block";
-
-      // Close all open dropdowns
       document.querySelectorAll(".dropdown-menu").forEach((m) => {
         m.style.display = "none";
       });
-
-      // Open this one if it was closed
-      if (!isOpen) {
-        menu.style.display = "block";
-      }
+      if (!isOpen) menu.style.display = "block";
     };
 
-    const closeAll = (e) => {
-      if (!isMobile()) return;
+    const closeAll = () => {
       document.querySelectorAll(".dropdown-menu").forEach((m) => {
         m.style.display = "none";
       });
     };
 
-    const dropdowns = document.querySelectorAll(".dropdown");
-    dropdowns.forEach((d) => d.addEventListener("click", handleDropdownClick));
+    dropdowns.forEach((item) => item.addEventListener("click", handleDropdown));
     document.addEventListener("click", closeAll);
 
     return () => {
-      dropdowns.forEach((d) =>
-        d.removeEventListener("click", handleDropdownClick)
+      dropdowns.forEach((item) =>
+        item.removeEventListener("click", handleDropdown)
       );
       document.removeEventListener("click", closeAll);
     };
@@ -81,6 +69,7 @@ const Navbar = ({ setHideNotice }) => {
             ANDHRA PRADESH REAL ESTATE REGULATORY AUTHORITY
           </p>
         </div>
+
         <div className="top-header-right">
           <GoogleTranslate />
           <button className="search-btn">SEARCH RERA PROJECTS</button>
@@ -90,18 +79,33 @@ const Navbar = ({ setHideNotice }) => {
       {/* Main Navbar */}
       <nav className="main-navbar">
         <ul className="nav-list">
-
           <li onClick={() => navigate("/")}>HOME</li>
 
           {/* REGISTRATION */}
           <li className="dropdown" tabIndex="0">
             REGISTRATION <span className="arrow"></span>
             <ul className="dropdown-menu">
-              <li onClick={() => navigate("/promotregistration")}>Promoter Registration</li>
-              <li onClick={() => navigate("/guidelinesRegistration")}>Guidelines for Registration</li>
-              <li onClick={() => navigate("/project-registration")}>Project Registration</li>
-              <li onClick={() => navigate("/agent-registration")}>Agent Registration</li>
-              <li onClick={() => navigate("/complaintRegistration")}>Complaint Registration</li>
+              <li onClick={() => navigate("/promotregistration")}>
+                Promoter Registration
+              </li>
+              <li onClick={() => navigate("/guidelinesRegistration")}>
+                Guidelines for Registration
+              </li>
+              <li className="sub-dropdown" tabIndex="0">
+                <span onClick={() => navigate("/project-registration")}>
+                  Project Registration
+                </span>
+              </li>
+              <li className="sub-dropdown" tabIndex="0">
+                <span onClick={() => navigate("/agent-registration")}>
+                  Agent Registration
+                </span>
+              </li>
+              <li className="sub-dropdown" tabIndex="0">
+                <span onClick={() => navigate("/complaintRegistration")}>
+                  Complaint Registration
+                </span>
+              </li>
               <li onClick={() => navigate("/feecalculater")}>Fee Calculator</li>
               <li onClick={() => navigate("/usermanual")}>User Manuals</li>
               <li onClick={() => navigate("/formsdownload")}>Forms Download</li>
@@ -110,7 +114,6 @@ const Navbar = ({ setHideNotice }) => {
             </ul>
           </li>
 
-          {/* REPORTS */}
           <li className="dropdown">
             REPORTS <span className="arrow"></span>
             <ul className="dropdown-menu">
@@ -119,7 +122,6 @@ const Navbar = ({ setHideNotice }) => {
             </ul>
           </li>
 
-          {/* REGISTERED */}
           <li className="dropdown">
             REGISTERED <span className="arrow"></span>
             <ul className="dropdown-menu">
@@ -128,62 +130,95 @@ const Navbar = ({ setHideNotice }) => {
             </ul>
           </li>
 
-          {/* JUDGEMENTS/ORDERS */}
           <li className="dropdown">
             JUDGEMENTS/ORDERS <span className="arrow"></span>
             <ul className="dropdown-menu">
-              <li onClick={() => window.open(window.location.origin + "/statistics", "_blank")}>
+              <li
+                onClick={() =>
+                  window.open(window.location.origin + "/statistics", "_blank")
+                }
+              >
                 Statistics
               </li>
             </ul>
           </li>
 
-          {/* NOTIFICATIONS */}
           <li className="dropdown">
             NOTIFICATIONS <span className="arrow"></span>
             <ul className="dropdown-menu">
-              <li onClick={() => navigate("/goinotifications")}>GOI Notifications</li>
-              <li onClick={() => navigate("/goapnotifications")}>GOAP Notifications</li>
-              <li onClick={() => navigate("/authoritynotifications")}>Authority Notifications</li>
-              <li onClick={() => navigate("/cidcandaprerajoint")}>CIDC and APRERA Joint Notifications</li>
+              <li onClick={() => navigate("/goinotifications")}>
+                GOI Notifications
+              </li>
+              <li onClick={() => navigate("/goapnotifications")}>
+                GOAP Notifications
+              </li>
+              <li onClick={() => navigate("/authoritynotifications")}>
+                Authority Notifications
+              </li>
+              <li onClick={() => navigate("/cidcandaprerajoint")}>
+                CIDC and APRERA Joint Notifications
+              </li>
               <li>
-                <a href={CAUSELISTPdf} target="_blank" rel="noopener noreferrer"
-                  style={{ textDecoration: "none", color: "inherit" }}>
-                  Complaints: Cause List Motion Hearing Before Adjudicating Officer
+                <a
+                  href={CAUSELISTPdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  Complaints: Cause List Motion Hearing Before Adjudicating
+                  Officer
                 </a>
               </li>
               <li>
-                <a href={OfficeorderPdf} target="_blank" rel="noopener noreferrer"
-                  style={{ textDecoration: "none", color: "inherit" }}>
+                <a
+                  href={OfficeorderPdf}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
                   Office Order
                 </a>
               </li>
             </ul>
           </li>
 
-          {/* KNOWLEDGE HUB */}
           <li className="dropdown">
             KNOWLEDGE HUB <span className="arrow"></span>
             <ul className="dropdown-menu">
-              <li onClick={() => navigate("/evolutionofrera")}>Evolution of RERA</li>
+              <li onClick={() => navigate("/evolutionofrera")}>
+                Evolution of RERA
+              </li>
               <li onClick={() => navigate("/race")}>RACE</li>
               <li onClick={() => navigate("/taskvstime")}>Task Vs Time</li>
-              <li onClick={() => navigate("/ChronologyOfEvents")}>Chronology of Events</li>
-              <li onClick={() => window.open(legalpdf, "_blank")}>APRERA Presentation</li>
+              <li onClick={() => navigate("/ChronologyOfEvents")}>
+                Chronology of Events
+              </li>
+              <li onClick={() => window.open(legalpdf, "_blank")}>
+                APRERA Presentation
+              </li>
               <li onClick={() => navigate("/JudgementHub")}>Judgement</li>
               <li onClick={() => navigate("/vendordatabase")}>VendorDatabase</li>
-              <li onClick={() => navigate("/AdvertisementGuidelines")}>Advertisement Guidelines</li>
-              <li onClick={() => navigate("/audiovisualgallery")}>AudioVisualGallery</li>
+              <li onClick={() => navigate("/AdvertisementGuidelines")}>
+                Advertisement Guidelines
+              </li>
+              <li onClick={() => navigate("/audiovisualgallery")}>
+                AudioVisualGallery
+              </li>
               <li onClick={() => navigate("/PressRelease")}>Press Releases</li>
-              <li onClick={() => navigate("/gradingofpromotors")}>GradingOfPromotors</li>
-              <li onClick={() => navigate("/GradingOfAgents")}>Grading of Agents</li>
+              <li onClick={() => navigate("/gradingofpromotors")}>
+                GradingOfPromotors
+              </li>
+              <li onClick={() => navigate("/GradingOfAgents")}>
+                Grading of Agents
+              </li>
               <li onClick={() => navigate("/acf")}>acf</li>
               <li onClick={() => navigate("/Testimonials")}>Testimonials</li>
-              <li onClick={() => window.open(appealPdf, "_blank")}>Appeal to Buyer</li>
+              <li onClick={() => window.open(appealPdf, "_blank")}>
+                Appeal to Buyer
+              </li>
             </ul>
           </li>
 
-          {/* COMPLAINT ORDERS */}
           <li className="dropdown">
             COMPLAINT ORDERS <span className="arrow"></span>
             <ul className="dropdown-menu">
@@ -192,13 +227,19 @@ const Navbar = ({ setHideNotice }) => {
             </ul>
           </li>
 
-          <li onClick={() => window.open("/apreatapplication", "_blank")}>APREAT</li>
+          <li
+            onClick={() => window.open("/apreatapplication", "_blank")}
+          >
+            APREAT
+          </li>
 
           {/* ABOUT US */}
           <li className="dropdown" tabIndex="0">
             ABOUT US <span className="arrow"></span>
             <ul className="dropdown-menu">
-              <li onClick={() => navigate("/organogram")}>Organisation Structure</li>
+              <li onClick={() => navigate("/organogram")}>
+                Organisation Structure
+              </li>
               <li onClick={() => navigate("/ourservices")}>Our Services</li>
               <li onClick={() => navigate("/recruitment")}>Recruitment</li>
               <li onClick={() => navigate("/rti")}>RTI</li>
@@ -218,7 +259,6 @@ const Navbar = ({ setHideNotice }) => {
             <span className="dbbase-menu">DB BASE</span>
           </li>
 
-          {/* LOGIN */}
           <li className="dropdown dropdown-right">
             LOGIN <span className="arrow"></span>
             <ul className="dropdown-menu">
@@ -228,43 +268,67 @@ const Navbar = ({ setHideNotice }) => {
             </ul>
           </li>
 
-          {/* Bell */}
+          {/* Bell Icon */}
           <li className="nav-bell" style={{ position: "relative" }}>
             <span onClick={() => setShowNotice(!showNotice)}>🔔</span>
+
             {showNotice && (
               <div className="notice-dropdown">
                 <div className="notice-scroll-box">
                   <ul className="notice-scroll-list">
                     <li>
                       <span className="new-inline">NEW</span>
-                      <div className="notice-text">One Time Opportunity with 50% Concession on Late Fee for Un-registered Projects.</div>
+                      <div className="notice-text">
+                        One Time Opportunity with 50% Concession on Late Fee
+                        for Un-registered Projects.
+                      </div>
                     </li>
                     <li>
                       <span className="new-inline">NEW</span>
-                      <div className="notice-text">Quarterly Updates: All the Promoters have to submit the Quarterly Update of January 2026 - March 2026 on or before 21/04/2026 without fail.</div>
+                      <div className="notice-text">
+                        Quarterly Updates: All the Promoters have to submit the
+                        Quarterly Update of January 2026 - March 2026 on or
+                        before 21/04/2026 without fail.
+                      </div>
                     </li>
                     <li>
                       <span className="new-inline">NEW</span>
-                      <div className="notice-text">Promoters intending to obtain a project extension are advised to appear before the Authority at the office of APRERA on working days.</div>
+                      <div className="notice-text">
+                        Promoters intending to obtain a project extension are
+                        advised to appear before the Authority at the office of
+                        APRERA on working days.
+                      </div>
                     </li>
                     <li>
                       <span className="new-inline">NEW</span>
-                      <div className="notice-text">All promoters are hereby informed that the Project Extension Module has been enabled online.</div>
+                      <div className="notice-text">
+                        All promoters are hereby informed that the Project
+                        Extension Module has been enabled online.
+                      </div>
                     </li>
                     <li>
                       <span className="new-inline">NEW</span>
-                      <div className="notice-text">Promoters are requested to display the APRERA Registration Certificate / ID at the respective project site.</div>
+                      <div className="notice-text">
+                        Promoters are requested to display the APRERA
+                        Registration Certificate / ID at the respective project
+                        site.
+                      </div>
                     </li>
-                    <li onClick={() => navigate("/promotregistration")} style={{ cursor: "pointer" }}>
+                    <li
+                      onClick={() => navigate("/promotregistration")}
+                      style={{ cursor: "pointer" }}
+                    >
                       <span className="new-inline">NEW</span>
-                      <div className="notice-text">All the promoters are instructed to register themselves in the AP RERA web portal.</div>
+                      <div className="notice-text">
+                        All the promoters are instructed to register themselves
+                        in the AP RERA web portal.
+                      </div>
                     </li>
                   </ul>
                 </div>
               </div>
             )}
           </li>
-
         </ul>
       </nav>
     </>
