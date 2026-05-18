@@ -490,6 +490,10 @@ body,
    POPUP / PDF FIX
 ===================================================== */
 
+/* =========================================
+   POPUP / PDF VIEW FIX
+========================================= */
+
 .modal,
 .popup,
 .pdf-popup,
@@ -497,8 +501,13 @@ iframe,
 .react-pdf__Page,
 .react-pdf__Document {
   position: relative;
+  z-index: 99999 !important;
+}
 
-  z-index: 999999 !important;
+/* Navbar should stay below popup */
+.main-navbar {
+  position: relative !important;
+  z-index: 1 !important;
 }
 
 /* =====================================================
